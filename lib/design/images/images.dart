@@ -1,6 +1,5 @@
 class CRImages {
   static const String logoApp = "assets/images/logoapp.png";
-  static const String logoApp2 = "assets/images/logo_luarkampus.png";
 }
 
 class CRIcons {
