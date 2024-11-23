@@ -63,13 +63,10 @@ flutter pub run change_app_package_name:main com.yourcompany.yourapp
     Replace the app icon files in the android/app/src/main/res/ and ios/Runner/Assets.xcassets directories.
 
 ### 📸 App Preview
-#### 🔑 Login Page
-![<img src="Screenshot_20241123_195446.png" width="20"/>](./screenshots/Screenshot_20241123_195446.png)
+| 🔑 Login Page | 🏠 Main Page|
+|-|-|
+| ![Login Page](./screenshots/Screenshot_20241123_195446.png) | ![Main Page](./screenshots/Screenshot_20241123_195602.png) |
 
-#### 🏠 Main Page
-![image tes](./screenshots/Screenshot_20241123_195602.png)
-
-(Attach a screenshot or GIF of the Main Page with Bottom Navigation.)
 ## 🎉 Why Use This Template?
 
     🌐 Multi-Language Support: Easily add new languages with Easy Localization.
