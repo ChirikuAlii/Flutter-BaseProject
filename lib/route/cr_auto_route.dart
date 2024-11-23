@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/pages/bookmark/bookmark_page.dart';
-import 'package:flutter_base_project/pages/calendar_beasiswa/calendar_page.dart';
+import 'package:flutter_base_project/pages/calendar/calendar_page.dart';
 import 'package:flutter_base_project/pages/component/component_page.dart';
 import 'package:flutter_base_project/pages/history/history_page.dart';
 import 'package:flutter_base_project/pages/home/home_page.dart';

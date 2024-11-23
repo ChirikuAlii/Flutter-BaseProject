@@ -7,7 +7,7 @@ import 'package:flutter_base_project/domain/home/repo/home_repo_impl.dart';
 import 'package:flutter_base_project/domain/home/usecase/home_use_case.dart';
 import 'package:flutter_base_project/domain/user/repo/user_repo_impl.dart';
 import 'package:flutter_base_project/domain/user/usecase/login_use_case.dart';
-import 'package:flutter_base_project/pages/calendar_beasiswa/calendar_viewmodel.dart';
+import 'package:flutter_base_project/pages/calendar/calendar_viewmodel.dart';
 import 'package:flutter_base_project/pages/home/home_viewmodel.dart';
 import 'package:flutter_base_project/pages/login/login_viewmodel.dart';
 import 'package:flutter_base_project/pages/main/main_viewmodel.dart';

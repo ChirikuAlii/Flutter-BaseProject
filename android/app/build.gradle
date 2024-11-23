@@ -37,8 +37,6 @@ if (keystorePropertiesFile.exists()) {
     keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 }
 
-api deeplink
-website redirect
 
 
 android {

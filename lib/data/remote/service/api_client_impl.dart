@@ -13,7 +13,7 @@ class ApiClientImpl implements ApiClient {
   late AliceInspector _aliceInspector;
   final SessionImpl _session = getIt<SessionImpl>();
 
-  final _baseUrl = "https://luarkampus.id/api/";
+  final _baseUrl = "https://api.themoviedb.org/3";
 
   final defaultParams = {
     "api_key": "3b980052023e8e6898f4578a6972740b",
