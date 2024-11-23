@@ -21,7 +21,7 @@ class CrAutoRoute extends _$CrAutoRoute {
   List<AutoRoute> get routes => [
         //AutoRoute(page: SplashRoute.page, initial: true),
         AutoRoute(page: ComponentRoute.page),
-        AutoRoute(page: MainRoute.page, initial: true, children: [
+        AutoRoute(page: MainRoute.page,  children: [
           AutoRoute(page: HomeRoute.page),
           AutoRoute(page: BookmarkRoute.page),
           AutoRoute(page: CalendarRoute.page),
@@ -29,7 +29,7 @@ class CrAutoRoute extends _$CrAutoRoute {
           AutoRoute(page: ProfileRoute.page),
         ]),
         AutoRoute(
-          page: LoginRoute.page,
+          page: LoginRoute.page,initial: true
         ),
         // AutoRoute(page: RegisterRoute.page),
       ];

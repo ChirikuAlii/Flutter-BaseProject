@@ -20,16 +20,16 @@ This template is designed to simplify Flutter app development. It includes:
 ## 📁 Project Structure
 
 Here is the folder structure of the project:
-
+```
 lib/
-├── core/            // Contains global utilities and helpers
 ├── data/            // Includes local and remote data sources
-├── models/          // Contains model definitions using Freezed
+├── design/          // Includes Reusable Design component
+├── di/              // Contains model definitions using Freezed
+├── domain/          // Contains domain application
 ├── pages/           // UI pages of the application
 ├── routes/          // Route configurations using AutoRoute
-├── store/           // State management with MobX
-├── widgets/         // Reusable UI components
 └── main.dart        // Application entry point
+```
 
 ## 🚧 How to Use
 ### 1️⃣ Clone the Repository
