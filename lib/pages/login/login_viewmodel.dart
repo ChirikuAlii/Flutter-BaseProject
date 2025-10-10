@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/widget/cr_text_field.dart';
+import 'package:flutter_base_project/design/widget/cr_text_field3.dart';
 import 'package:flutter_base_project/di/di.dart';
 import 'package:flutter_base_project/domain/user/usecase/login_use_case.dart';
 import 'package:flutter_base_project/pages/login/login_view.dart';
@@ -32,16 +32,16 @@ abstract class _LoginViewModelBase with Store {
   bool isValidFieldLogin = false;
 
   @observable
-  StatusField statusEmail = StatusField.none;
+  CRTextFieldState emailState = CRTextFieldState.defaultState;
 
   @observable
-  StatusField statusPassword = StatusField.none;
+  CRTextFieldState passwordState = CRTextFieldState.defaultState;
 
   @observable
-  String messageEmail = "";
+  String emailMessage = "";
 
   @observable
-  String messagePassword = "";
+  String passwordMessage = "";
 
   void init(LoginView view) {
     _view = view;
@@ -68,20 +68,20 @@ abstract class _LoginViewModelBase with Store {
 
   @action
   void doValidationEmail(String email) {
-    messageEmail = "";
+    emailMessage = "";
     isValidEmail = email.isValidEmail;
     if (isValidEmail) {
-      messageEmail = "";
-      statusEmail = StatusField.success;
+      emailMessage = "";
+      emailState = CRTextFieldState.success;
     } else {
-      messageEmail = "Email is not valid";
-      statusEmail = StatusField.error;
+      emailMessage = "Email is not valid";
+      emailState = CRTextFieldState.error;
     }
   }
 
   @action
   void doValidationPassword(String password) {
-    messagePassword = "";
+    passwordMessage = "";
     bool isValidLength = false;
 
     //check empty or not
@@ -90,26 +90,26 @@ abstract class _LoginViewModelBase with Store {
       if (password.length >= 8) {
         isValidLength = true;
       } else {
-        messagePassword =
-            "${messagePassword}Password must be at least 8 characters";
-        if (messagePassword.isNotEmpty) {
-          messagePassword = messagePassword + "\n";
+        passwordMessage = "Password must be at least 8 characters";
+        if (passwordMessage.isNotEmpty) {
+          passwordMessage = passwordMessage + "\n";
         }
         isValidLength = false;
       }
     } else {
       isValidPassword = false;
-      statusPassword = StatusField.error;
-      messagePassword = "${messagePassword}Password should not empty";
+      passwordState = CRTextFieldState.error;
+      passwordMessage = "Password should not empty";
     }
 
     //validation all requirment password field
     if (isValidLength) {
       isValidPassword = true;
-      messagePassword = "";
+      passwordMessage = "";
+      passwordState = CRTextFieldState.success;
     } else {
       isValidPassword = false;
-      statusPassword = StatusField.error;
+      passwordState = CRTextFieldState.error;
     }
   }
 
@@ -124,8 +124,10 @@ abstract class _LoginViewModelBase with Store {
 
   @action
   void doResetField() {
-    statusEmail = StatusField.none;
-    statusPassword = StatusField.none;
+    emailState = CRTextFieldState.defaultState;
+    passwordState = CRTextFieldState.defaultState;
+    emailMessage = "";
+    passwordMessage = "";
     isValidEmail = false;
     isValidPassword = false;
     isValidFieldLogin = false;

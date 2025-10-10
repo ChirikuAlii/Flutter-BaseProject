@@ -73,67 +73,67 @@ mixin _$LoginViewModel on _LoginViewModelBase, Store {
     });
   }
 
-  late final _$statusEmailAtom =
-      Atom(name: '_LoginViewModelBase.statusEmail', context: context);
+  late final _$emailStateAtom =
+      Atom(name: '_LoginViewModelBase.emailState', context: context);
 
   @override
-  StatusField get statusEmail {
-    _$statusEmailAtom.reportRead();
-    return super.statusEmail;
+  CRTextFieldState get emailState {
+    _$emailStateAtom.reportRead();
+    return super.emailState;
   }
 
   @override
-  set statusEmail(StatusField value) {
-    _$statusEmailAtom.reportWrite(value, super.statusEmail, () {
-      super.statusEmail = value;
+  set emailState(CRTextFieldState value) {
+    _$emailStateAtom.reportWrite(value, super.emailState, () {
+      super.emailState = value;
     });
   }
 
-  late final _$statusPasswordAtom =
-      Atom(name: '_LoginViewModelBase.statusPassword', context: context);
+  late final _$passwordStateAtom =
+      Atom(name: '_LoginViewModelBase.passwordState', context: context);
 
   @override
-  StatusField get statusPassword {
-    _$statusPasswordAtom.reportRead();
-    return super.statusPassword;
+  CRTextFieldState get passwordState {
+    _$passwordStateAtom.reportRead();
+    return super.passwordState;
   }
 
   @override
-  set statusPassword(StatusField value) {
-    _$statusPasswordAtom.reportWrite(value, super.statusPassword, () {
-      super.statusPassword = value;
+  set passwordState(CRTextFieldState value) {
+    _$passwordStateAtom.reportWrite(value, super.passwordState, () {
+      super.passwordState = value;
     });
   }
 
-  late final _$messageEmailAtom =
-      Atom(name: '_LoginViewModelBase.messageEmail', context: context);
+  late final _$emailMessageAtom =
+      Atom(name: '_LoginViewModelBase.emailMessage', context: context);
 
   @override
-  String get messageEmail {
-    _$messageEmailAtom.reportRead();
-    return super.messageEmail;
+  String get emailMessage {
+    _$emailMessageAtom.reportRead();
+    return super.emailMessage;
   }
 
   @override
-  set messageEmail(String value) {
-    _$messageEmailAtom.reportWrite(value, super.messageEmail, () {
-      super.messageEmail = value;
+  set emailMessage(String value) {
+    _$emailMessageAtom.reportWrite(value, super.emailMessage, () {
+      super.emailMessage = value;
     });
   }
 
-  late final _$messagePasswordAtom =
-      Atom(name: '_LoginViewModelBase.messagePassword', context: context);
+  late final _$passwordMessageAtom =
+      Atom(name: '_LoginViewModelBase.passwordMessage', context: context);
 
   @override
-  String get messagePassword {
-    _$messagePasswordAtom.reportRead();
-    return super.messagePassword;
+  String get passwordMessage {
+    _$passwordMessageAtom.reportRead();
+    return super.passwordMessage;
   }
 
   @override
-  set messagePassword(String value) {
-    _$messagePasswordAtom.reportWrite(value, super.messagePassword, () {
-      super.messagePassword = value;
+  set passwordMessage(String value) {
+    _$passwordMessageAtom.reportWrite(value, super.passwordMessage, () {
+      super.passwordMessage = value;
     });
   }
 
@@ -202,10 +202,10 @@ isLoading: ${isLoading},
 isValidEmail: ${isValidEmail},
 isValidPassword: ${isValidPassword},
 isValidFieldLogin: ${isValidFieldLogin},
-statusEmail: ${statusEmail},
-statusPassword: ${statusPassword},
-messageEmail: ${messageEmail},
-messagePassword: ${messagePassword}
+emailState: ${emailState},
+passwordState: ${passwordState},
+emailMessage: ${emailMessage},
+passwordMessage: ${passwordMessage}
     ''';
   }
 }
