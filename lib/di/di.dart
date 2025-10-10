@@ -42,9 +42,7 @@ Future<void> remoteModules() async {}
 Future<void> appModules() async {
   getIt.registerSingletonWithDependencies(() => CrRouterImpl(_navigatorKey),
       dependsOn: [SessionImpl]);
-  getIt.registerSingleton(AliceInspector(_navigatorKey));
-  getIt.registerSingletonWithDependencies(
-      () => ApiClientImpl(aliceInspetor: getIt<AliceInspector>()),
+  getIt.registerSingletonWithDependencies(() => ApiClientImpl(),
       dependsOn: [SessionImpl]);
 }
 
@@ -65,8 +63,7 @@ List<SingleChildWidget> viewModelModule() {
     ),
     Provider<MainViewModel>(create: (_) => MainViewModel()),
     Provider<LoginViewModel>(create: (_) => LoginViewModel()),
-    Provider<CalendarViewModel>(
-        create: (_) => CalendarViewModel()),
+    Provider<CalendarViewModel>(create: (_) => CalendarViewModel()),
     // Provider<CategoryViewModel>(create: (_) => CategoryViewModel())
   ];
 }

@@ -11,9 +11,9 @@ Future<void> main() async {
       injectModule: [localModules, appModules, repoModules, useCaseModules]);
   await EasyLocalization.ensureInitialized();
   runApp(EasyLocalization(
-    child: const CrApp(),
     supportedLocales: const [Locale('en'), Locale('id')],
     path: "assets/translations",
+    child: const CrApp(),
   ));
 }
 
@@ -45,4 +45,3 @@ class CrApp extends StatelessWidget {
         });
   }
 }
-

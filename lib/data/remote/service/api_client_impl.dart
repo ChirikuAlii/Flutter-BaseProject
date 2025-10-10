@@ -2,7 +2,6 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:flutter_base_project/data/local/session_impl.dart';
-import 'package:flutter_base_project/data/remote/http_inspector/alice_inspector.dart';
 import 'package:flutter_base_project/data/remote/response/login_response.dart/login_response.dart';
 import 'package:flutter_base_project/data/remote/response/now_playing_response/now_playing_response.dart';
 import 'package:flutter_base_project/data/remote/service/api_client.dart';
@@ -10,7 +9,6 @@ import 'package:flutter_base_project/di/di.dart';
 
 class ApiClientImpl implements ApiClient {
   late Dio _dio;
-  late AliceInspector _aliceInspector;
   final SessionImpl _session = getIt<SessionImpl>();
 
   final _baseUrl = "https://api.themoviedb.org/3";
@@ -32,10 +30,8 @@ class ApiClientImpl implements ApiClient {
     return "$_baseUrl$endpoint";
   }
 
-  ApiClientImpl({required AliceInspector aliceInspetor}) {
+  ApiClientImpl() {
     _dio = Dio(options);
-    _aliceInspector = aliceInspetor;
-    _dio.interceptors.add(_aliceInspector.dioInterceptor());
   }
 
   @override
@@ -49,8 +45,8 @@ class ApiClientImpl implements ApiClient {
   }
 
   @override
-  Stream<LoginResponse> login(String email, String password,
-      String deviceName) {
+  Stream<LoginResponse> login(
+      String email, String password, String deviceName) {
     final body = {
       "email": email,
       "password": password,
@@ -62,4 +58,3 @@ class ApiClientImpl implements ApiClient {
     });
   }
 }
-
