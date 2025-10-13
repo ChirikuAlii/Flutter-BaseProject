@@ -74,14 +74,12 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
             CRTextField3(
-              controller: _passwordController,
-              labelText: 'Password',
-              hintText: 'Masukkan password',
-              inputType: CRTextFieldInputType.password,
-              prefixIcon: const Icon(Icons.lock, color: CRColors.grey1),
-              currentState: _passwordState,
-              errorMessage: 'Password minimal 8 karakter',
-            ),
+                controller: _passwordController,
+                labelText: 'Password',
+                hintText: 'Masukkan password',
+                inputType: CRTextFieldInputType.password,
+                prefixIcon: const Icon(Icons.lock, color: CRColors.grey1),
+                currentState: _passwordState),
 
             const SizedBox(height: 24),
 
@@ -94,7 +92,6 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               labelText: 'Username',
               hintText: 'Username',
               currentState: CRTextFieldState.error,
-              errorMessage: 'Username sudah digunakan!',
               prefixIcon: const Icon(Icons.person, color: CRColors.error),
               errorConfig: const CRTextFieldStateConfig(
                 borderColor: CRColors.error,
@@ -113,7 +110,6 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               labelText: 'Email',
               hintText: 'email@example.com',
               currentState: CRTextFieldState.success,
-              successMessage: 'Email tersedia!',
               prefixIcon: const Icon(Icons.email, color: CRColors.success3),
               successConfig: const CRTextFieldStateConfig(
                 borderColor: CRColors.success3,
@@ -282,7 +278,6 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
           labelText: 'Error',
           hintText: 'State: Error',
           currentState: CRTextFieldState.error,
-          errorMessage: 'Terjadi kesalahan!',
           prefixIcon: const Icon(Icons.error, color: CRColors.error),
           errorConfig: const CRTextFieldStateConfig(
             borderColor: CRColors.error,
@@ -295,7 +290,6 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
           labelText: 'Success',
           hintText: 'State: Success',
           currentState: CRTextFieldState.success,
-          successMessage: 'Berhasil!',
           prefixIcon: const Icon(Icons.check_circle, color: CRColors.success3),
           successConfig: const CRTextFieldStateConfig(
             borderColor: CRColors.success3,

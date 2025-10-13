@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/data/local/database/objectbox_database.dart';
 import 'package:flutter_base_project/data/local/session_impl.dart';
-import 'package:flutter_base_project/data/remote/http_inspector/alice_inspector.dart';
 import 'package:flutter_base_project/data/remote/service/api_client_impl.dart';
 import 'package:flutter_base_project/domain/home/repo/home_repo_impl.dart';
 import 'package:flutter_base_project/domain/home/usecase/home_use_case.dart';

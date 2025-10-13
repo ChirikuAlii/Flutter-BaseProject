@@ -8,7 +8,6 @@ import 'package:flutter_base_project/design/widget/cr_button.dart';
 import 'package:flutter_base_project/design/widget/cr_dialog.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field.dart';
-import 'package:flutter_base_project/design/widget/cr_text_field1.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3.dart';
 import 'package:flutter_base_project/di/di.dart';
 import 'package:flutter_base_project/pages/login/login_view.dart';

@@ -545,7 +545,7 @@ class _CRTextField3State extends State<CRTextField3> {
             const SizedBox(width: 8),
             Expanded(
               child: Text(
-                message,
+                widget.message ?? "",
                 style: TextStyle(
                   color: iconColor,
                   fontSize: 12,
