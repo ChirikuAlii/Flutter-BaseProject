@@ -1,1 +1,1572 @@
-"{\n\t\"colors\": {\n\t\t\"primary900\": {\n\t\t\t\"value\": \"#1a998e\"\n\t\t},\n\t\t\"primary800\": {\n\t\t\t\"value\": \"#31a399\"\n\t\t},\n\t\t\"primary700\": {\n\t\t\t\"value\": \"#48ada5\"\n\t\t},\n\t\t\"primary600\": {\n\t\t\t\"value\": \"#5fb8b0\"\n\t\t},\n\t\t\"primary500\": {\n\t\t\t\"value\": \"#76c2bb\"\n\t\t},\n\t\t\"primary400\": {\n\t\t\t\"value\": \"#8dccc7\"\n\t\t},\n\t\t\"primary300\": {\n\t\t\t\"value\": \"#a3d6d2\"\n\t\t},\n\t\t\"primary200\": {\n\t\t\t\"value\": \"#bae0dd\"\n\t\t},\n\t\t\"primary100\": {\n\t\t\t\"value\": \"#d1ebe8\"\n\t\t},\n\t\t\"primary50\": {\n\t\t\t\"value\": \"#e8f5f4\"\n\t\t},\n\t\t\"secondary900\": {\n\t\t\t\"value\": \"#176b87\"\n\t\t},\n\t\t\"secondary800\": {\n\t\t\t\"value\": \"#2e7a93\"\n\t\t},\n\t\t\"secondary700\": {\n\t\t\t\"value\": \"#45899f\"\n\t\t},\n\t\t\"secondary600\": {\n\t\t\t\"value\": \"#5d97ab\"\n\t\t},\n\t\t\"secondary500\": {\n\t\t\t\"value\": \"#74a6b7\"\n\t\t},\n\t\t\"secondary400\": {\n\t\t\t\"value\": \"#8bb5c3\"\n\t\t},\n\t\t\"secondary300\": {\n\t\t\t\"value\": \"#a2c4cf\"\n\t\t},\n\t\t\"secondary200\": {\n\t\t\t\"value\": \"#b9d3db\"\n\t\t},\n\t\t\"secondary100\": {\n\t\t\t\"value\": \"#d1e1e7\"\n\t\t},\n\t\t\"secondary50\": {\n\t\t\t\"value\": \"#e8f0f3\"\n\t\t},\n\t\t\"alertsStatusSuccess\": {\n\t\t\t\"value\": \"#12d18e\"\n\t\t},\n\t\t\"alertsStatusInfo\": {\n\t\t\t\"value\": \"#1a998e\"\n\t\t},\n\t\t\"alertsStatusWarning\": {\n\t\t\t\"value\": \"#facc15\"\n\t\t},\n\t\t\"alertsStatusError\": {\n\t\t\t\"value\": \"#f75555\"\n\t\t},\n\t\t\"alertsStatusLightDisabled\": {\n\t\t\t\"value\": \"#d8d8d8\"\n\t\t},\n\t\t\"alertsStatusDarkDisabled\": {\n\t\t\t\"value\": \"#23252b\"\n\t\t},\n\t\t\"alertsStatusButtonDisabled\": {\n\t\t\t\"value\": \"#157a72\"\n\t\t},\n\t\t\"greyscale900\": {\n\t\t\t\"value\": \"#212121\"\n\t\t},\n\t\t\"greyscale800\": {\n\t\t\t\"value\": \"#424242\"\n\t\t},\n\t\t\"greyscale700\": {\n\t\t\t\"value\": \"#616161\"\n\t\t},\n\t\t\"greyscale600\": {\n\t\t\t\"value\": \"#757575\"\n\t\t},\n\t\t\"greyscale500\": {\n\t\t\t\"value\": \"#9e9e9e\"\n\t\t},\n\t\t\"greyscale400\": {\n\t\t\t\"value\": \"#bdbdbd\"\n\t\t},\n\t\t\"greyscale300\": {\n\t\t\t\"value\": \"#e0e0e0\"\n\t\t},\n\t\t\"greyscale200\": {\n\t\t\t\"value\": \"#eeeeee\"\n\t\t},\n\t\t\"greyscale100\": {\n\t\t\t\"value\": \"#f5f5f5\"\n\t\t},\n\t\t\"greyscale50\": {\n\t\t\t\"value\": \"#fafafa\"\n\t\t},\n\t\t\"othersWhite\": {\n\t\t\t\"value\": \"#ffffff\"\n\t\t},\n\t\t\"othersBlack\": {\n\t\t\t\"value\": \"#000000\"\n\t\t},\n\t\t\"othersRed\": {\n\t\t\t\"value\": \"#f54336\"\n\t\t},\n\t\t\"othersPink\": {\n\t\t\t\"value\": \"#ea1e61\"\n\t\t},\n\t\t\"othersPurple\": {\n\t\t\t\"value\": \"#9d28ac\"\n\t\t},\n\t\t\"othersDeepPurple\": {\n\t\t\t\"value\": \"#673ab3\"\n\t\t},\n\t\t\"othersIndigo\": {\n\t\t\t\"value\": \"#3f51b2\"\n\t\t},\n\t\t\"othersBlue\": {\n\t\t\t\"value\": \"#1a96f0\"\n\t\t},\n\t\t\"othersLightBlue\": {\n\t\t\t\"value\": \"#00a9f1\"\n\t\t},\n\t\t\"othersCyan\": {\n\t\t\t\"value\": \"#00bcd3\"\n\t\t},\n\t\t\"othersTeal\": {\n\t\t\t\"value\": \"#009689\"\n\t\t},\n\t\t\"othersGreen\": {\n\t\t\t\"value\": \"#4aaf57\"\n\t\t},\n\t\t\"othersLightGreen\": {\n\t\t\t\"value\": \"#8bc255\"\n\t\t},\n\t\t\"othersLime\": {\n\t\t\t\"value\": \"#cddc4c\"\n\t\t},\n\t\t\"othersYellow\": {\n\t\t\t\"value\": \"#ffeb4f\"\n\t\t},\n\t\t\"othersAmber\": {\n\t\t\t\"value\": \"#ffc02d\"\n\t\t},\n\t\t\"othersOrange\": {\n\t\t\t\"value\": \"#ff981f\"\n\t\t},\n\t\t\"othersDeepOrange\": {\n\t\t\t\"value\": \"#ff5726\"\n\t\t},\n\t\t\"othersBrown\": {\n\t\t\t\"value\": \"#7a5548\"\n\t\t},\n\t\t\"othersBlueGrey\": {\n\t\t\t\"value\": \"#607d8a\"\n\t\t},\n\t\t\"dark1\": {\n\t\t\t\"value\": \"#181a20\"\n\t\t},\n\t\t\"dark2\": {\n\t\t\t\"value\": \"#1e2025\"\n\t\t},\n\t\t\"dark3\": {\n\t\t\t\"value\": \"#1f222a\"\n\t\t},\n\t\t\"dark4\": {\n\t\t\t\"value\": \"#262a35\"\n\t\t},\n\t\t\"dark5\": {\n\t\t\t\"value\": \"#35383f\"\n\t\t},\n\t\t\"backgroundTeal\": {\n\t\t\t\"value\": \"#f0fbfa\"\n\t\t},\n\t\t\"backgroundPurple\": {\n\t\t\t\"value\": \"#f8f0fe\"\n\t\t},\n\t\t\"backgroundRed\": {\n\t\t\t\"value\": \"#fff3f3\"\n\t\t},\n\t\t\"backgroundBlue\": {\n\t\t\t\"value\": \"#f3f6ff\"\n\t\t},\n\t\t\"backgroundGreen\": {\n\t\t\t\"value\": \"#edfbf7\"\n\t\t},\n\t\t\"backgroundBrown\": {\n\t\t\t\"value\": \"#fbf6f3\"\n\t\t},\n\t\t\"backgroundYellow\": {\n\t\t\t\"value\": \"#fffceb\"\n\t\t},\n\t\t\"backgroundOrange\": {\n\t\t\t\"value\": \"#fff8ee\"\n\t\t},\n\t\t\"transparentTeal\": {\n\t\t\t\"value\": \"#1a998e14\"\n\t\t},\n\t\t\"transparentPurple\": {\n\t\t\t\"value\": \"#9610ff14\"\n\t\t},\n\t\t\"transparentRed\": {\n\t\t\t\"value\": \"#ff4a4a14\"\n\t\t},\n\t\t\"transparentBlue\": {\n\t\t\t\"value\": \"#235dff14\"\n\t\t},\n\t\t\"transparentGreen\": {\n\t\t\t\"value\": \"#17ce9214\"\n\t\t},\n\t\t\"transparentBrown\": {\n\t\t\t\"value\": \"#a4634d14\"\n\t\t},\n\t\t\"transparentYellow\": {\n\t\t\t\"value\": \"#ffd30014\"\n\t\t},\n\t\t\"transparentOrange\": {\n\t\t\t\"value\": \"#f8930014\"\n\t\t},\n\t\t\"transparentGrey\": {\n\t\t\t\"value\": \"#75757514\"\n\t\t},\n\t\t\"backgroundGrey\": {\n\t\t\t\"value\": \"#f6f6f6\"\n\t\t}\n\t},\n\t\"themes\": {\n\t\t\"textGeneralBrand\": {\n\t\t\t\"modernLight\": \"#1a998e\",\n\t\t\t\"modernDark\": \"#1a998e\",\n\t\t\t\"neobrutalismLight\": \"#1a998e\",\n\t\t\t\"neobrutalismDark\": \"#1a998e\"\n\t\t},\n\t\t\"textGreyscale900\": {\n\t\t\t\"modernLight\": \"#212121\",\n\t\t\t\"modernDark\": \"#fafafa\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"textGreyscale800\": {\n\t\t\t\"modernLight\": \"#424242\",\n\t\t\t\"modernDark\": \"#f5f5f5\",\n\t\t\t\"neobrutalismLight\": \"#424242\",\n\t\t\t\"neobrutalismDark\": \"#f5f5f5\"\n\t\t},\n\t\t\"textGreyscale700\": {\n\t\t\t\"modernLight\": \"#616161\",\n\t\t\t\"modernDark\": \"#eeeeee\",\n\t\t\t\"neobrutalismLight\": \"#616161\",\n\t\t\t\"neobrutalismDark\": \"#eeeeee\"\n\t\t},\n\t\t\"textGreyscale600\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#e0e0e0\",\n\t\t\t\"neobrutalismLight\": \"#757575\",\n\t\t\t\"neobrutalismDark\": \"#e0e0e0\"\n\t\t},\n\t\t\"textGreyscale500\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#bdbdbd\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#bdbdbd\"\n\t\t},\n\t\t\"textGreyscale400\": {\n\t\t\t\"modernLight\": \"#bdbdbd\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#bdbdbd\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"textGreyscale300\": {\n\t\t\t\"modernLight\": \"#e0e0e0\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#e0e0e0\",\n\t\t\t\"neobrutalismDark\": \"#757575\"\n\t\t},\n\t\t\"textGreyscale200\": {\n\t\t\t\"modernLight\": \"#eeeeee\",\n\t\t\t\"modernDark\": \"#616161\",\n\t\t\t\"neobrutalismLight\": \"#eeeeee\",\n\t\t\t\"neobrutalismDark\": \"#616161\"\n\t\t},\n\t\t\"textGreyscale100\": {\n\t\t\t\"modernLight\": \"#f5f5f5\",\n\t\t\t\"modernDark\": \"#424242\",\n\t\t\t\"neobrutalismLight\": \"#f5f5f5\",\n\t\t\t\"neobrutalismDark\": \"#424242\"\n\t\t},\n\t\t\"textGreyscale50\": {\n\t\t\t\"modernLight\": \"#fafafa\",\n\t\t\t\"modernDark\": \"#212121\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"textGeneralWhite\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#000000\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"textGeneralBlack\": {\n\t\t\t\"modernLight\": \"#000000\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"textAlertsStatusSuccess\": {\n\t\t\t\"modernLight\": \"#12d18e\",\n\t\t\t\"modernDark\": \"#12d18e\",\n\t\t\t\"neobrutalismLight\": \"#12d18e\",\n\t\t\t\"neobrutalismDark\": \"#12d18e\"\n\t\t},\n\t\t\"textAlertsStatusInfo\": {\n\t\t\t\"modernLight\": \"#1a998e\",\n\t\t\t\"modernDark\": \"#1a998e\",\n\t\t\t\"neobrutalismLight\": \"#1a998e\",\n\t\t\t\"neobrutalismDark\": \"#1a998e\"\n\t\t},\n\t\t\"textAlertsStatusWarning\": {\n\t\t\t\"modernLight\": \"#facc15\",\n\t\t\t\"modernDark\": \"#facc15\",\n\t\t\t\"neobrutalismLight\": \"#facc15\",\n\t\t\t\"neobrutalismDark\": \"#facc15\"\n\t\t},\n\t\t\"textAlertsStatusError\": {\n\t\t\t\"modernLight\": \"#f75555\",\n\t\t\t\"modernDark\": \"#f75555\",\n\t\t\t\"neobrutalismLight\": \"#f75555\",\n\t\t\t\"neobrutalismDark\": \"#f75555\"\n\t\t},\n\t\t\"surfaceGeneralBrand\": {\n\t\t\t\"modernLight\": \"#1a998e\",\n\t\t\t\"modernDark\": \"#1a998e\",\n\t\t\t\"neobrutalismLight\": \"#1a998e\",\n\t\t\t\"neobrutalismDark\": \"#1a998e\"\n\t\t},\n\t\t\"surfaceGeneralWhite\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#000000\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"surfaceGeneralBlack\": {\n\t\t\t\"modernLight\": \"#000000\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceAlertsStatusSuccess\": {\n\t\t\t\"modernLight\": \"#12d18e\",\n\t\t\t\"modernDark\": \"#12d18e\",\n\t\t\t\"neobrutalismLight\": \"#12d18e\",\n\t\t\t\"neobrutalismDark\": \"#12d18e\"\n\t\t},\n\t\t\"surfaceAlertsStatusInfo\": {\n\t\t\t\"modernLight\": \"#1a998e\",\n\t\t\t\"modernDark\": \"#1a998e\",\n\t\t\t\"neobrutalismLight\": \"#1a998e\",\n\t\t\t\"neobrutalismDark\": \"#1a998e\"\n\t\t},\n\t\t\"surfaceAlertsStatusWarning\": {\n\t\t\t\"modernLight\": \"#facc15\",\n\t\t\t\"modernDark\": \"#facc15\",\n\t\t\t\"neobrutalismLight\": \"#facc15\",\n\t\t\t\"neobrutalismDark\": \"#facc15\"\n\t\t},\n\t\t\"surfaceAlertsStatusError\": {\n\t\t\t\"modernLight\": \"#f75555\",\n\t\t\t\"modernDark\": \"#f75555\",\n\t\t\t\"neobrutalismLight\": \"#f75555\",\n\t\t\t\"neobrutalismDark\": \"#f75555\"\n\t\t},\n\t\t\"surfaceAlertsStatusLightDisabled\": {\n\t\t\t\"modernLight\": \"#d8d8d8\",\n\t\t\t\"modernDark\": \"#23252b\",\n\t\t\t\"neobrutalismLight\": \"#d8d8d8\",\n\t\t\t\"neobrutalismDark\": \"#23252b\"\n\t\t},\n\t\t\"surfaceAlertsStatusDarkDisabled\": {\n\t\t\t\"modernLight\": \"#23252b\",\n\t\t\t\"modernDark\": \"#d8d8d8\",\n\t\t\t\"neobrutalismLight\": \"#23252b\",\n\t\t\t\"neobrutalismDark\": \"#d8d8d8\"\n\t\t},\n\t\t\"surfaceAlertsStatusButtonDisabled\": {\n\t\t\t\"modernLight\": \"#157a72\",\n\t\t\t\"modernDark\": \"#157a72\",\n\t\t\t\"neobrutalismLight\": \"#157a72\",\n\t\t\t\"neobrutalismDark\": \"#157a72\"\n\t\t},\n\t\t\"surfaceGreyscale900\": {\n\t\t\t\"modernLight\": \"#212121\",\n\t\t\t\"modernDark\": \"#fafafa\",\n\t\t\t\"neobrutalismLight\": \"#212121\",\n\t\t\t\"neobrutalismDark\": \"#fafafa\"\n\t\t},\n\t\t\"surfaceGreyscale800\": {\n\t\t\t\"modernLight\": \"#424242\",\n\t\t\t\"modernDark\": \"#f5f5f5\",\n\t\t\t\"neobrutalismLight\": \"#424242\",\n\t\t\t\"neobrutalismDark\": \"#f5f5f5\"\n\t\t},\n\t\t\"surfaceGreyscale700\": {\n\t\t\t\"modernLight\": \"#616161\",\n\t\t\t\"modernDark\": \"#eeeeee\",\n\t\t\t\"neobrutalismLight\": \"#616161\",\n\t\t\t\"neobrutalismDark\": \"#eeeeee\"\n\t\t},\n\t\t\"surfaceGreyscale600\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#e0e0e0\",\n\t\t\t\"neobrutalismLight\": \"#757575\",\n\t\t\t\"neobrutalismDark\": \"#e0e0e0\"\n\t\t},\n\t\t\"surfaceGreyscale500\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#bdbdbd\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#bdbdbd\"\n\t\t},\n\t\t\"surfaceGreyscale400\": {\n\t\t\t\"modernLight\": \"#bdbdbd\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#bdbdbd\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"surfaceGreyscale300\": {\n\t\t\t\"modernLight\": \"#e0e0e0\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#e0e0e0\",\n\t\t\t\"neobrutalismDark\": \"#757575\"\n\t\t},\n\t\t\"surfaceGreyscale200\": {\n\t\t\t\"modernLight\": \"#eeeeee\",\n\t\t\t\"modernDark\": \"#616161\",\n\t\t\t\"neobrutalismLight\": \"#eeeeee\",\n\t\t\t\"neobrutalismDark\": \"#616161\"\n\t\t},\n\t\t\"surfaceGreyscale100\": {\n\t\t\t\"modernLight\": \"#f5f5f5\",\n\t\t\t\"modernDark\": \"#424242\",\n\t\t\t\"neobrutalismLight\": \"#f5f5f5\",\n\t\t\t\"neobrutalismDark\": \"#424242\"\n\t\t},\n\t\t\"surfaceGreyscale50\": {\n\t\t\t\"modernLight\": \"#fafafa\",\n\t\t\t\"modernDark\": \"#212121\",\n\t\t\t\"neobrutalismLight\": \"#fafafa\",\n\t\t\t\"neobrutalismDark\": \"#212121\"\n\t\t},\n\t\t\"surfaceLightDarkDark1\": {\n\t\t\t\"modernLight\": \"#181a20\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#181a20\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceLightDarkDark2\": {\n\t\t\t\"modernLight\": \"#1e2025\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#1e2025\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceLightDarkDark3\": {\n\t\t\t\"modernLight\": \"#1f222a\",\n\t\t\t\"modernDark\": \"#fafafa\",\n\t\t\t\"neobrutalismLight\": \"#1f222a\",\n\t\t\t\"neobrutalismDark\": \"#fafafa\"\n\t\t},\n\t\t\"surfaceLightDarkDark6\": {\n\t\t\t\"modernLight\": \"#262a35\",\n\t\t\t\"modernDark\": \"#f5f5f5\",\n\t\t\t\"neobrutalismLight\": \"#262a35\",\n\t\t\t\"neobrutalismDark\": \"#f5f5f5\"\n\t\t},\n\t\t\"surfaceLightDarkDark7\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#eeeeee\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#eeeeee\"\n\t\t},\n\t\t\"surfaceBackgroundBackgroundTeal\": {\n\t\t\t\"modernLight\": \"#f0fbfa\",\n\t\t\t\"modernDark\": \"#f0fbfa\",\n\t\t\t\"neobrutalismLight\": \"#f0fbfa\",\n\t\t\t\"neobrutalismDark\": \"#f0fbfa\"\n\t\t},\n\t\t\"surfaceBackgroundBackgroundPurple\": {\n\t\t\t\"modernLight\": \"#f8f0fe\",\n\t\t\t\"modernDark\": \"#f8f0fe\",\n\t\t\t\"neobrutalismLight\": \"#f8f0fe\",\n\t\t\t\"neobrutalismDark\": \"#f8f0fe\"\n\t\t},\n\t\t\"surfaceBackgroundBackgroundRed\": {\n\t\t\t\"modernLight\": \"#fff3f3\",\n\t\t\t\"modernDark\": \"#fff3f3\",\n\t\t\t\"neobrutalismLight\": \"#fff3f3\",\n\t\t\t\"neobrutalismDark\": \"#fff3f3\"\n\t\t},\n\t\t\"surfaceBackgroundBackgroundBlue\": {\n\t\t\t\"modernLight\": \"#f3f6ff\",\n\t\t\t\"modernDark\": \"#f3f6ff\",\n\t\t\t\"neobrutalismLight\": \"#f3f6ff\",\n\t\t\t\"neobrutalismDark\": \"#f3f6ff\"\n\t\t},\n\t\t\"surfaceBackgroundBackgroundGreen\": {\n\t\t\t\"modernLight\": \"#edfbf7\",\n\t\t\t\"modernDark\": \"#edfbf7\",\n\t\t\t\"neobrutalismLight\": \"#edfbf7\",\n\t\t\t\"neobrutalismDark\": \"#edfbf7\"\n\t\t},\n\t\t\"surfaceBackgroundBackgroundBrown\": {\n\t\t\t\"modernLight\": \"#fbf6f3\",\n\t\t\t\"modernDark\": \"#fbf6f3\",\n\t\t\t\"neobrutalismLight\": \"#fbf6f3\",\n\t\t\t\"neobrutalismDark\": \"#fbf6f3\"\n\t\t},\n\t\t\"surfaceBackgroundBackgroundYellow\": {\n\t\t\t\"modernLight\": \"#fffceb\",\n\t\t\t\"modernDark\": \"#fffceb\",\n\t\t\t\"neobrutalismLight\": \"#fffceb\",\n\t\t\t\"neobrutalismDark\": \"#fffceb\"\n\t\t},\n\t\t\"surfaceBackgroundBackgroundOrange\": {\n\t\t\t\"modernLight\": \"#fff8ee\",\n\t\t\t\"modernDark\": \"#fff8ee\",\n\t\t\t\"neobrutalismLight\": \"#fff8ee\",\n\t\t\t\"neobrutalismDark\": \"#fff8ee\"\n\t\t},\n\t\t\"surfaceTransparentTransparentTeal\": {\n\t\t\t\"modernLight\": \"#1a998e14\",\n\t\t\t\"modernDark\": \"#1a998e14\",\n\t\t\t\"neobrutalismLight\": \"#1a998e14\",\n\t\t\t\"neobrutalismDark\": \"#1a998e14\"\n\t\t},\n\t\t\"surfaceTransparentTransparentPurple\": {\n\t\t\t\"modernLight\": \"#9610ff14\",\n\t\t\t\"modernDark\": \"#9610ff14\",\n\t\t\t\"neobrutalismLight\": \"#9610ff14\",\n\t\t\t\"neobrutalismDark\": \"#9610ff14\"\n\t\t},\n\t\t\"surfaceTransparentTransparentRed\": {\n\t\t\t\"modernLight\": \"#ff4a4a14\",\n\t\t\t\"modernDark\": \"#ff4a4a14\",\n\t\t\t\"neobrutalismLight\": \"#ff4a4a14\",\n\t\t\t\"neobrutalismDark\": \"#ff4a4a14\"\n\t\t},\n\t\t\"surfaceTransparentTransparentBlue\": {\n\t\t\t\"modernLight\": \"#235dff14\",\n\t\t\t\"modernDark\": \"#235dff14\",\n\t\t\t\"neobrutalismLight\": \"#235dff14\",\n\t\t\t\"neobrutalismDark\": \"#235dff14\"\n\t\t},\n\t\t\"surfaceTransparentTransparentGreen\": {\n\t\t\t\"modernLight\": \"#17ce9214\",\n\t\t\t\"modernDark\": \"#17ce9214\",\n\t\t\t\"neobrutalismLight\": \"#17ce9214\",\n\t\t\t\"neobrutalismDark\": \"#17ce9214\"\n\t\t},\n\t\t\"surfaceTransparentTransparentBrown\": {\n\t\t\t\"modernLight\": \"#a4634d14\",\n\t\t\t\"modernDark\": \"#a4634d14\",\n\t\t\t\"neobrutalismLight\": \"#a4634d14\",\n\t\t\t\"neobrutalismDark\": \"#a4634d14\"\n\t\t},\n\t\t\"surfaceTransparentTransparentYellow\": {\n\t\t\t\"modernLight\": \"#ffd30014\",\n\t\t\t\"modernDark\": \"#ffd30014\",\n\t\t\t\"neobrutalismLight\": \"#ffd30014\",\n\t\t\t\"neobrutalismDark\": \"#ffd30014\"\n\t\t},\n\t\t\"surfaceTransparentTransparentOrange\": {\n\t\t\t\"modernLight\": \"#f8930014\",\n\t\t\t\"modernDark\": \"#f8930014\",\n\t\t\t\"neobrutalismLight\": \"#f8930014\",\n\t\t\t\"neobrutalismDark\": \"#f8930014\"\n\t\t},\n\t\t\"strokeGeneralBrand\": {\n\t\t\t\"modernLight\": \"#1a998e\",\n\t\t\t\"modernDark\": \"#1a998e\",\n\t\t\t\"neobrutalismLight\": \"#1a998e\",\n\t\t\t\"neobrutalismDark\": \"#1a998e\"\n\t\t},\n\t\t\"strokeGreyscaleGreyscale300\": {\n\t\t\t\"modernLight\": \"#e0e0e0\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeGreyscaleGreyscale200\": {\n\t\t\t\"modernLight\": \"#eeeeee\",\n\t\t\t\"modernDark\": \"#616161\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeGreyscaleGreyscale100\": {\n\t\t\t\"modernLight\": \"#f5f5f5\",\n\t\t\t\"modernDark\": \"#424242\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeGreyscaleGreyscale50\": {\n\t\t\t\"modernLight\": \"#fafafa\",\n\t\t\t\"modernDark\": \"#212121\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeGeneralWhite\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#000000\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"strokeGeneralBlack\": {\n\t\t\t\"modernLight\": \"#000000\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceTransparentTransparentGrey\": {\n\t\t\t\"modernLight\": \"#75757514\",\n\t\t\t\"modernDark\": \"#75757514\",\n\t\t\t\"neobrutalismLight\": \"#75757514\",\n\t\t\t\"neobrutalismDark\": \"#75757514\"\n\t\t},\n\t\t\"strokeGreyscaleGreyscale900\": {\n\t\t\t\"modernLight\": \"#212121\",\n\t\t\t\"modernDark\": \"#fafafa\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeGreyscaleGreyscale800\": {\n\t\t\t\"modernLight\": \"#424242\",\n\t\t\t\"modernDark\": \"#f5f5f5\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeGreyscaleGreyscale700\": {\n\t\t\t\"modernLight\": \"#616161\",\n\t\t\t\"modernDark\": \"#eeeeee\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeGreyscaleGreyscale600\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#e0e0e0\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeGreyscaleGreyscale500\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#bdbdbd\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeGreyscaleGreyscale400\": {\n\t\t\t\"modernLight\": \"#bdbdbd\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeAlertsStatusLightDisabled\": {\n\t\t\t\"modernLight\": \"#d8d8d8\",\n\t\t\t\"modernDark\": \"#23252b\",\n\t\t\t\"neobrutalismLight\": \"#d8d8d8\",\n\t\t\t\"neobrutalismDark\": \"#23252b\"\n\t\t},\n\t\t\"strokeAlertsStatusDarkDisabled\": {\n\t\t\t\"modernLight\": \"#23252b\",\n\t\t\t\"modernDark\": \"#d8d8d8\",\n\t\t\t\"neobrutalismLight\": \"#23252b\",\n\t\t\t\"neobrutalismDark\": \"#d8d8d8\"\n\t\t},\n\t\t\"strokeAlertsStatusButtonDisabled\": {\n\t\t\t\"modernLight\": \"#157a72\",\n\t\t\t\"modernDark\": \"#157a72\",\n\t\t\t\"neobrutalismLight\": \"#157a72\",\n\t\t\t\"neobrutalismDark\": \"#157a72\"\n\t\t},\n\t\t\"strokeAlertsStatusSuccess\": {\n\t\t\t\"modernLight\": \"#12d18e\",\n\t\t\t\"modernDark\": \"#12d18e\",\n\t\t\t\"neobrutalismLight\": \"#12d18e\",\n\t\t\t\"neobrutalismDark\": \"#12d18e\"\n\t\t},\n\t\t\"strokeAlertsStatusInfo\": {\n\t\t\t\"modernLight\": \"#1a998e\",\n\t\t\t\"modernDark\": \"#1a998e\",\n\t\t\t\"neobrutalismLight\": \"#1a998e\",\n\t\t\t\"neobrutalismDark\": \"#1a998e\"\n\t\t},\n\t\t\"strokeAlertsStatusWarning\": {\n\t\t\t\"modernLight\": \"#facc15\",\n\t\t\t\"modernDark\": \"#facc15\",\n\t\t\t\"neobrutalismLight\": \"#facc15\",\n\t\t\t\"neobrutalismDark\": \"#facc15\"\n\t\t},\n\t\t\"strokeAlertsStatusError\": {\n\t\t\t\"modernLight\": \"#f75555\",\n\t\t\t\"modernDark\": \"#f75555\",\n\t\t\t\"neobrutalismLight\": \"#f75555\",\n\t\t\t\"neobrutalismDark\": \"#f75555\"\n\t\t},\n\t\t\"strokeBorderSingleStrokeBorderLight\": {\n\t\t\t\"modernLight\": \"#eeeeee\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#e0e0e0\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"strokeBorderFullStrokeLight\": {\n\t\t\t\"modernLight\": \"#eeeeee\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeBorderSingleStrokeDividerLight\": {\n\t\t\t\"modernLight\": \"#eeeeee\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#e0e0e0\",\n\t\t\t\"neobrutalismDark\": \"#616161\"\n\t\t},\n\t\t\"textButtonsBrand\": {\n\t\t\t\"modernLight\": \"#1a998e\",\n\t\t\t\"modernDark\": \"#1a998e\",\n\t\t\t\"neobrutalismLight\": \"#1a998e\",\n\t\t\t\"neobrutalismDark\": \"#1a998e\"\n\t\t},\n\t\t\"textButtonsWhite\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"textButtonsGreyscale900\": {\n\t\t\t\"modernLight\": \"#212121\",\n\t\t\t\"modernDark\": \"#212121\",\n\t\t\t\"neobrutalismLight\": \"#212121\",\n\t\t\t\"neobrutalismDark\": \"#212121\"\n\t\t},\n\t\t\"surfaceButtonsBrand\": {\n\t\t\t\"modernLight\": \"#1a998e\",\n\t\t\t\"modernDark\": \"#1a998e\",\n\t\t\t\"neobrutalismLight\": \"#1a998e\",\n\t\t\t\"neobrutalismDark\": \"#1a998e\"\n\t\t},\n\t\t\"surfaceButtonsButtonLight\": {\n\t\t\t\"modernLight\": \"#f0fbfa\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#f0fbfa\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"surfaceButtonsButtonDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#f0fbfa\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#f0fbfa\"\n\t\t},\n\t\t\"surfaceButtonsSocialMediaLight\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#1f222a\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#1f222a\"\n\t\t},\n\t\t\"surfaceButtonsSocialMediaDark\": {\n\t\t\t\"modernLight\": \"#1f222a\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#1f222a\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceButtonsButtonDisabled\": {\n\t\t\t\"modernLight\": \"#157a72\",\n\t\t\t\"modernDark\": \"#157a72\",\n\t\t\t\"neobrutalismLight\": \"#157a72\",\n\t\t\t\"neobrutalismDark\": \"#157a72\"\n\t\t},\n\t\t\"surfaceButtonsButton50\": {\n\t\t\t\"modernLight\": \"#fafafa\",\n\t\t\t\"modernDark\": \"#fafafa\",\n\t\t\t\"neobrutalismLight\": \"#fafafa\",\n\t\t\t\"neobrutalismDark\": \"#fafafa\"\n\t\t},\n\t\t\"textButtonsSocialMediaLight\": {\n\t\t\t\"modernLight\": \"#212121\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#212121\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceButtonsGreyscaleIcon900\": {\n\t\t\t\"modernLight\": \"#212121\",\n\t\t\t\"modernDark\": \"#212121\",\n\t\t\t\"neobrutalismLight\": \"#212121\",\n\t\t\t\"neobrutalismDark\": \"#212121\"\n\t\t},\n\t\t\"surfaceButtonsWhiteIcon\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"textButtonsBrandLight\": {\n\t\t\t\"modernLight\": \"#1a998e\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#1a998e\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"textButtonsWhiteDark\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#1a998e\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#1a998e\"\n\t\t},\n\t\t\"textButtonsSocialMediaDark\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#212121\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#212121\"\n\t\t},\n\t\t\"surfaceButtonsBrandLight\": {\n\t\t\t\"modernLight\": \"#1a998e\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#1a998e\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceButtonsWhiteDark\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#1a998e\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#1a998e\"\n\t\t},\n\t\t\"strokeBorderSingleStrokeBorderDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#eeeeee\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#e0e0e0\"\n\t\t},\n\t\t\"strokeBorderSingleStrokeDividerDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#eeeeee\",\n\t\t\t\"neobrutalismLight\": \"#616161\",\n\t\t\t\"neobrutalismDark\": \"#e0e0e0\"\n\t\t},\n\t\t\"strokeBorderFullStrokeDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#eeeeee\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"surfaceComponentsDropdownLight\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#262a35\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#262a35\"\n\t\t},\n\t\t\"surfaceComponentsDropdownDark\": {\n\t\t\t\"modernLight\": \"#262a35\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#262a35\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceComponentsModalLight\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#1f222a\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#1f222a\"\n\t\t},\n\t\t\"surfaceComponentsModalDark\": {\n\t\t\t\"modernLight\": \"#1f222a\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#1f222a\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceComponentsButtomBarActionLight\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#181a20\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#181a20\"\n\t\t},\n\t\t\"surfaceComponentsButtomBarActionDark\": {\n\t\t\t\"modernLight\": \"#181a20\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#181a20\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceComponentsGeneralFrameLight\": {\n\t\t\t\"modernLight\": \"#fafafa\",\n\t\t\t\"modernDark\": \"#1f222a\",\n\t\t\t\"neobrutalismLight\": \"#fafafa\",\n\t\t\t\"neobrutalismDark\": \"#1f222a\"\n\t\t},\n\t\t\"surfaceComponentsGeneralFrameDark\": {\n\t\t\t\"modernLight\": \"#1f222a\",\n\t\t\t\"modernDark\": \"#fafafa\",\n\t\t\t\"neobrutalismLight\": \"#1f222a\",\n\t\t\t\"neobrutalismDark\": \"#fafafa\"\n\t\t},\n\t\t\"surfaceAdditionalsOverColorFrameLight\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceComponentsDropdownIconLight\": {\n\t\t\t\"modernLight\": \"#212121\",\n\t\t\t\"modernDark\": \"#fafafa\",\n\t\t\t\"neobrutalismLight\": \"#212121\",\n\t\t\t\"neobrutalismDark\": \"#fafafa\"\n\t\t},\n\t\t\"surfaceComponentsDropdownIconDark\": {\n\t\t\t\"modernLight\": \"#fafafa\",\n\t\t\t\"modernDark\": \"#212121\",\n\t\t\t\"neobrutalismLight\": \"#fafafa\",\n\t\t\t\"neobrutalismDark\": \"#212121\"\n\t\t},\n\t\t\"surfaceLightDarkLight2\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#1e2025\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#1e2025\"\n\t\t},\n\t\t\"surfaceLightDarkLight3\": {\n\t\t\t\"modernLight\": \"#fafafa\",\n\t\t\t\"modernDark\": \"#1f222a\",\n\t\t\t\"neobrutalismLight\": \"#fafafa\",\n\t\t\t\"neobrutalismDark\": \"#1f222a\"\n\t\t},\n\t\t\"surfaceLightDarkLight6\": {\n\t\t\t\"modernLight\": \"#f5f5f5\",\n\t\t\t\"modernDark\": \"#262a35\",\n\t\t\t\"neobrutalismLight\": \"#f5f5f5\",\n\t\t\t\"neobrutalismDark\": \"#262a35\"\n\t\t},\n\t\t\"surfaceLightDarkLight7\": {\n\t\t\t\"modernLight\": \"#eeeeee\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#eeeeee\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"surfaceLightDarkLight1\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#181a20\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#181a20\"\n\t\t},\n\t\t\"surfaceAdditionalsOverColorFrameDark\": {\n\t\t\t\"modernLight\": \"#212121\",\n\t\t\t\"modernDark\": \"#212121\",\n\t\t\t\"neobrutalismLight\": \"#212121\",\n\t\t\t\"neobrutalismDark\": \"#212121\"\n\t\t},\n\t\t\"textGeneralTextLight\": {\n\t\t\t\"modernLight\": \"#212121\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"textGeneralTextDark\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#212121\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"surfaceGeneralSurfaceLight\": {\n\t\t\t\"modernLight\": \"#212121\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceGeneralSurfaceDark\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#212121\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"surfaceLightDarkLight8\": {\n\t\t\t\"modernLight\": \"#e0e0e0\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#e0e0e0\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"surfaceLightDarkDark8\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#e0e0e0\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#e0e0e0\"\n\t\t},\n\t\t\"strokeAdditionalsToggle400\": {\n\t\t\t\"modernLight\": \"#bdbdbd\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#bdbdbd\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceLightDarkLight5\": {\n\t\t\t\"modernLight\": \"#f5f5f5\",\n\t\t\t\"modernDark\": \"#1f222a\",\n\t\t\t\"neobrutalismLight\": \"#f5f5f5\",\n\t\t\t\"neobrutalismDark\": \"#1f222a\"\n\t\t},\n\t\t\"surfaceLightDarkDark5\": {\n\t\t\t\"modernLight\": \"#1f222a\",\n\t\t\t\"modernDark\": \"#f5f5f5\",\n\t\t\t\"neobrutalismLight\": \"#1f222a\",\n\t\t\t\"neobrutalismDark\": \"#f5f5f5\"\n\t\t},\n\t\t\"surfaceComponentsSearchSurfaceLight\": {\n\t\t\t\"modernLight\": \"#bdbdbd\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#bdbdbd\",\n\t\t\t\"neobrutalismDark\": \"#757575\"\n\t\t},\n\t\t\"surfaceComponentsSearchSurfaceDark\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#bdbdbd\",\n\t\t\t\"neobrutalismLight\": \"#757575\",\n\t\t\t\"neobrutalismDark\": \"#bdbdbd\"\n\t\t},\n\t\t\"textComponentsSearchTextLight\": {\n\t\t\t\"modernLight\": \"#bdbdbd\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#bdbdbd\",\n\t\t\t\"neobrutalismDark\": \"#757575\"\n\t\t},\n\t\t\"textComponentsSearchTextDark\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#bdbdbd\",\n\t\t\t\"neobrutalismLight\": \"#757575\",\n\t\t\t\"neobrutalismDark\": \"#bdbdbd\"\n\t\t},\n\t\t\"textComponentsTextFilled\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"surfaceComponentsSurfaceFilled\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeLightDarkLight1\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#181a20\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#181a20\"\n\t\t},\n\t\t\"strokeLightDarkLight2\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#1e2025\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#1e2025\"\n\t\t},\n\t\t\"strokeLightDarkLight3\": {\n\t\t\t\"modernLight\": \"#fafafa\",\n\t\t\t\"modernDark\": \"#1f222a\",\n\t\t\t\"neobrutalismLight\": \"#fafafa\",\n\t\t\t\"neobrutalismDark\": \"#1f222a\"\n\t\t},\n\t\t\"strokeLightDarkLight5\": {\n\t\t\t\"modernLight\": \"#f5f5f5\",\n\t\t\t\"modernDark\": \"#262a35\",\n\t\t\t\"neobrutalismLight\": \"#f5f5f5\",\n\t\t\t\"neobrutalismDark\": \"#262a35\"\n\t\t},\n\t\t\"strokeLightDarkLight4\": {\n\t\t\t\"modernLight\": \"#f5f5f5\",\n\t\t\t\"modernDark\": \"#1f222a\",\n\t\t\t\"neobrutalismLight\": \"#f5f5f5\",\n\t\t\t\"neobrutalismDark\": \"#1f222a\"\n\t\t},\n\t\t\"strokeLightDarkLight7\": {\n\t\t\t\"modernLight\": \"#eeeeee\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#eeeeee\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"strokeLightDarkLight8\": {\n\t\t\t\"modernLight\": \"#e0e0e0\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#e0e0e0\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"strokeLightDarkDark1\": {\n\t\t\t\"modernLight\": \"#181a20\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#181a20\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeLightDarkDark2\": {\n\t\t\t\"modernLight\": \"#1e2025\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#1e2025\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeLightDarkDark3\": {\n\t\t\t\"modernLight\": \"#1f222a\",\n\t\t\t\"modernDark\": \"#fafafa\",\n\t\t\t\"neobrutalismLight\": \"#1f222a\",\n\t\t\t\"neobrutalismDark\": \"#fafafa\"\n\t\t},\n\t\t\"strokeLightDarkDark5\": {\n\t\t\t\"modernLight\": \"#262a35\",\n\t\t\t\"modernDark\": \"#f5f5f5\",\n\t\t\t\"neobrutalismLight\": \"#262a35\",\n\t\t\t\"neobrutalismDark\": \"#f5f5f5\"\n\t\t},\n\t\t\"strokeLightDarkDark4\": {\n\t\t\t\"modernLight\": \"#1f222a\",\n\t\t\t\"modernDark\": \"#f5f5f5\",\n\t\t\t\"neobrutalismLight\": \"#1f222a\",\n\t\t\t\"neobrutalismDark\": \"#f5f5f5\"\n\t\t},\n\t\t\"strokeLightDarkDark7\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#eeeeee\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#eeeeee\"\n\t\t},\n\t\t\"strokeLightDarkDark8\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#e0e0e0\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#e0e0e0\"\n\t\t},\n\t\t\"surfaceBackgroundBackgroundGrey\": {\n\t\t\t\"modernLight\": \"#f6f6f6\",\n\t\t\t\"modernDark\": \"#f6f6f6\",\n\t\t\t\"neobrutalismLight\": \"#f6f6f6\",\n\t\t\t\"neobrutalismDark\": \"#f6f6f6\"\n\t\t},\n\t\t\"surfaceTagSolidDefaultGrey600\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#757575\",\n\t\t\t\"neobrutalismDark\": \"#757575\"\n\t\t},\n\t\t\"surfaceTagInvertedDefaultLight\": {\n\t\t\t\"modernLight\": \"#f6f6f6\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#f6f6f6\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"surfaceTagInvertedInfoLight\": {\n\t\t\t\"modernLight\": \"#f0fbfa\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#f0fbfa\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"surfaceTagInvertedSuccessLight\": {\n\t\t\t\"modernLight\": \"#edfbf7\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#edfbf7\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"surfaceTagInvertedWarningLight\": {\n\t\t\t\"modernLight\": \"#fffceb\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#fffceb\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"surfaceTagInvertedErrorLight\": {\n\t\t\t\"modernLight\": \"#fff3f3\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#fff3f3\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"surfaceTagInvertedDefaultDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#f6f6f6\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#f6f6f6\"\n\t\t},\n\t\t\"strokeAdditionalsTagOutlineDefault600\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#757575\",\n\t\t\t\"neobrutalismDark\": \"#757575\"\n\t\t},\n\t\t\"textTagTagSolidDefault600\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#757575\",\n\t\t\t\"neobrutalismDark\": \"#757575\"\n\t\t},\n\t\t\"surfaceTagInvertedInfoDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#f0fbfa\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#f0fbfa\"\n\t\t},\n\t\t\"surfaceTagInvertedSuccessDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#edfbf7\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#edfbf7\"\n\t\t},\n\t\t\"surfaceTagInvertedWarningDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#fffceb\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#fffceb\"\n\t\t},\n\t\t\"surfaceTagInvertedErrorDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#fff3f3\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#fff3f3\"\n\t\t},\n\t\t\"textTagTagInvertedDefaultLight\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#e0e0e0\",\n\t\t\t\"neobrutalismLight\": \"#757575\",\n\t\t\t\"neobrutalismDark\": \"#e0e0e0\"\n\t\t},\n\t\t\"textTagTagInvertedDefaultDark\": {\n\t\t\t\"modernLight\": \"#e0e0e0\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#e0e0e0\",\n\t\t\t\"neobrutalismDark\": \"#757575\"\n\t\t},\n\t\t\"surfaceComponentsCategoryMenuLight\": {\n\t\t\t\"modernLight\": \"#f0fbfa\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#f0fbfa\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"surfaceComponentsCategoryMenuDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#f0fbfa\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#f0fbfa\"\n\t\t},\n\t\t\"textComponentsMenuBarText500\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"surfaceComponentsMenuBarIcon500\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"surfaceComponentsMenuBarSurfaceLight\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#181a20d8\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#181a20d8\"\n\t\t},\n\t\t\"surfaceComponentsMenuBarSurfaceDark\": {\n\t\t\t\"modernLight\": \"#181a20d8\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#181a20d8\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeLightDarkLight6\": {\n\t\t\t\"modernLight\": \"#f5f5f5\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#f5f5f5\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"strokeLightDarkDark6\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#f5f5f5\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#f5f5f5\"\n\t\t},\n\t\t\"surfaceLightDarkLight4\": {\n\t\t\t\"modernLight\": \"#f5f5f5\",\n\t\t\t\"modernDark\": \"#1e2025\",\n\t\t\t\"neobrutalismLight\": \"#f5f5f5\",\n\t\t\t\"neobrutalismDark\": \"#1e2025\"\n\t\t},\n\t\t\"surfaceLightDarkDark4\": {\n\t\t\t\"modernLight\": \"#1e2025\",\n\t\t\t\"modernDark\": \"#f5f5f5\",\n\t\t\t\"neobrutalismLight\": \"#1e2025\",\n\t\t\t\"neobrutalismDark\": \"#f5f5f5\"\n\t\t},\n\t\t\"textComponentsTextFormDefault500\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"surfaceComponentsIconFormDefault500\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"textComponentsTextFormDisabled600\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#757575\",\n\t\t\t\"neobrutalismDark\": \"#757575\"\n\t\t},\n\t\t\"surfaceComponentsIconFormDisabled600\": {\n\t\t\t\"modernLight\": \"#757575\",\n\t\t\t\"modernDark\": \"#757575\",\n\t\t\t\"neobrutalismLight\": \"#757575\",\n\t\t\t\"neobrutalismDark\": \"#757575\"\n\t\t},\n\t\t\"strokeInputFormDefaultFilledLight\": {\n\t\t\t\"modernLight\": \"#fafafa\",\n\t\t\t\"modernDark\": \"#1f222a\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeInputFormReadOnlyLight\": {\n\t\t\t\"modernLight\": \"#f5f5f5\",\n\t\t\t\"modernDark\": \"#1e2025\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeInputFormDisabledLight\": {\n\t\t\t\"modernLight\": \"#d8d8d8\",\n\t\t\t\"modernDark\": \"#23252b\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeInputFormDefaultFilledDark\": {\n\t\t\t\"modernLight\": \"#1f222a\",\n\t\t\t\"modernDark\": \"#fafafa\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"strokeInputFormReadOnlyDark\": {\n\t\t\t\"modernLight\": \"#1e2025\",\n\t\t\t\"modernDark\": \"#f5f5f5\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"strokeInputFormDisabledDark\": {\n\t\t\t\"modernLight\": \"#23252b\",\n\t\t\t\"modernDark\": \"#d8d8d8\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"textInputForm2InputFormDefaultLight\": {\n\t\t\t\"modernLight\": \"#bdbdbd\",\n\t\t\t\"modernDark\": \"#616161\",\n\t\t\t\"neobrutalismLight\": \"#bdbdbd\",\n\t\t\t\"neobrutalismDark\": \"#616161\"\n\t\t},\n\t\t\"textInputForm2InputFormReadOnlyLight\": {\n\t\t\t\"modernLight\": \"#616161\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#616161\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"textInputForm2InputFormDisabledLight\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#616161\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#616161\"\n\t\t},\n\t\t\"textInputForm2InputFormDefaultDark\": {\n\t\t\t\"modernLight\": \"#616161\",\n\t\t\t\"modernDark\": \"#bdbdbd\",\n\t\t\t\"neobrutalismLight\": \"#616161\",\n\t\t\t\"neobrutalismDark\": \"#bdbdbd\"\n\t\t},\n\t\t\"textInputForm2InputFormReadOnlyDark\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#616161\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#616161\"\n\t\t},\n\t\t\"textInputForm2InputFormDisabledDark\": {\n\t\t\t\"modernLight\": \"#616161\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#616161\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"surfaceInputForm2DefaultLight\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#424242\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#424242\"\n\t\t},\n\t\t\"surfaceInputForm2ReadOnlyLight\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#35383f\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#35383f\"\n\t\t},\n\t\t\"surfaceInputForm2DefaultDark\": {\n\t\t\t\"modernLight\": \"#424242\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#424242\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"surfaceInputForm2ReadOnlyDark\": {\n\t\t\t\"modernLight\": \"#35383f\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#35383f\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"surfaceInputForm2ReadOnlyIconLight\": {\n\t\t\t\"modernLight\": \"#616161\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#616161\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"surfaceInputForm2ReadOnlyIconDark\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#616161\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#616161\"\n\t\t},\n\t\t\"surfaceInputForm2DisabledIconLight\": {\n\t\t\t\"modernLight\": \"#9e9e9e\",\n\t\t\t\"modernDark\": \"#616161\",\n\t\t\t\"neobrutalismLight\": \"#9e9e9e\",\n\t\t\t\"neobrutalismDark\": \"#616161\"\n\t\t},\n\t\t\"surfaceInputForm2DisabledIconDark\": {\n\t\t\t\"modernLight\": \"#616161\",\n\t\t\t\"modernDark\": \"#9e9e9e\",\n\t\t\t\"neobrutalismLight\": \"#616161\",\n\t\t\t\"neobrutalismDark\": \"#9e9e9e\"\n\t\t},\n\t\t\"strokeLightDarkLight0\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#181a20\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeLightDarkDark0\": {\n\t\t\t\"modernLight\": \"#181a20\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t},\n\t\t\"surfaceOthersRed\": {\n\t\t\t\"modernLight\": \"#f54336\",\n\t\t\t\"modernDark\": \"#f54336\",\n\t\t\t\"neobrutalismLight\": \"#f54336\",\n\t\t\t\"neobrutalismDark\": \"#f54336\"\n\t\t},\n\t\t\"surfaceOthersPink\": {\n\t\t\t\"modernLight\": \"#ea1e61\",\n\t\t\t\"modernDark\": \"#ea1e61\",\n\t\t\t\"neobrutalismLight\": \"#ea1e61\",\n\t\t\t\"neobrutalismDark\": \"#ea1e61\"\n\t\t},\n\t\t\"surfaceOthersPurple\": {\n\t\t\t\"modernLight\": \"#9d28ac\",\n\t\t\t\"modernDark\": \"#9d28ac\",\n\t\t\t\"neobrutalismLight\": \"#9d28ac\",\n\t\t\t\"neobrutalismDark\": \"#9d28ac\"\n\t\t},\n\t\t\"surfaceOthersDeepPurple\": {\n\t\t\t\"modernLight\": \"#673ab3\",\n\t\t\t\"modernDark\": \"#673ab3\",\n\t\t\t\"neobrutalismLight\": \"#673ab3\",\n\t\t\t\"neobrutalismDark\": \"#673ab3\"\n\t\t},\n\t\t\"surfaceOthersIndigo\": {\n\t\t\t\"modernLight\": \"#3f51b2\",\n\t\t\t\"modernDark\": \"#3f51b2\",\n\t\t\t\"neobrutalismLight\": \"#3f51b2\",\n\t\t\t\"neobrutalismDark\": \"#3f51b2\"\n\t\t},\n\t\t\"surfaceOthersBlue\": {\n\t\t\t\"modernLight\": \"#1a96f0\",\n\t\t\t\"modernDark\": \"#1a96f0\",\n\t\t\t\"neobrutalismLight\": \"#1a96f0\",\n\t\t\t\"neobrutalismDark\": \"#1a96f0\"\n\t\t},\n\t\t\"surfaceOthersLightBlue\": {\n\t\t\t\"modernLight\": \"#00a9f1\",\n\t\t\t\"modernDark\": \"#00a9f1\",\n\t\t\t\"neobrutalismLight\": \"#00a9f1\",\n\t\t\t\"neobrutalismDark\": \"#00a9f1\"\n\t\t},\n\t\t\"surfaceOthersCyan\": {\n\t\t\t\"modernLight\": \"#00bcd3\",\n\t\t\t\"modernDark\": \"#00bcd3\",\n\t\t\t\"neobrutalismLight\": \"#00bcd3\",\n\t\t\t\"neobrutalismDark\": \"#00bcd3\"\n\t\t},\n\t\t\"surfaceOthersTeal\": {\n\t\t\t\"modernLight\": \"#009689\",\n\t\t\t\"modernDark\": \"#009689\",\n\t\t\t\"neobrutalismLight\": \"#009689\",\n\t\t\t\"neobrutalismDark\": \"#009689\"\n\t\t},\n\t\t\"surfaceOthersGreen\": {\n\t\t\t\"modernLight\": \"#4aaf57\",\n\t\t\t\"modernDark\": \"#4aaf57\",\n\t\t\t\"neobrutalismLight\": \"#4aaf57\",\n\t\t\t\"neobrutalismDark\": \"#4aaf57\"\n\t\t},\n\t\t\"surfaceOthersLightGreen\": {\n\t\t\t\"modernLight\": \"#8bc255\",\n\t\t\t\"modernDark\": \"#8bc255\",\n\t\t\t\"neobrutalismLight\": \"#8bc255\",\n\t\t\t\"neobrutalismDark\": \"#8bc255\"\n\t\t},\n\t\t\"surfaceOthersLime\": {\n\t\t\t\"modernLight\": \"#cddc4c\",\n\t\t\t\"modernDark\": \"#cddc4c\",\n\t\t\t\"neobrutalismLight\": \"#cddc4c\",\n\t\t\t\"neobrutalismDark\": \"#cddc4c\"\n\t\t},\n\t\t\"surfaceOthersYellow\": {\n\t\t\t\"modernLight\": \"#ffeb4f\",\n\t\t\t\"modernDark\": \"#ffeb4f\",\n\t\t\t\"neobrutalismLight\": \"#ffeb4f\",\n\t\t\t\"neobrutalismDark\": \"#ffeb4f\"\n\t\t},\n\t\t\"surfaceOthersAmber\": {\n\t\t\t\"modernLight\": \"#ffc02d\",\n\t\t\t\"modernDark\": \"#ffc02d\",\n\t\t\t\"neobrutalismLight\": \"#ffc02d\",\n\t\t\t\"neobrutalismDark\": \"#ffc02d\"\n\t\t},\n\t\t\"surfaceOthersOrange\": {\n\t\t\t\"modernLight\": \"#ff981f\",\n\t\t\t\"modernDark\": \"#ff981f\",\n\t\t\t\"neobrutalismLight\": \"#ff981f\",\n\t\t\t\"neobrutalismDark\": \"#ff981f\"\n\t\t},\n\t\t\"surfaceOthersDeepOrange\": {\n\t\t\t\"modernLight\": \"#ff5726\",\n\t\t\t\"modernDark\": \"#ff5726\",\n\t\t\t\"neobrutalismLight\": \"#ff5726\",\n\t\t\t\"neobrutalismDark\": \"#ff5726\"\n\t\t},\n\t\t\"surfaceOthersBrown\": {\n\t\t\t\"modernLight\": \"#7a5548\",\n\t\t\t\"modernDark\": \"#7a5548\",\n\t\t\t\"neobrutalismLight\": \"#7a5548\",\n\t\t\t\"neobrutalismDark\": \"#7a5548\"\n\t\t},\n\t\t\"surfaceOthersBlueGrey\": {\n\t\t\t\"modernLight\": \"#607d8a\",\n\t\t\t\"modernDark\": \"#607d8a\",\n\t\t\t\"neobrutalismLight\": \"#607d8a\",\n\t\t\t\"neobrutalismDark\": \"#607d8a\"\n\t\t},\n\t\t\"strokeAdditionalsSearchFormLight\": {\n\t\t\t\"modernLight\": \"#ffffff\",\n\t\t\t\"modernDark\": \"#181a20\",\n\t\t\t\"neobrutalismLight\": \"#000000\",\n\t\t\t\"neobrutalismDark\": \"#ffffff\"\n\t\t},\n\t\t\"strokeAdditionalsSearchFormDark\": {\n\t\t\t\"modernLight\": \"#181a20\",\n\t\t\t\"modernDark\": \"#ffffff\",\n\t\t\t\"neobrutalismLight\": \"#ffffff\",\n\t\t\t\"neobrutalismDark\": \"#000000\"\n\t\t}\n\t}\n}"
+{
+	"colors": {
+		"primary900": {
+			"value": "#1a998e"
+		},
+		"primary800": {
+			"value": "#31a399"
+		},
+		"primary700": {
+			"value": "#48ada5"
+		},
+		"primary600": {
+			"value": "#5fb8b0"
+		},
+		"primary500": {
+			"value": "#76c2bb"
+		},
+		"primary400": {
+			"value": "#8dccc7"
+		},
+		"primary300": {
+			"value": "#a3d6d2"
+		},
+		"primary200": {
+			"value": "#bae0dd"
+		},
+		"primary100": {
+			"value": "#d1ebe8"
+		},
+		"primary50": {
+			"value": "#e8f5f4"
+		},
+		"secondary900": {
+			"value": "#176b87"
+		},
+		"secondary800": {
+			"value": "#2e7a93"
+		},
+		"secondary700": {
+			"value": "#45899f"
+		},
+		"secondary600": {
+			"value": "#5d97ab"
+		},
+		"secondary500": {
+			"value": "#74a6b7"
+		},
+		"secondary400": {
+			"value": "#8bb5c3"
+		},
+		"secondary300": {
+			"value": "#a2c4cf"
+		},
+		"secondary200": {
+			"value": "#b9d3db"
+		},
+		"secondary100": {
+			"value": "#d1e1e7"
+		},
+		"secondary50": {
+			"value": "#e8f0f3"
+		},
+		"alertsStatusSuccess": {
+			"value": "#12d18e"
+		},
+		"alertsStatusInfo": {
+			"value": "#1a998e"
+		},
+		"alertsStatusWarning": {
+			"value": "#facc15"
+		},
+		"alertsStatusError": {
+			"value": "#f75555"
+		},
+		"alertsStatusLightDisabled": {
+			"value": "#d8d8d8"
+		},
+		"alertsStatusDarkDisabled": {
+			"value": "#23252b"
+		},
+		"alertsStatusButtonDisabled": {
+			"value": "#157a72"
+		},
+		"greyscale900": {
+			"value": "#212121"
+		},
+		"greyscale800": {
+			"value": "#424242"
+		},
+		"greyscale700": {
+			"value": "#616161"
+		},
+		"greyscale600": {
+			"value": "#757575"
+		},
+		"greyscale500": {
+			"value": "#9e9e9e"
+		},
+		"greyscale400": {
+			"value": "#bdbdbd"
+		},
+		"greyscale300": {
+			"value": "#e0e0e0"
+		},
+		"greyscale200": {
+			"value": "#eeeeee"
+		},
+		"greyscale100": {
+			"value": "#f5f5f5"
+		},
+		"greyscale50": {
+			"value": "#fafafa"
+		},
+		"othersWhite": {
+			"value": "#ffffff"
+		},
+		"othersBlack": {
+			"value": "#000000"
+		},
+		"othersRed": {
+			"value": "#f54336"
+		},
+		"othersPink": {
+			"value": "#ea1e61"
+		},
+		"othersPurple": {
+			"value": "#9d28ac"
+		},
+		"othersDeepPurple": {
+			"value": "#673ab3"
+		},
+		"othersIndigo": {
+			"value": "#3f51b2"
+		},
+		"othersBlue": {
+			"value": "#1a96f0"
+		},
+		"othersLightBlue": {
+			"value": "#00a9f1"
+		},
+		"othersCyan": {
+			"value": "#00bcd3"
+		},
+		"othersTeal": {
+			"value": "#009689"
+		},
+		"othersGreen": {
+			"value": "#4aaf57"
+		},
+		"othersLightGreen": {
+			"value": "#8bc255"
+		},
+		"othersLime": {
+			"value": "#cddc4c"
+		},
+		"othersYellow": {
+			"value": "#ffeb4f"
+		},
+		"othersAmber": {
+			"value": "#ffc02d"
+		},
+		"othersOrange": {
+			"value": "#ff981f"
+		},
+		"othersDeepOrange": {
+			"value": "#ff5726"
+		},
+		"othersBrown": {
+			"value": "#7a5548"
+		},
+		"othersBlueGrey": {
+			"value": "#607d8a"
+		},
+		"dark1": {
+			"value": "#181a20"
+		},
+		"dark2": {
+			"value": "#1e2025"
+		},
+		"dark3": {
+			"value": "#1f222a"
+		},
+		"dark4": {
+			"value": "#262a35"
+		},
+		"dark5": {
+			"value": "#35383f"
+		},
+		"backgroundTeal": {
+			"value": "#f0fbfa"
+		},
+		"backgroundPurple": {
+			"value": "#f8f0fe"
+		},
+		"backgroundRed": {
+			"value": "#fff3f3"
+		},
+		"backgroundBlue": {
+			"value": "#f3f6ff"
+		},
+		"backgroundGreen": {
+			"value": "#edfbf7"
+		},
+		"backgroundBrown": {
+			"value": "#fbf6f3"
+		},
+		"backgroundYellow": {
+			"value": "#fffceb"
+		},
+		"backgroundOrange": {
+			"value": "#fff8ee"
+		},
+		"transparentTeal": {
+			"value": "#1a998e14"
+		},
+		"transparentPurple": {
+			"value": "#9610ff14"
+		},
+		"transparentRed": {
+			"value": "#ff4a4a14"
+		},
+		"transparentBlue": {
+			"value": "#235dff14"
+		},
+		"transparentGreen": {
+			"value": "#17ce9214"
+		},
+		"transparentBrown": {
+			"value": "#a4634d14"
+		},
+		"transparentYellow": {
+			"value": "#ffd30014"
+		},
+		"transparentOrange": {
+			"value": "#f8930014"
+		},
+		"transparentGrey": {
+			"value": "#75757514"
+		},
+		"backgroundGrey": {
+			"value": "#f6f6f6"
+		}
+	},
+	"themes": {
+		"textGeneralBrand": {
+			"modernLight": "#1a998e",
+			"modernDark": "#1a998e",
+			"neobrutalismLight": "#1a998e",
+			"neobrutalismDark": "#1a998e"
+		},
+		"textGreyscale900": {
+			"modernLight": "#212121",
+			"modernDark": "#fafafa",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"textGreyscale800": {
+			"modernLight": "#424242",
+			"modernDark": "#f5f5f5",
+			"neobrutalismLight": "#424242",
+			"neobrutalismDark": "#f5f5f5"
+		},
+		"textGreyscale700": {
+			"modernLight": "#616161",
+			"modernDark": "#eeeeee",
+			"neobrutalismLight": "#616161",
+			"neobrutalismDark": "#eeeeee"
+		},
+		"textGreyscale600": {
+			"modernLight": "#757575",
+			"modernDark": "#e0e0e0",
+			"neobrutalismLight": "#757575",
+			"neobrutalismDark": "#e0e0e0"
+		},
+		"textGreyscale500": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#bdbdbd",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#bdbdbd"
+		},
+		"textGreyscale400": {
+			"modernLight": "#bdbdbd",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#bdbdbd",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"textGreyscale300": {
+			"modernLight": "#e0e0e0",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#e0e0e0",
+			"neobrutalismDark": "#757575"
+		},
+		"textGreyscale200": {
+			"modernLight": "#eeeeee",
+			"modernDark": "#616161",
+			"neobrutalismLight": "#eeeeee",
+			"neobrutalismDark": "#616161"
+		},
+		"textGreyscale100": {
+			"modernLight": "#f5f5f5",
+			"modernDark": "#424242",
+			"neobrutalismLight": "#f5f5f5",
+			"neobrutalismDark": "#424242"
+		},
+		"textGreyscale50": {
+			"modernLight": "#fafafa",
+			"modernDark": "#212121",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"textGeneralWhite": {
+			"modernLight": "#ffffff",
+			"modernDark": "#000000",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"textGeneralBlack": {
+			"modernLight": "#000000",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"textAlertsStatusSuccess": {
+			"modernLight": "#12d18e",
+			"modernDark": "#12d18e",
+			"neobrutalismLight": "#12d18e",
+			"neobrutalismDark": "#12d18e"
+		},
+		"textAlertsStatusInfo": {
+			"modernLight": "#1a998e",
+			"modernDark": "#1a998e",
+			"neobrutalismLight": "#1a998e",
+			"neobrutalismDark": "#1a998e"
+		},
+		"textAlertsStatusWarning": {
+			"modernLight": "#facc15",
+			"modernDark": "#facc15",
+			"neobrutalismLight": "#facc15",
+			"neobrutalismDark": "#facc15"
+		},
+		"textAlertsStatusError": {
+			"modernLight": "#f75555",
+			"modernDark": "#f75555",
+			"neobrutalismLight": "#f75555",
+			"neobrutalismDark": "#f75555"
+		},
+		"surfaceGeneralBrand": {
+			"modernLight": "#1a998e",
+			"modernDark": "#1a998e",
+			"neobrutalismLight": "#1a998e",
+			"neobrutalismDark": "#1a998e"
+		},
+		"surfaceGeneralWhite": {
+			"modernLight": "#ffffff",
+			"modernDark": "#000000",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"surfaceGeneralBlack": {
+			"modernLight": "#000000",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceAlertsStatusSuccess": {
+			"modernLight": "#12d18e",
+			"modernDark": "#12d18e",
+			"neobrutalismLight": "#12d18e",
+			"neobrutalismDark": "#12d18e"
+		},
+		"surfaceAlertsStatusInfo": {
+			"modernLight": "#1a998e",
+			"modernDark": "#1a998e",
+			"neobrutalismLight": "#1a998e",
+			"neobrutalismDark": "#1a998e"
+		},
+		"surfaceAlertsStatusWarning": {
+			"modernLight": "#facc15",
+			"modernDark": "#facc15",
+			"neobrutalismLight": "#facc15",
+			"neobrutalismDark": "#facc15"
+		},
+		"surfaceAlertsStatusError": {
+			"modernLight": "#f75555",
+			"modernDark": "#f75555",
+			"neobrutalismLight": "#f75555",
+			"neobrutalismDark": "#f75555"
+		},
+		"surfaceAlertsStatusLightDisabled": {
+			"modernLight": "#d8d8d8",
+			"modernDark": "#23252b",
+			"neobrutalismLight": "#d8d8d8",
+			"neobrutalismDark": "#23252b"
+		},
+		"surfaceAlertsStatusDarkDisabled": {
+			"modernLight": "#23252b",
+			"modernDark": "#d8d8d8",
+			"neobrutalismLight": "#23252b",
+			"neobrutalismDark": "#d8d8d8"
+		},
+		"surfaceAlertsStatusButtonDisabled": {
+			"modernLight": "#157a72",
+			"modernDark": "#157a72",
+			"neobrutalismLight": "#157a72",
+			"neobrutalismDark": "#157a72"
+		},
+		"surfaceGreyscale900": {
+			"modernLight": "#212121",
+			"modernDark": "#fafafa",
+			"neobrutalismLight": "#212121",
+			"neobrutalismDark": "#fafafa"
+		},
+		"surfaceGreyscale800": {
+			"modernLight": "#424242",
+			"modernDark": "#f5f5f5",
+			"neobrutalismLight": "#424242",
+			"neobrutalismDark": "#f5f5f5"
+		},
+		"surfaceGreyscale700": {
+			"modernLight": "#616161",
+			"modernDark": "#eeeeee",
+			"neobrutalismLight": "#616161",
+			"neobrutalismDark": "#eeeeee"
+		},
+		"surfaceGreyscale600": {
+			"modernLight": "#757575",
+			"modernDark": "#e0e0e0",
+			"neobrutalismLight": "#757575",
+			"neobrutalismDark": "#e0e0e0"
+		},
+		"surfaceGreyscale500": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#bdbdbd",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#bdbdbd"
+		},
+		"surfaceGreyscale400": {
+			"modernLight": "#bdbdbd",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#bdbdbd",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"surfaceGreyscale300": {
+			"modernLight": "#e0e0e0",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#e0e0e0",
+			"neobrutalismDark": "#757575"
+		},
+		"surfaceGreyscale200": {
+			"modernLight": "#eeeeee",
+			"modernDark": "#616161",
+			"neobrutalismLight": "#eeeeee",
+			"neobrutalismDark": "#616161"
+		},
+		"surfaceGreyscale100": {
+			"modernLight": "#f5f5f5",
+			"modernDark": "#424242",
+			"neobrutalismLight": "#f5f5f5",
+			"neobrutalismDark": "#424242"
+		},
+		"surfaceGreyscale50": {
+			"modernLight": "#fafafa",
+			"modernDark": "#212121",
+			"neobrutalismLight": "#fafafa",
+			"neobrutalismDark": "#212121"
+		},
+		"surfaceLightDarkDark1": {
+			"modernLight": "#181a20",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#181a20",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceLightDarkDark2": {
+			"modernLight": "#1e2025",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#1e2025",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceLightDarkDark3": {
+			"modernLight": "#1f222a",
+			"modernDark": "#fafafa",
+			"neobrutalismLight": "#1f222a",
+			"neobrutalismDark": "#fafafa"
+		},
+		"surfaceLightDarkDark6": {
+			"modernLight": "#262a35",
+			"modernDark": "#f5f5f5",
+			"neobrutalismLight": "#262a35",
+			"neobrutalismDark": "#f5f5f5"
+		},
+		"surfaceLightDarkDark7": {
+			"modernLight": "#35383f",
+			"modernDark": "#eeeeee",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#eeeeee"
+		},
+		"surfaceBackgroundBackgroundTeal": {
+			"modernLight": "#f0fbfa",
+			"modernDark": "#f0fbfa",
+			"neobrutalismLight": "#f0fbfa",
+			"neobrutalismDark": "#f0fbfa"
+		},
+		"surfaceBackgroundBackgroundPurple": {
+			"modernLight": "#f8f0fe",
+			"modernDark": "#f8f0fe",
+			"neobrutalismLight": "#f8f0fe",
+			"neobrutalismDark": "#f8f0fe"
+		},
+		"surfaceBackgroundBackgroundRed": {
+			"modernLight": "#fff3f3",
+			"modernDark": "#fff3f3",
+			"neobrutalismLight": "#fff3f3",
+			"neobrutalismDark": "#fff3f3"
+		},
+		"surfaceBackgroundBackgroundBlue": {
+			"modernLight": "#f3f6ff",
+			"modernDark": "#f3f6ff",
+			"neobrutalismLight": "#f3f6ff",
+			"neobrutalismDark": "#f3f6ff"
+		},
+		"surfaceBackgroundBackgroundGreen": {
+			"modernLight": "#edfbf7",
+			"modernDark": "#edfbf7",
+			"neobrutalismLight": "#edfbf7",
+			"neobrutalismDark": "#edfbf7"
+		},
+		"surfaceBackgroundBackgroundBrown": {
+			"modernLight": "#fbf6f3",
+			"modernDark": "#fbf6f3",
+			"neobrutalismLight": "#fbf6f3",
+			"neobrutalismDark": "#fbf6f3"
+		},
+		"surfaceBackgroundBackgroundYellow": {
+			"modernLight": "#fffceb",
+			"modernDark": "#fffceb",
+			"neobrutalismLight": "#fffceb",
+			"neobrutalismDark": "#fffceb"
+		},
+		"surfaceBackgroundBackgroundOrange": {
+			"modernLight": "#fff8ee",
+			"modernDark": "#fff8ee",
+			"neobrutalismLight": "#fff8ee",
+			"neobrutalismDark": "#fff8ee"
+		},
+		"surfaceTransparentTransparentTeal": {
+			"modernLight": "#1a998e14",
+			"modernDark": "#1a998e14",
+			"neobrutalismLight": "#1a998e14",
+			"neobrutalismDark": "#1a998e14"
+		},
+		"surfaceTransparentTransparentPurple": {
+			"modernLight": "#9610ff14",
+			"modernDark": "#9610ff14",
+			"neobrutalismLight": "#9610ff14",
+			"neobrutalismDark": "#9610ff14"
+		},
+		"surfaceTransparentTransparentRed": {
+			"modernLight": "#ff4a4a14",
+			"modernDark": "#ff4a4a14",
+			"neobrutalismLight": "#ff4a4a14",
+			"neobrutalismDark": "#ff4a4a14"
+		},
+		"surfaceTransparentTransparentBlue": {
+			"modernLight": "#235dff14",
+			"modernDark": "#235dff14",
+			"neobrutalismLight": "#235dff14",
+			"neobrutalismDark": "#235dff14"
+		},
+		"surfaceTransparentTransparentGreen": {
+			"modernLight": "#17ce9214",
+			"modernDark": "#17ce9214",
+			"neobrutalismLight": "#17ce9214",
+			"neobrutalismDark": "#17ce9214"
+		},
+		"surfaceTransparentTransparentBrown": {
+			"modernLight": "#a4634d14",
+			"modernDark": "#a4634d14",
+			"neobrutalismLight": "#a4634d14",
+			"neobrutalismDark": "#a4634d14"
+		},
+		"surfaceTransparentTransparentYellow": {
+			"modernLight": "#ffd30014",
+			"modernDark": "#ffd30014",
+			"neobrutalismLight": "#ffd30014",
+			"neobrutalismDark": "#ffd30014"
+		},
+		"surfaceTransparentTransparentOrange": {
+			"modernLight": "#f8930014",
+			"modernDark": "#f8930014",
+			"neobrutalismLight": "#f8930014",
+			"neobrutalismDark": "#f8930014"
+		},
+		"strokeGeneralBrand": {
+			"modernLight": "#1a998e",
+			"modernDark": "#1a998e",
+			"neobrutalismLight": "#1a998e",
+			"neobrutalismDark": "#1a998e"
+		},
+		"strokeGreyscaleGreyscale300": {
+			"modernLight": "#e0e0e0",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeGreyscaleGreyscale200": {
+			"modernLight": "#eeeeee",
+			"modernDark": "#616161",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeGreyscaleGreyscale100": {
+			"modernLight": "#f5f5f5",
+			"modernDark": "#424242",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeGreyscaleGreyscale50": {
+			"modernLight": "#fafafa",
+			"modernDark": "#212121",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeGeneralWhite": {
+			"modernLight": "#ffffff",
+			"modernDark": "#000000",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"strokeGeneralBlack": {
+			"modernLight": "#000000",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceTransparentTransparentGrey": {
+			"modernLight": "#75757514",
+			"modernDark": "#75757514",
+			"neobrutalismLight": "#75757514",
+			"neobrutalismDark": "#75757514"
+		},
+		"strokeGreyscaleGreyscale900": {
+			"modernLight": "#212121",
+			"modernDark": "#fafafa",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeGreyscaleGreyscale800": {
+			"modernLight": "#424242",
+			"modernDark": "#f5f5f5",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeGreyscaleGreyscale700": {
+			"modernLight": "#616161",
+			"modernDark": "#eeeeee",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeGreyscaleGreyscale600": {
+			"modernLight": "#757575",
+			"modernDark": "#e0e0e0",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeGreyscaleGreyscale500": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#bdbdbd",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeGreyscaleGreyscale400": {
+			"modernLight": "#bdbdbd",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeAlertsStatusLightDisabled": {
+			"modernLight": "#d8d8d8",
+			"modernDark": "#23252b",
+			"neobrutalismLight": "#d8d8d8",
+			"neobrutalismDark": "#23252b"
+		},
+		"strokeAlertsStatusDarkDisabled": {
+			"modernLight": "#23252b",
+			"modernDark": "#d8d8d8",
+			"neobrutalismLight": "#23252b",
+			"neobrutalismDark": "#d8d8d8"
+		},
+		"strokeAlertsStatusButtonDisabled": {
+			"modernLight": "#157a72",
+			"modernDark": "#157a72",
+			"neobrutalismLight": "#157a72",
+			"neobrutalismDark": "#157a72"
+		},
+		"strokeAlertsStatusSuccess": {
+			"modernLight": "#12d18e",
+			"modernDark": "#12d18e",
+			"neobrutalismLight": "#12d18e",
+			"neobrutalismDark": "#12d18e"
+		},
+		"strokeAlertsStatusInfo": {
+			"modernLight": "#1a998e",
+			"modernDark": "#1a998e",
+			"neobrutalismLight": "#1a998e",
+			"neobrutalismDark": "#1a998e"
+		},
+		"strokeAlertsStatusWarning": {
+			"modernLight": "#facc15",
+			"modernDark": "#facc15",
+			"neobrutalismLight": "#facc15",
+			"neobrutalismDark": "#facc15"
+		},
+		"strokeAlertsStatusError": {
+			"modernLight": "#f75555",
+			"modernDark": "#f75555",
+			"neobrutalismLight": "#f75555",
+			"neobrutalismDark": "#f75555"
+		},
+		"strokeBorderSingleStrokeBorderLight": {
+			"modernLight": "#eeeeee",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#e0e0e0",
+			"neobrutalismDark": "#35383f"
+		},
+		"strokeBorderFullStrokeLight": {
+			"modernLight": "#eeeeee",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeBorderSingleStrokeDividerLight": {
+			"modernLight": "#eeeeee",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#e0e0e0",
+			"neobrutalismDark": "#616161"
+		},
+		"textButtonsBrand": {
+			"modernLight": "#1a998e",
+			"modernDark": "#1a998e",
+			"neobrutalismLight": "#1a998e",
+			"neobrutalismDark": "#1a998e"
+		},
+		"textButtonsWhite": {
+			"modernLight": "#ffffff",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#ffffff"
+		},
+		"textButtonsGreyscale900": {
+			"modernLight": "#212121",
+			"modernDark": "#212121",
+			"neobrutalismLight": "#212121",
+			"neobrutalismDark": "#212121"
+		},
+		"surfaceButtonsBrand": {
+			"modernLight": "#1a998e",
+			"modernDark": "#1a998e",
+			"neobrutalismLight": "#1a998e",
+			"neobrutalismDark": "#1a998e"
+		},
+		"surfaceButtonsButtonLight": {
+			"modernLight": "#f0fbfa",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#f0fbfa",
+			"neobrutalismDark": "#35383f"
+		},
+		"surfaceButtonsButtonDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#f0fbfa",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#f0fbfa"
+		},
+		"surfaceButtonsSocialMediaLight": {
+			"modernLight": "#ffffff",
+			"modernDark": "#1f222a",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#1f222a"
+		},
+		"surfaceButtonsSocialMediaDark": {
+			"modernLight": "#1f222a",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#1f222a",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceButtonsButtonDisabled": {
+			"modernLight": "#157a72",
+			"modernDark": "#157a72",
+			"neobrutalismLight": "#157a72",
+			"neobrutalismDark": "#157a72"
+		},
+		"surfaceButtonsButton50": {
+			"modernLight": "#fafafa",
+			"modernDark": "#fafafa",
+			"neobrutalismLight": "#fafafa",
+			"neobrutalismDark": "#fafafa"
+		},
+		"textButtonsSocialMediaLight": {
+			"modernLight": "#212121",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#212121",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceButtonsGreyscaleIcon900": {
+			"modernLight": "#212121",
+			"modernDark": "#212121",
+			"neobrutalismLight": "#212121",
+			"neobrutalismDark": "#212121"
+		},
+		"surfaceButtonsWhiteIcon": {
+			"modernLight": "#ffffff",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#ffffff"
+		},
+		"textButtonsBrandLight": {
+			"modernLight": "#1a998e",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#1a998e",
+			"neobrutalismDark": "#ffffff"
+		},
+		"textButtonsWhiteDark": {
+			"modernLight": "#ffffff",
+			"modernDark": "#1a998e",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#1a998e"
+		},
+		"textButtonsSocialMediaDark": {
+			"modernLight": "#ffffff",
+			"modernDark": "#212121",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#212121"
+		},
+		"surfaceButtonsBrandLight": {
+			"modernLight": "#1a998e",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#1a998e",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceButtonsWhiteDark": {
+			"modernLight": "#ffffff",
+			"modernDark": "#1a998e",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#1a998e"
+		},
+		"strokeBorderSingleStrokeBorderDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#eeeeee",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#e0e0e0"
+		},
+		"strokeBorderSingleStrokeDividerDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#eeeeee",
+			"neobrutalismLight": "#616161",
+			"neobrutalismDark": "#e0e0e0"
+		},
+		"strokeBorderFullStrokeDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#eeeeee",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"surfaceComponentsDropdownLight": {
+			"modernLight": "#ffffff",
+			"modernDark": "#262a35",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#262a35"
+		},
+		"surfaceComponentsDropdownDark": {
+			"modernLight": "#262a35",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#262a35",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceComponentsModalLight": {
+			"modernLight": "#ffffff",
+			"modernDark": "#1f222a",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#1f222a"
+		},
+		"surfaceComponentsModalDark": {
+			"modernLight": "#1f222a",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#1f222a",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceComponentsButtomBarActionLight": {
+			"modernLight": "#ffffff",
+			"modernDark": "#181a20",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#181a20"
+		},
+		"surfaceComponentsButtomBarActionDark": {
+			"modernLight": "#181a20",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#181a20",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceComponentsGeneralFrameLight": {
+			"modernLight": "#fafafa",
+			"modernDark": "#1f222a",
+			"neobrutalismLight": "#fafafa",
+			"neobrutalismDark": "#1f222a"
+		},
+		"surfaceComponentsGeneralFrameDark": {
+			"modernLight": "#1f222a",
+			"modernDark": "#fafafa",
+			"neobrutalismLight": "#1f222a",
+			"neobrutalismDark": "#fafafa"
+		},
+		"surfaceAdditionalsOverColorFrameLight": {
+			"modernLight": "#ffffff",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceComponentsDropdownIconLight": {
+			"modernLight": "#212121",
+			"modernDark": "#fafafa",
+			"neobrutalismLight": "#212121",
+			"neobrutalismDark": "#fafafa"
+		},
+		"surfaceComponentsDropdownIconDark": {
+			"modernLight": "#fafafa",
+			"modernDark": "#212121",
+			"neobrutalismLight": "#fafafa",
+			"neobrutalismDark": "#212121"
+		},
+		"surfaceLightDarkLight2": {
+			"modernLight": "#ffffff",
+			"modernDark": "#1e2025",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#1e2025"
+		},
+		"surfaceLightDarkLight3": {
+			"modernLight": "#fafafa",
+			"modernDark": "#1f222a",
+			"neobrutalismLight": "#fafafa",
+			"neobrutalismDark": "#1f222a"
+		},
+		"surfaceLightDarkLight6": {
+			"modernLight": "#f5f5f5",
+			"modernDark": "#262a35",
+			"neobrutalismLight": "#f5f5f5",
+			"neobrutalismDark": "#262a35"
+		},
+		"surfaceLightDarkLight7": {
+			"modernLight": "#eeeeee",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#eeeeee",
+			"neobrutalismDark": "#35383f"
+		},
+		"surfaceLightDarkLight1": {
+			"modernLight": "#ffffff",
+			"modernDark": "#181a20",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#181a20"
+		},
+		"surfaceAdditionalsOverColorFrameDark": {
+			"modernLight": "#212121",
+			"modernDark": "#212121",
+			"neobrutalismLight": "#212121",
+			"neobrutalismDark": "#212121"
+		},
+		"textGeneralTextLight": {
+			"modernLight": "#212121",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"textGeneralTextDark": {
+			"modernLight": "#ffffff",
+			"modernDark": "#212121",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"surfaceGeneralSurfaceLight": {
+			"modernLight": "#212121",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceGeneralSurfaceDark": {
+			"modernLight": "#ffffff",
+			"modernDark": "#212121",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"surfaceLightDarkLight8": {
+			"modernLight": "#e0e0e0",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#e0e0e0",
+			"neobrutalismDark": "#35383f"
+		},
+		"surfaceLightDarkDark8": {
+			"modernLight": "#35383f",
+			"modernDark": "#e0e0e0",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#e0e0e0"
+		},
+		"strokeAdditionalsToggle400": {
+			"modernLight": "#bdbdbd",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#bdbdbd",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceLightDarkLight5": {
+			"modernLight": "#f5f5f5",
+			"modernDark": "#1f222a",
+			"neobrutalismLight": "#f5f5f5",
+			"neobrutalismDark": "#1f222a"
+		},
+		"surfaceLightDarkDark5": {
+			"modernLight": "#1f222a",
+			"modernDark": "#f5f5f5",
+			"neobrutalismLight": "#1f222a",
+			"neobrutalismDark": "#f5f5f5"
+		},
+		"surfaceComponentsSearchSurfaceLight": {
+			"modernLight": "#bdbdbd",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#bdbdbd",
+			"neobrutalismDark": "#757575"
+		},
+		"surfaceComponentsSearchSurfaceDark": {
+			"modernLight": "#757575",
+			"modernDark": "#bdbdbd",
+			"neobrutalismLight": "#757575",
+			"neobrutalismDark": "#bdbdbd"
+		},
+		"textComponentsSearchTextLight": {
+			"modernLight": "#bdbdbd",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#bdbdbd",
+			"neobrutalismDark": "#757575"
+		},
+		"textComponentsSearchTextDark": {
+			"modernLight": "#757575",
+			"modernDark": "#bdbdbd",
+			"neobrutalismLight": "#757575",
+			"neobrutalismDark": "#bdbdbd"
+		},
+		"textComponentsTextFilled": {
+			"modernLight": "#ffffff",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#ffffff"
+		},
+		"surfaceComponentsSurfaceFilled": {
+			"modernLight": "#ffffff",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeLightDarkLight1": {
+			"modernLight": "#ffffff",
+			"modernDark": "#181a20",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#181a20"
+		},
+		"strokeLightDarkLight2": {
+			"modernLight": "#ffffff",
+			"modernDark": "#1e2025",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#1e2025"
+		},
+		"strokeLightDarkLight3": {
+			"modernLight": "#fafafa",
+			"modernDark": "#1f222a",
+			"neobrutalismLight": "#fafafa",
+			"neobrutalismDark": "#1f222a"
+		},
+		"strokeLightDarkLight5": {
+			"modernLight": "#f5f5f5",
+			"modernDark": "#262a35",
+			"neobrutalismLight": "#f5f5f5",
+			"neobrutalismDark": "#262a35"
+		},
+		"strokeLightDarkLight4": {
+			"modernLight": "#f5f5f5",
+			"modernDark": "#1f222a",
+			"neobrutalismLight": "#f5f5f5",
+			"neobrutalismDark": "#1f222a"
+		},
+		"strokeLightDarkLight7": {
+			"modernLight": "#eeeeee",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#eeeeee",
+			"neobrutalismDark": "#35383f"
+		},
+		"strokeLightDarkLight8": {
+			"modernLight": "#e0e0e0",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#e0e0e0",
+			"neobrutalismDark": "#35383f"
+		},
+		"strokeLightDarkDark1": {
+			"modernLight": "#181a20",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#181a20",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeLightDarkDark2": {
+			"modernLight": "#1e2025",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#1e2025",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeLightDarkDark3": {
+			"modernLight": "#1f222a",
+			"modernDark": "#fafafa",
+			"neobrutalismLight": "#1f222a",
+			"neobrutalismDark": "#fafafa"
+		},
+		"strokeLightDarkDark5": {
+			"modernLight": "#262a35",
+			"modernDark": "#f5f5f5",
+			"neobrutalismLight": "#262a35",
+			"neobrutalismDark": "#f5f5f5"
+		},
+		"strokeLightDarkDark4": {
+			"modernLight": "#1f222a",
+			"modernDark": "#f5f5f5",
+			"neobrutalismLight": "#1f222a",
+			"neobrutalismDark": "#f5f5f5"
+		},
+		"strokeLightDarkDark7": {
+			"modernLight": "#35383f",
+			"modernDark": "#eeeeee",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#eeeeee"
+		},
+		"strokeLightDarkDark8": {
+			"modernLight": "#35383f",
+			"modernDark": "#e0e0e0",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#e0e0e0"
+		},
+		"surfaceBackgroundBackgroundGrey": {
+			"modernLight": "#f6f6f6",
+			"modernDark": "#f6f6f6",
+			"neobrutalismLight": "#f6f6f6",
+			"neobrutalismDark": "#f6f6f6"
+		},
+		"surfaceTagSolidDefaultGrey600": {
+			"modernLight": "#757575",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#757575",
+			"neobrutalismDark": "#757575"
+		},
+		"surfaceTagInvertedDefaultLight": {
+			"modernLight": "#f6f6f6",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#f6f6f6",
+			"neobrutalismDark": "#35383f"
+		},
+		"surfaceTagInvertedInfoLight": {
+			"modernLight": "#f0fbfa",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#f0fbfa",
+			"neobrutalismDark": "#35383f"
+		},
+		"surfaceTagInvertedSuccessLight": {
+			"modernLight": "#edfbf7",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#edfbf7",
+			"neobrutalismDark": "#35383f"
+		},
+		"surfaceTagInvertedWarningLight": {
+			"modernLight": "#fffceb",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#fffceb",
+			"neobrutalismDark": "#35383f"
+		},
+		"surfaceTagInvertedErrorLight": {
+			"modernLight": "#fff3f3",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#fff3f3",
+			"neobrutalismDark": "#35383f"
+		},
+		"surfaceTagInvertedDefaultDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#f6f6f6",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#f6f6f6"
+		},
+		"strokeAdditionalsTagOutlineDefault600": {
+			"modernLight": "#757575",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#757575",
+			"neobrutalismDark": "#757575"
+		},
+		"textTagTagSolidDefault600": {
+			"modernLight": "#757575",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#757575",
+			"neobrutalismDark": "#757575"
+		},
+		"surfaceTagInvertedInfoDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#f0fbfa",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#f0fbfa"
+		},
+		"surfaceTagInvertedSuccessDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#edfbf7",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#edfbf7"
+		},
+		"surfaceTagInvertedWarningDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#fffceb",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#fffceb"
+		},
+		"surfaceTagInvertedErrorDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#fff3f3",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#fff3f3"
+		},
+		"textTagTagInvertedDefaultLight": {
+			"modernLight": "#757575",
+			"modernDark": "#e0e0e0",
+			"neobrutalismLight": "#757575",
+			"neobrutalismDark": "#e0e0e0"
+		},
+		"textTagTagInvertedDefaultDark": {
+			"modernLight": "#e0e0e0",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#e0e0e0",
+			"neobrutalismDark": "#757575"
+		},
+		"surfaceComponentsCategoryMenuLight": {
+			"modernLight": "#f0fbfa",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#f0fbfa",
+			"neobrutalismDark": "#35383f"
+		},
+		"surfaceComponentsCategoryMenuDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#f0fbfa",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#f0fbfa"
+		},
+		"textComponentsMenuBarText500": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"surfaceComponentsMenuBarIcon500": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"surfaceComponentsMenuBarSurfaceLight": {
+			"modernLight": "#ffffff",
+			"modernDark": "#181a20d8",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#181a20d8"
+		},
+		"surfaceComponentsMenuBarSurfaceDark": {
+			"modernLight": "#181a20d8",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#181a20d8",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeLightDarkLight6": {
+			"modernLight": "#f5f5f5",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#f5f5f5",
+			"neobrutalismDark": "#35383f"
+		},
+		"strokeLightDarkDark6": {
+			"modernLight": "#35383f",
+			"modernDark": "#f5f5f5",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#f5f5f5"
+		},
+		"surfaceLightDarkLight4": {
+			"modernLight": "#f5f5f5",
+			"modernDark": "#1e2025",
+			"neobrutalismLight": "#f5f5f5",
+			"neobrutalismDark": "#1e2025"
+		},
+		"surfaceLightDarkDark4": {
+			"modernLight": "#1e2025",
+			"modernDark": "#f5f5f5",
+			"neobrutalismLight": "#1e2025",
+			"neobrutalismDark": "#f5f5f5"
+		},
+		"textComponentsTextFormDefault500": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"surfaceComponentsIconFormDefault500": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"textComponentsTextFormDisabled600": {
+			"modernLight": "#757575",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#757575",
+			"neobrutalismDark": "#757575"
+		},
+		"surfaceComponentsIconFormDisabled600": {
+			"modernLight": "#757575",
+			"modernDark": "#757575",
+			"neobrutalismLight": "#757575",
+			"neobrutalismDark": "#757575"
+		},
+		"strokeInputFormDefaultFilledLight": {
+			"modernLight": "#fafafa",
+			"modernDark": "#1f222a",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeInputFormReadOnlyLight": {
+			"modernLight": "#f5f5f5",
+			"modernDark": "#1e2025",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeInputFormDisabledLight": {
+			"modernLight": "#d8d8d8",
+			"modernDark": "#23252b",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeInputFormDefaultFilledDark": {
+			"modernLight": "#1f222a",
+			"modernDark": "#fafafa",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"strokeInputFormReadOnlyDark": {
+			"modernLight": "#1e2025",
+			"modernDark": "#f5f5f5",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"strokeInputFormDisabledDark": {
+			"modernLight": "#23252b",
+			"modernDark": "#d8d8d8",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"textInputForm2InputFormDefaultLight": {
+			"modernLight": "#bdbdbd",
+			"modernDark": "#616161",
+			"neobrutalismLight": "#bdbdbd",
+			"neobrutalismDark": "#616161"
+		},
+		"textInputForm2InputFormReadOnlyLight": {
+			"modernLight": "#616161",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#616161",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"textInputForm2InputFormDisabledLight": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#616161",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#616161"
+		},
+		"textInputForm2InputFormDefaultDark": {
+			"modernLight": "#616161",
+			"modernDark": "#bdbdbd",
+			"neobrutalismLight": "#616161",
+			"neobrutalismDark": "#bdbdbd"
+		},
+		"textInputForm2InputFormReadOnlyDark": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#616161",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#616161"
+		},
+		"textInputForm2InputFormDisabledDark": {
+			"modernLight": "#616161",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#616161",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"surfaceInputForm2DefaultLight": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#424242",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#424242"
+		},
+		"surfaceInputForm2ReadOnlyLight": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#35383f",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#35383f"
+		},
+		"surfaceInputForm2DefaultDark": {
+			"modernLight": "#424242",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#424242",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"surfaceInputForm2ReadOnlyDark": {
+			"modernLight": "#35383f",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#35383f",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"surfaceInputForm2ReadOnlyIconLight": {
+			"modernLight": "#616161",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#616161",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"surfaceInputForm2ReadOnlyIconDark": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#616161",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#616161"
+		},
+		"surfaceInputForm2DisabledIconLight": {
+			"modernLight": "#9e9e9e",
+			"modernDark": "#616161",
+			"neobrutalismLight": "#9e9e9e",
+			"neobrutalismDark": "#616161"
+		},
+		"surfaceInputForm2DisabledIconDark": {
+			"modernLight": "#616161",
+			"modernDark": "#9e9e9e",
+			"neobrutalismLight": "#616161",
+			"neobrutalismDark": "#9e9e9e"
+		},
+		"strokeLightDarkLight0": {
+			"modernLight": "#ffffff",
+			"modernDark": "#181a20",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeLightDarkDark0": {
+			"modernLight": "#181a20",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		},
+		"surfaceOthersRed": {
+			"modernLight": "#f54336",
+			"modernDark": "#f54336",
+			"neobrutalismLight": "#f54336",
+			"neobrutalismDark": "#f54336"
+		},
+		"surfaceOthersPink": {
+			"modernLight": "#ea1e61",
+			"modernDark": "#ea1e61",
+			"neobrutalismLight": "#ea1e61",
+			"neobrutalismDark": "#ea1e61"
+		},
+		"surfaceOthersPurple": {
+			"modernLight": "#9d28ac",
+			"modernDark": "#9d28ac",
+			"neobrutalismLight": "#9d28ac",
+			"neobrutalismDark": "#9d28ac"
+		},
+		"surfaceOthersDeepPurple": {
+			"modernLight": "#673ab3",
+			"modernDark": "#673ab3",
+			"neobrutalismLight": "#673ab3",
+			"neobrutalismDark": "#673ab3"
+		},
+		"surfaceOthersIndigo": {
+			"modernLight": "#3f51b2",
+			"modernDark": "#3f51b2",
+			"neobrutalismLight": "#3f51b2",
+			"neobrutalismDark": "#3f51b2"
+		},
+		"surfaceOthersBlue": {
+			"modernLight": "#1a96f0",
+			"modernDark": "#1a96f0",
+			"neobrutalismLight": "#1a96f0",
+			"neobrutalismDark": "#1a96f0"
+		},
+		"surfaceOthersLightBlue": {
+			"modernLight": "#00a9f1",
+			"modernDark": "#00a9f1",
+			"neobrutalismLight": "#00a9f1",
+			"neobrutalismDark": "#00a9f1"
+		},
+		"surfaceOthersCyan": {
+			"modernLight": "#00bcd3",
+			"modernDark": "#00bcd3",
+			"neobrutalismLight": "#00bcd3",
+			"neobrutalismDark": "#00bcd3"
+		},
+		"surfaceOthersTeal": {
+			"modernLight": "#009689",
+			"modernDark": "#009689",
+			"neobrutalismLight": "#009689",
+			"neobrutalismDark": "#009689"
+		},
+		"surfaceOthersGreen": {
+			"modernLight": "#4aaf57",
+			"modernDark": "#4aaf57",
+			"neobrutalismLight": "#4aaf57",
+			"neobrutalismDark": "#4aaf57"
+		},
+		"surfaceOthersLightGreen": {
+			"modernLight": "#8bc255",
+			"modernDark": "#8bc255",
+			"neobrutalismLight": "#8bc255",
+			"neobrutalismDark": "#8bc255"
+		},
+		"surfaceOthersLime": {
+			"modernLight": "#cddc4c",
+			"modernDark": "#cddc4c",
+			"neobrutalismLight": "#cddc4c",
+			"neobrutalismDark": "#cddc4c"
+		},
+		"surfaceOthersYellow": {
+			"modernLight": "#ffeb4f",
+			"modernDark": "#ffeb4f",
+			"neobrutalismLight": "#ffeb4f",
+			"neobrutalismDark": "#ffeb4f"
+		},
+		"surfaceOthersAmber": {
+			"modernLight": "#ffc02d",
+			"modernDark": "#ffc02d",
+			"neobrutalismLight": "#ffc02d",
+			"neobrutalismDark": "#ffc02d"
+		},
+		"surfaceOthersOrange": {
+			"modernLight": "#ff981f",
+			"modernDark": "#ff981f",
+			"neobrutalismLight": "#ff981f",
+			"neobrutalismDark": "#ff981f"
+		},
+		"surfaceOthersDeepOrange": {
+			"modernLight": "#ff5726",
+			"modernDark": "#ff5726",
+			"neobrutalismLight": "#ff5726",
+			"neobrutalismDark": "#ff5726"
+		},
+		"surfaceOthersBrown": {
+			"modernLight": "#7a5548",
+			"modernDark": "#7a5548",
+			"neobrutalismLight": "#7a5548",
+			"neobrutalismDark": "#7a5548"
+		},
+		"surfaceOthersBlueGrey": {
+			"modernLight": "#607d8a",
+			"modernDark": "#607d8a",
+			"neobrutalismLight": "#607d8a",
+			"neobrutalismDark": "#607d8a"
+		},
+		"strokeAdditionalsSearchFormLight": {
+			"modernLight": "#ffffff",
+			"modernDark": "#181a20",
+			"neobrutalismLight": "#000000",
+			"neobrutalismDark": "#ffffff"
+		},
+		"strokeAdditionalsSearchFormDark": {
+			"modernLight": "#181a20",
+			"modernDark": "#ffffff",
+			"neobrutalismLight": "#ffffff",
+			"neobrutalismDark": "#000000"
+		}
+	}
+}
