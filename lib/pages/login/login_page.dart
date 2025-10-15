@@ -9,6 +9,7 @@ import 'package:flutter_base_project/design/widget/cr_dialog.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3.dart';
+import 'package:flutter_base_project/design/widget/cr_text_field3_compose.dart';
 import 'package:flutter_base_project/di/di.dart';
 import 'package:flutter_base_project/pages/login/login_view.dart';
 import 'package:flutter_base_project/pages/login/login_viewmodel.dart';
@@ -134,7 +135,7 @@ class _LoginPageState extends State<LoginPage> implements LoginView {
                     height: 4,
                   ),
                   Observer(
-                    builder: (context) => CRTextField3(
+                    builder: (context) => CRTextField3Compose(
                       controller: _viewModel.emailController,
                       hintType: CRTextFieldHintType.staticLabel,
                       labelText: 'Email',
@@ -195,7 +196,7 @@ class _LoginPageState extends State<LoginPage> implements LoginView {
                     height: 4,
                   ),
                   Observer(
-                    builder: (context) => CRTextField3(
+                    builder: (context) => CRTextField3Compose(
                       controller: _viewModel.passwordController,
                       hintType: CRTextFieldHintType.staticLabel,
                       labelText: 'Kata Sandi',

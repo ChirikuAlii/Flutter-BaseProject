@@ -5,7 +5,10 @@ import 'package:flutter/services.dart';
 import 'package:flutter_base_project/design/colors/colors.dart';
 import 'package:flutter_base_project/design/images/images.dart';
 import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/di/di.dart';
+import 'package:flutter_base_project/route/cr_router_impl.dart';
 import 'package:flutter_base_project/utils/widget_responsive.dart';
+import 'package:rxdart/rxdart.dart';
 
 @RoutePage()
 class SplashPage extends StatefulWidget {
@@ -16,6 +19,16 @@ class SplashPage extends StatefulWidget {
 }
 
 class _SplashPageState extends State<SplashPage> {
+  final CrRouterImpl _router = getIt<CrRouterImpl>();
+  final CompositeSubscription _subscription = CompositeSubscription();
+  @override
+  void initState() {
+    super.initState();
+    Future.delayed(const Duration(seconds: 2), () {
+      _subscription.add(_router.goToComponentPage().listen((_) {}));
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return AnnotatedRegion<SystemUiOverlayStyle>(

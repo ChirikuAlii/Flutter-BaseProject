@@ -22,8 +22,8 @@ enum CRTextFieldStyle {
 
 /// Enum untuk state text field
 enum CRTextFieldState {
-  /// State default
-  defaultState,
+  /// State none
+  none,
 
   /// State saat focus
   focus,
@@ -76,6 +76,20 @@ class CRTextFieldStateConfig {
   });
 }
 
+class CRTextTextFieldMessageCardConfig {
+  final Color? bgColor;
+  final Color? iconColor;
+  final Color? textColor;
+  final IconData? icon;
+
+  const CRTextTextFieldMessageCardConfig({
+    this.bgColor,
+    this.iconColor,
+    this.textColor,
+    this.icon,
+  });
+}
+
 /// Widget text field yang sangat customizable dengan berbagai state dan konfigurasi
 class CRTextField3 extends StatefulWidget {
   // Basic properties
@@ -91,11 +105,15 @@ class CRTextField3 extends StatefulWidget {
   final String? message;
 
   // Configurations per state
-  final CRTextFieldStateConfig? defaultConfig;
-  final CRTextFieldStateConfig? focusConfig;
-  final CRTextFieldStateConfig? errorConfig;
-  final CRTextFieldStateConfig? successConfig;
-  final CRTextFieldStateConfig? disableConfig;
+  final CRTextFieldStateConfig noneConfig;
+  final CRTextFieldStateConfig focusConfig;
+  final CRTextFieldStateConfig errorConfig;
+  final CRTextFieldStateConfig successConfig;
+  final CRTextFieldStateConfig disableConfig;
+
+  // Message card configuration
+  final CRTextTextFieldMessageCardConfig messageCardSuccessConfig;
+  final CRTextTextFieldMessageCardConfig messageCardErrorConfig;
 
   // Default styling values
   final double defaultBorderRadius;
@@ -143,13 +161,15 @@ class CRTextField3 extends StatefulWidget {
     this.hintType = CRTextFieldHintType.floatingLabel,
     this.style = CRTextFieldStyle.fill,
     this.inputType = CRTextFieldInputType.text,
-    this.currentState = CRTextFieldState.defaultState,
+    this.currentState = CRTextFieldState.none,
     this.message,
-    this.defaultConfig,
-    this.focusConfig,
-    this.errorConfig,
-    this.successConfig,
-    this.disableConfig,
+    required this.noneConfig,
+    required this.focusConfig,
+    required this.errorConfig,
+    required this.successConfig,
+    required this.disableConfig,
+    required this.messageCardSuccessConfig,
+    required this.messageCardErrorConfig,
     this.defaultBorderRadius = 12.0,
     this.defaultFillColor = Colors.white,
     this.defaultBorderColor = CRColors.grey2,
@@ -214,26 +234,36 @@ class _CRTextField3State extends State<CRTextField3> {
   CRTextFieldStateConfig _getCurrentConfig() {
     // Jika disabled, gunakan disable config
     if (!widget.enabled) {
-      return widget.disableConfig ?? const CRTextFieldStateConfig();
+      return widget.disableConfig;
     }
 
     // Jika ada error, gunakan error config
     if (widget.currentState == CRTextFieldState.error) {
-      return widget.errorConfig ?? const CRTextFieldStateConfig();
+      return widget.errorConfig;
     }
 
     // Jika ada success, gunakan success config
     if (widget.currentState == CRTextFieldState.success) {
-      return widget.successConfig ?? const CRTextFieldStateConfig();
+      return widget.successConfig;
     }
 
     // Jika focus, gunakan focus config
     if (_isFocused) {
-      return widget.focusConfig ?? const CRTextFieldStateConfig();
+      return widget.focusConfig;
     }
 
-    // Default config
-    return widget.defaultConfig ?? const CRTextFieldStateConfig();
+    // None config
+    return widget.noneConfig;
+  }
+
+  CRTextTextFieldMessageCardConfig _getCurrentMessageCardConfig() {
+    if (widget.currentState == CRTextFieldState.success) {
+      return widget.messageCardSuccessConfig;
+    } else if (widget.currentState == CRTextFieldState.error) {
+      return widget.messageCardErrorConfig;
+    } else {
+      return const CRTextTextFieldMessageCardConfig();
+    }
   }
 
   /// Mendapatkan nilai dengan fallback ke default
@@ -364,8 +394,8 @@ class _CRTextField3State extends State<CRTextField3> {
       focusedBorder = OutlineInputBorder(
         borderRadius: borderRadius,
         borderSide: BorderSide(
-          color: widget.focusConfig?.borderColor ?? CRColors.primary,
-          width: widget.focusConfig?.borderWidth ?? 2.0,
+          color: widget.focusConfig.borderColor ?? widget.defaultBorderColor,
+          width: widget.focusConfig.borderWidth ?? 2.0,
         ),
       );
       enabledBorder = OutlineInputBorder(
@@ -375,15 +405,15 @@ class _CRTextField3State extends State<CRTextField3> {
       errorBorder = OutlineInputBorder(
         borderRadius: borderRadius,
         borderSide: BorderSide(
-          color: widget.errorConfig?.borderColor ?? CRColors.error,
-          width: widget.errorConfig?.borderWidth ?? 2.0,
+          color: widget.errorConfig.borderColor ?? widget.defaultBorderColor,
+          width: widget.errorConfig.borderWidth ?? 2.0,
         ),
       );
       disabledBorder = OutlineInputBorder(
         borderRadius: borderRadius,
         borderSide: BorderSide(
-          color: widget.disableConfig?.borderColor ?? CRColors.grey2,
-          width: widget.disableConfig?.borderWidth ?? 1.0,
+          color: widget.disableConfig.borderColor ?? widget.defaultBorderColor,
+          width: widget.disableConfig.borderWidth ?? 1.0,
         ),
       );
     } else {
@@ -392,8 +422,8 @@ class _CRTextField3State extends State<CRTextField3> {
       );
       focusedBorder = UnderlineInputBorder(
         borderSide: BorderSide(
-          color: widget.focusConfig?.borderColor ?? CRColors.primary,
-          width: widget.focusConfig?.borderWidth ?? 2.0,
+          color: widget.focusConfig.borderColor ?? widget.defaultBorderColor,
+          width: widget.focusConfig.borderWidth ?? 2.0,
         ),
       );
       enabledBorder = UnderlineInputBorder(
@@ -401,14 +431,14 @@ class _CRTextField3State extends State<CRTextField3> {
       );
       errorBorder = UnderlineInputBorder(
         borderSide: BorderSide(
-          color: widget.errorConfig?.borderColor ?? CRColors.error,
-          width: widget.errorConfig?.borderWidth ?? 2.0,
+          color: widget.errorConfig.borderColor ?? widget.defaultBorderColor,
+          width: widget.errorConfig.borderWidth ?? 2.0,
         ),
       );
       disabledBorder = UnderlineInputBorder(
         borderSide: BorderSide(
-          color: widget.disableConfig?.borderColor ?? CRColors.grey2,
-          width: widget.disableConfig?.borderWidth ?? 1.0,
+          color: widget.disableConfig.borderColor ?? widget.defaultBorderColor,
+          width: widget.disableConfig.borderWidth ?? 1.0,
         ),
       );
     }
@@ -502,7 +532,7 @@ class _CRTextField3State extends State<CRTextField3> {
   /// Build message card
   Widget? _buildMessageCard() {
     if (widget.message == null ||
-        widget.currentState == CRTextFieldState.defaultState ||
+        widget.currentState == CRTextFieldState.none ||
         widget.currentState == CRTextFieldState.focus ||
         widget.currentState == CRTextFieldState.disable) {
       return null;
@@ -514,13 +544,14 @@ class _CRTextField3State extends State<CRTextField3> {
 
     switch (widget.currentState) {
       case CRTextFieldState.error:
-        bgColor = CRColors.red2;
-        iconColor = CRColors.error;
+        bgColor = _getCurrentMessageCardConfig().bgColor ?? CRColors.red2;
+        iconColor = _getCurrentMessageCardConfig().iconColor ?? CRColors.error;
         icon = Icons.error_outline;
         break;
       case CRTextFieldState.success:
-        bgColor = CRColors.success1;
-        iconColor = CRColors.success3;
+        bgColor = _getCurrentMessageCardConfig().bgColor ?? CRColors.success1;
+        iconColor =
+            _getCurrentMessageCardConfig().iconColor ?? CRColors.success3;
         icon = Icons.check_circle_outline;
         break;
       default:

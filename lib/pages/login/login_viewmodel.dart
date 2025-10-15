@@ -32,10 +32,10 @@ abstract class _LoginViewModelBase with Store {
   bool isValidFieldLogin = false;
 
   @observable
-  CRTextFieldState emailState = CRTextFieldState.defaultState;
+  CRTextFieldState emailState = CRTextFieldState.none;
 
   @observable
-  CRTextFieldState passwordState = CRTextFieldState.defaultState;
+  CRTextFieldState passwordState = CRTextFieldState.none;
 
   @observable
   String emailMessage = "";
@@ -124,8 +124,8 @@ abstract class _LoginViewModelBase with Store {
 
   @action
   void doResetField() {
-    emailState = CRTextFieldState.defaultState;
-    passwordState = CRTextFieldState.defaultState;
+    emailState = CRTextFieldState.none;
+    passwordState = CRTextFieldState.none;
     emailMessage = "";
     passwordMessage = "";
     isValidEmail = false;

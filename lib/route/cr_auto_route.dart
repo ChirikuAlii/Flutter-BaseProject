@@ -10,7 +10,6 @@ import 'package:flutter_base_project/pages/main/main_page.dart';
 import 'package:flutter_base_project/pages/profile/profile_page.dart';
 import 'package:flutter_base_project/pages/splash/splash_page.dart';
 
-
 part 'cr_auto_route.gr.dart';
 
 @AutoRouterConfig(replaceInRouteName: 'Page,Route')
@@ -19,18 +18,16 @@ class CrAutoRoute extends _$CrAutoRoute {
 
   @override
   List<AutoRoute> get routes => [
-        //AutoRoute(page: SplashRoute.page, initial: true),
+        AutoRoute(page: SplashRoute.page, initial: true),
         AutoRoute(page: ComponentRoute.page),
-        AutoRoute(page: MainRoute.page,  children: [
+        AutoRoute(page: MainRoute.page, children: [
           AutoRoute(page: HomeRoute.page),
           AutoRoute(page: BookmarkRoute.page),
           AutoRoute(page: CalendarRoute.page),
           AutoRoute(page: HisotryRoute.page),
           AutoRoute(page: ProfileRoute.page),
         ]),
-        AutoRoute(
-          page: LoginRoute.page,initial: true
-        ),
+        AutoRoute(page: LoginRoute.page),
         // AutoRoute(page: RegisterRoute.page),
       ];
 

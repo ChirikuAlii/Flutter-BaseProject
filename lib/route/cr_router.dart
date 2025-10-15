@@ -7,7 +7,7 @@ mixin CrRouter {
   Single<void> goBackToRoot();
   Single<void> goBack();
   Single<void> goToComponentPage();
-  Single<void> goToLoginPage();
+  Single<void> goToLoginPage({bool isReplace = false});
   Single<void> goToRegisterPage();
   Single<void> goToHomePage();
   Single<void> goToCalendarPage();

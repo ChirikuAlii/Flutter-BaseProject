@@ -31,13 +31,16 @@ class CrRouterImpl implements CrRouter {
 
   @override
   Single<void> goToComponentPage() {
-    // TODO: implement goToComponentPage
-    throw UnimplementedError();
+    return Single<void>.fromFuture(router.replace(ComponentRoute()));
   }
 
   @override
-  Single<void> goToLoginPage() {
-    return Single<void>.fromFuture(router.push(LoginRoute()));
+  Single<void> goToLoginPage({bool isReplace = false}) {
+    if (isReplace) {
+      return Single<void>.fromFuture(router.replace(LoginRoute()));
+    } else {
+      return Single<void>.fromFuture(router.push(LoginRoute()));
+    }
   }
 
   @override
@@ -64,6 +67,4 @@ class CrRouterImpl implements CrRouter {
     });
     return Single<void>.fromFuture(routeCalendarBeasiswa);
   }
-
-
 }

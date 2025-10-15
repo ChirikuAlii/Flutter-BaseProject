@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_base_project/design/widget/cr_text_field3_compose.dart';
 import '../cr_text_field3.dart';
 import '../../colors/colors.dart';
 
@@ -16,8 +17,8 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
   final TextEditingController _phoneController = TextEditingController();
 
   String? _selectedCity;
-  CRTextFieldState _usernameState = CRTextFieldState.defaultState;
-  CRTextFieldState _passwordState = CRTextFieldState.defaultState;
+  CRTextFieldState _usernameState = CRTextFieldState.none;
+  CRTextFieldState _passwordState = CRTextFieldState.none;
 
   @override
   void dispose() {
@@ -44,7 +45,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '1. Default dengan Floating Label',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
               controller: _usernameController,
               labelText: 'Username',
               hintText: 'Masukkan username',
@@ -58,7 +59,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '2. Static Label (Tidak Beranimasi)',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
               labelText: 'Email',
               hintText: 'Masukkan email anda',
               hintType: CRTextFieldHintType.staticLabel,
@@ -73,7 +74,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '3. Password Field dengan Toggle Visibility',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
                 controller: _passwordController,
                 labelText: 'Password',
                 hintText: 'Masukkan password',
@@ -88,7 +89,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '4. Error State',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
               labelText: 'Username',
               hintText: 'Username',
               currentState: CRTextFieldState.error,
@@ -106,7 +107,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '5. Success State',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
               labelText: 'Email',
               hintText: 'email@example.com',
               currentState: CRTextFieldState.success,
@@ -125,7 +126,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '6. Disabled State',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
               labelText: 'Disabled Field',
               hintText: 'Tidak bisa diedit',
               enabled: false,
@@ -144,7 +145,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '7. Phone Number dengan Country Code',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
               controller: _phoneController,
               labelText: 'Phone Number',
               hintText: 'Masukkan nomor telepon',
@@ -164,7 +165,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '8. Dropdown Field',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
               labelText: 'Pilih Kota',
               hintText: 'Pilih kota anda',
               inputType: CRTextFieldInputType.dropdown,
@@ -192,7 +193,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '9. Underline Style',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
               labelText: 'Search',
               hintText: 'Cari sesuatu...',
               style: CRTextFieldStyle.underline,
@@ -207,7 +208,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '10. Custom Radius & Focus Color',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
               labelText: 'Custom Field',
               hintText: 'Field dengan custom styling',
               defaultBorderRadius: 24.0,
@@ -227,7 +228,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               '11. Multiline Text Area',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            CRTextField3(
+            CRTextField3Compose(
               labelText: 'Deskripsi',
               hintText: 'Tulis deskripsi anda...',
               hintType: CRTextFieldHintType.staticLabel,
@@ -255,15 +256,15 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
     return Column(
       children: [
         // Default
-        CRTextField3(
+        CRTextField3Compose(
           labelText: 'Default',
           hintText: 'State: Default',
-          currentState: CRTextFieldState.defaultState,
+          currentState: CRTextFieldState.none,
           prefixIcon: const Icon(Icons.info, color: CRColors.grey1),
         ),
 
         // Focus (simulasi)
-        CRTextField3(
+        CRTextField3Compose(
           labelText: 'Focus',
           hintText: 'State: Focus',
           prefixIcon: const Icon(Icons.info, color: CRColors.primary),
@@ -274,7 +275,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
         ),
 
         // Error
-        CRTextField3(
+        CRTextField3Compose(
           labelText: 'Error',
           hintText: 'State: Error',
           currentState: CRTextFieldState.error,
@@ -286,7 +287,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
         ),
 
         // Success
-        CRTextField3(
+        CRTextField3Compose(
           labelText: 'Success',
           hintText: 'State: Success',
           currentState: CRTextFieldState.success,
@@ -299,7 +300,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
         ),
 
         // Disabled
-        CRTextField3(
+        CRTextField3Compose(
           labelText: 'Disabled',
           hintText: 'State: Disabled',
           enabled: false,
