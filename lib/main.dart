@@ -1,6 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/design/colors/colors.dart';
+import 'package:flutter_base_project/design/themes/cr_themes.dart';
 import 'package:flutter_base_project/di/di.dart';
 import 'package:flutter_base_project/route/cr_router_impl.dart';
 import 'package:provider/provider.dart';
@@ -36,6 +37,17 @@ class CrApp extends StatelessWidget {
                   localizationsDelegates: context.localizationDelegates,
                   supportedLocales: context.supportedLocales,
                   locale: context.locale,
+                  theme: ThemeData(
+                    extensions: <ThemeExtension<dynamic>>[
+                      CRThemes.light() 
+                    ]
+                  ),
+                  darkTheme: ThemeData(
+                    extensions: <ThemeExtension<dynamic>>[
+                      CRThemes.dark() 
+                    ]
+                  ),
+                  themeMode: ThemeMode.system,
                 );
               },
             );
