@@ -244,1329 +244,887 @@
 	"themes": {
 		"textGeneralBrand": {
 			"modernLight": "#1a998e",
-			"modernDark": "#1a998e",
-			"neobrutalismLight": "#1a998e",
-			"neobrutalismDark": "#1a998e"
+			"modernDark": "#1a998e"
 		},
 		"textGreyscale900": {
 			"modernLight": "#212121",
-			"modernDark": "#fafafa",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#fafafa"
 		},
 		"textGreyscale800": {
 			"modernLight": "#424242",
-			"modernDark": "#f5f5f5",
-			"neobrutalismLight": "#424242",
-			"neobrutalismDark": "#f5f5f5"
+			"modernDark": "#f5f5f5"
 		},
 		"textGreyscale700": {
 			"modernLight": "#616161",
-			"modernDark": "#eeeeee",
-			"neobrutalismLight": "#616161",
-			"neobrutalismDark": "#eeeeee"
+			"modernDark": "#eeeeee"
 		},
 		"textGreyscale600": {
 			"modernLight": "#757575",
-			"modernDark": "#e0e0e0",
-			"neobrutalismLight": "#757575",
-			"neobrutalismDark": "#e0e0e0"
+			"modernDark": "#e0e0e0"
 		},
 		"textGreyscale500": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#bdbdbd",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#bdbdbd"
+			"modernDark": "#bdbdbd"
 		},
 		"textGreyscale400": {
 			"modernLight": "#bdbdbd",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#bdbdbd",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"textGreyscale300": {
 			"modernLight": "#e0e0e0",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#e0e0e0",
-			"neobrutalismDark": "#757575"
+			"modernDark": "#757575"
 		},
 		"textGreyscale200": {
 			"modernLight": "#eeeeee",
-			"modernDark": "#616161",
-			"neobrutalismLight": "#eeeeee",
-			"neobrutalismDark": "#616161"
+			"modernDark": "#616161"
 		},
 		"textGreyscale100": {
 			"modernLight": "#f5f5f5",
-			"modernDark": "#424242",
-			"neobrutalismLight": "#f5f5f5",
-			"neobrutalismDark": "#424242"
+			"modernDark": "#424242"
 		},
 		"textGreyscale50": {
 			"modernLight": "#fafafa",
-			"modernDark": "#212121",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#212121"
 		},
 		"textGeneralWhite": {
 			"modernLight": "#ffffff",
-			"modernDark": "#000000",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#000000"
 		},
 		"textGeneralBlack": {
 			"modernLight": "#000000",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"textAlertsStatusSuccess": {
 			"modernLight": "#12d18e",
-			"modernDark": "#12d18e",
-			"neobrutalismLight": "#12d18e",
-			"neobrutalismDark": "#12d18e"
+			"modernDark": "#12d18e"
 		},
 		"textAlertsStatusInfo": {
 			"modernLight": "#1a998e",
-			"modernDark": "#1a998e",
-			"neobrutalismLight": "#1a998e",
-			"neobrutalismDark": "#1a998e"
+			"modernDark": "#1a998e"
 		},
 		"textAlertsStatusWarning": {
 			"modernLight": "#facc15",
-			"modernDark": "#facc15",
-			"neobrutalismLight": "#facc15",
-			"neobrutalismDark": "#facc15"
+			"modernDark": "#facc15"
 		},
 		"textAlertsStatusError": {
 			"modernLight": "#f75555",
-			"modernDark": "#f75555",
-			"neobrutalismLight": "#f75555",
-			"neobrutalismDark": "#f75555"
+			"modernDark": "#f75555"
 		},
 		"surfaceGeneralBrand": {
 			"modernLight": "#1a998e",
-			"modernDark": "#1a998e",
-			"neobrutalismLight": "#1a998e",
-			"neobrutalismDark": "#1a998e"
+			"modernDark": "#1a998e"
 		},
 		"surfaceGeneralWhite": {
 			"modernLight": "#ffffff",
-			"modernDark": "#000000",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#000000"
 		},
 		"surfaceGeneralBlack": {
 			"modernLight": "#000000",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceAlertsStatusSuccess": {
 			"modernLight": "#12d18e",
-			"modernDark": "#12d18e",
-			"neobrutalismLight": "#12d18e",
-			"neobrutalismDark": "#12d18e"
+			"modernDark": "#12d18e"
 		},
 		"surfaceAlertsStatusInfo": {
 			"modernLight": "#1a998e",
-			"modernDark": "#1a998e",
-			"neobrutalismLight": "#1a998e",
-			"neobrutalismDark": "#1a998e"
+			"modernDark": "#1a998e"
 		},
 		"surfaceAlertsStatusWarning": {
 			"modernLight": "#facc15",
-			"modernDark": "#facc15",
-			"neobrutalismLight": "#facc15",
-			"neobrutalismDark": "#facc15"
+			"modernDark": "#facc15"
 		},
 		"surfaceAlertsStatusError": {
 			"modernLight": "#f75555",
-			"modernDark": "#f75555",
-			"neobrutalismLight": "#f75555",
-			"neobrutalismDark": "#f75555"
+			"modernDark": "#f75555"
 		},
 		"surfaceAlertsStatusLightDisabled": {
 			"modernLight": "#d8d8d8",
-			"modernDark": "#23252b",
-			"neobrutalismLight": "#d8d8d8",
-			"neobrutalismDark": "#23252b"
+			"modernDark": "#23252b"
 		},
 		"surfaceAlertsStatusDarkDisabled": {
 			"modernLight": "#23252b",
-			"modernDark": "#d8d8d8",
-			"neobrutalismLight": "#23252b",
-			"neobrutalismDark": "#d8d8d8"
+			"modernDark": "#d8d8d8"
 		},
 		"surfaceAlertsStatusButtonDisabled": {
 			"modernLight": "#157a72",
-			"modernDark": "#157a72",
-			"neobrutalismLight": "#157a72",
-			"neobrutalismDark": "#157a72"
+			"modernDark": "#157a72"
 		},
 		"surfaceGreyscale900": {
 			"modernLight": "#212121",
-			"modernDark": "#fafafa",
-			"neobrutalismLight": "#212121",
-			"neobrutalismDark": "#fafafa"
+			"modernDark": "#fafafa"
 		},
 		"surfaceGreyscale800": {
 			"modernLight": "#424242",
-			"modernDark": "#f5f5f5",
-			"neobrutalismLight": "#424242",
-			"neobrutalismDark": "#f5f5f5"
+			"modernDark": "#f5f5f5"
 		},
 		"surfaceGreyscale700": {
 			"modernLight": "#616161",
-			"modernDark": "#eeeeee",
-			"neobrutalismLight": "#616161",
-			"neobrutalismDark": "#eeeeee"
+			"modernDark": "#eeeeee"
 		},
 		"surfaceGreyscale600": {
 			"modernLight": "#757575",
-			"modernDark": "#e0e0e0",
-			"neobrutalismLight": "#757575",
-			"neobrutalismDark": "#e0e0e0"
+			"modernDark": "#e0e0e0"
 		},
 		"surfaceGreyscale500": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#bdbdbd",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#bdbdbd"
+			"modernDark": "#bdbdbd"
 		},
 		"surfaceGreyscale400": {
 			"modernLight": "#bdbdbd",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#bdbdbd",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"surfaceGreyscale300": {
 			"modernLight": "#e0e0e0",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#e0e0e0",
-			"neobrutalismDark": "#757575"
+			"modernDark": "#757575"
 		},
 		"surfaceGreyscale200": {
 			"modernLight": "#eeeeee",
-			"modernDark": "#616161",
-			"neobrutalismLight": "#eeeeee",
-			"neobrutalismDark": "#616161"
+			"modernDark": "#616161"
 		},
 		"surfaceGreyscale100": {
 			"modernLight": "#f5f5f5",
-			"modernDark": "#424242",
-			"neobrutalismLight": "#f5f5f5",
-			"neobrutalismDark": "#424242"
+			"modernDark": "#424242"
 		},
 		"surfaceGreyscale50": {
 			"modernLight": "#fafafa",
-			"modernDark": "#212121",
-			"neobrutalismLight": "#fafafa",
-			"neobrutalismDark": "#212121"
+			"modernDark": "#212121"
 		},
 		"surfaceLightDarkDark1": {
 			"modernLight": "#181a20",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#181a20",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceLightDarkDark2": {
 			"modernLight": "#1e2025",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#1e2025",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceLightDarkDark3": {
 			"modernLight": "#1f222a",
-			"modernDark": "#fafafa",
-			"neobrutalismLight": "#1f222a",
-			"neobrutalismDark": "#fafafa"
+			"modernDark": "#fafafa"
 		},
 		"surfaceLightDarkDark6": {
 			"modernLight": "#262a35",
-			"modernDark": "#f5f5f5",
-			"neobrutalismLight": "#262a35",
-			"neobrutalismDark": "#f5f5f5"
+			"modernDark": "#f5f5f5"
 		},
 		"surfaceLightDarkDark7": {
 			"modernLight": "#35383f",
-			"modernDark": "#eeeeee",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#eeeeee"
+			"modernDark": "#eeeeee"
 		},
 		"surfaceBackgroundBackgroundTeal": {
 			"modernLight": "#f0fbfa",
-			"modernDark": "#f0fbfa",
-			"neobrutalismLight": "#f0fbfa",
-			"neobrutalismDark": "#f0fbfa"
+			"modernDark": "#f0fbfa"
 		},
 		"surfaceBackgroundBackgroundPurple": {
 			"modernLight": "#f8f0fe",
-			"modernDark": "#f8f0fe",
-			"neobrutalismLight": "#f8f0fe",
-			"neobrutalismDark": "#f8f0fe"
+			"modernDark": "#f8f0fe"
 		},
 		"surfaceBackgroundBackgroundRed": {
 			"modernLight": "#fff3f3",
-			"modernDark": "#fff3f3",
-			"neobrutalismLight": "#fff3f3",
-			"neobrutalismDark": "#fff3f3"
+			"modernDark": "#fff3f3"
 		},
 		"surfaceBackgroundBackgroundBlue": {
 			"modernLight": "#f3f6ff",
-			"modernDark": "#f3f6ff",
-			"neobrutalismLight": "#f3f6ff",
-			"neobrutalismDark": "#f3f6ff"
+			"modernDark": "#f3f6ff"
 		},
 		"surfaceBackgroundBackgroundGreen": {
 			"modernLight": "#edfbf7",
-			"modernDark": "#edfbf7",
-			"neobrutalismLight": "#edfbf7",
-			"neobrutalismDark": "#edfbf7"
+			"modernDark": "#edfbf7"
 		},
 		"surfaceBackgroundBackgroundBrown": {
 			"modernLight": "#fbf6f3",
-			"modernDark": "#fbf6f3",
-			"neobrutalismLight": "#fbf6f3",
-			"neobrutalismDark": "#fbf6f3"
+			"modernDark": "#fbf6f3"
 		},
 		"surfaceBackgroundBackgroundYellow": {
 			"modernLight": "#fffceb",
-			"modernDark": "#fffceb",
-			"neobrutalismLight": "#fffceb",
-			"neobrutalismDark": "#fffceb"
+			"modernDark": "#fffceb"
 		},
 		"surfaceBackgroundBackgroundOrange": {
 			"modernLight": "#fff8ee",
-			"modernDark": "#fff8ee",
-			"neobrutalismLight": "#fff8ee",
-			"neobrutalismDark": "#fff8ee"
+			"modernDark": "#fff8ee"
 		},
 		"surfaceTransparentTransparentTeal": {
 			"modernLight": "#1a998e14",
-			"modernDark": "#1a998e14",
-			"neobrutalismLight": "#1a998e14",
-			"neobrutalismDark": "#1a998e14"
+			"modernDark": "#1a998e14"
 		},
 		"surfaceTransparentTransparentPurple": {
 			"modernLight": "#9610ff14",
-			"modernDark": "#9610ff14",
-			"neobrutalismLight": "#9610ff14",
-			"neobrutalismDark": "#9610ff14"
+			"modernDark": "#9610ff14"
 		},
 		"surfaceTransparentTransparentRed": {
 			"modernLight": "#ff4a4a14",
-			"modernDark": "#ff4a4a14",
-			"neobrutalismLight": "#ff4a4a14",
-			"neobrutalismDark": "#ff4a4a14"
+			"modernDark": "#ff4a4a14"
 		},
 		"surfaceTransparentTransparentBlue": {
 			"modernLight": "#235dff14",
-			"modernDark": "#235dff14",
-			"neobrutalismLight": "#235dff14",
-			"neobrutalismDark": "#235dff14"
+			"modernDark": "#235dff14"
 		},
 		"surfaceTransparentTransparentGreen": {
 			"modernLight": "#17ce9214",
-			"modernDark": "#17ce9214",
-			"neobrutalismLight": "#17ce9214",
-			"neobrutalismDark": "#17ce9214"
+			"modernDark": "#17ce9214"
 		},
 		"surfaceTransparentTransparentBrown": {
 			"modernLight": "#a4634d14",
-			"modernDark": "#a4634d14",
-			"neobrutalismLight": "#a4634d14",
-			"neobrutalismDark": "#a4634d14"
+			"modernDark": "#a4634d14"
 		},
 		"surfaceTransparentTransparentYellow": {
 			"modernLight": "#ffd30014",
-			"modernDark": "#ffd30014",
-			"neobrutalismLight": "#ffd30014",
-			"neobrutalismDark": "#ffd30014"
+			"modernDark": "#ffd30014"
 		},
 		"surfaceTransparentTransparentOrange": {
 			"modernLight": "#f8930014",
-			"modernDark": "#f8930014",
-			"neobrutalismLight": "#f8930014",
-			"neobrutalismDark": "#f8930014"
+			"modernDark": "#f8930014"
 		},
 		"strokeGeneralBrand": {
 			"modernLight": "#1a998e",
-			"modernDark": "#1a998e",
-			"neobrutalismLight": "#1a998e",
-			"neobrutalismDark": "#1a998e"
+			"modernDark": "#1a998e"
 		},
 		"strokeGreyscaleGreyscale300": {
 			"modernLight": "#e0e0e0",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#757575"
 		},
 		"strokeGreyscaleGreyscale200": {
 			"modernLight": "#eeeeee",
-			"modernDark": "#616161",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#616161"
 		},
 		"strokeGreyscaleGreyscale100": {
 			"modernLight": "#f5f5f5",
-			"modernDark": "#424242",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#424242"
 		},
 		"strokeGreyscaleGreyscale50": {
 			"modernLight": "#fafafa",
-			"modernDark": "#212121",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#212121"
 		},
 		"strokeGeneralWhite": {
 			"modernLight": "#ffffff",
-			"modernDark": "#000000",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#000000"
 		},
 		"strokeGeneralBlack": {
 			"modernLight": "#000000",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceTransparentTransparentGrey": {
 			"modernLight": "#75757514",
-			"modernDark": "#75757514",
-			"neobrutalismLight": "#75757514",
-			"neobrutalismDark": "#75757514"
+			"modernDark": "#75757514"
 		},
 		"strokeGreyscaleGreyscale900": {
 			"modernLight": "#212121",
-			"modernDark": "#fafafa",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#fafafa"
 		},
 		"strokeGreyscaleGreyscale800": {
 			"modernLight": "#424242",
-			"modernDark": "#f5f5f5",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#f5f5f5"
 		},
 		"strokeGreyscaleGreyscale700": {
 			"modernLight": "#616161",
-			"modernDark": "#eeeeee",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#eeeeee"
 		},
 		"strokeGreyscaleGreyscale600": {
 			"modernLight": "#757575",
-			"modernDark": "#e0e0e0",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#e0e0e0"
 		},
 		"strokeGreyscaleGreyscale500": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#bdbdbd",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#bdbdbd"
 		},
 		"strokeGreyscaleGreyscale400": {
 			"modernLight": "#bdbdbd",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#9e9e9e"
 		},
 		"strokeAlertsStatusLightDisabled": {
 			"modernLight": "#d8d8d8",
-			"modernDark": "#23252b",
-			"neobrutalismLight": "#d8d8d8",
-			"neobrutalismDark": "#23252b"
+			"modernDark": "#23252b"
 		},
 		"strokeAlertsStatusDarkDisabled": {
 			"modernLight": "#23252b",
-			"modernDark": "#d8d8d8",
-			"neobrutalismLight": "#23252b",
-			"neobrutalismDark": "#d8d8d8"
+			"modernDark": "#d8d8d8"
 		},
 		"strokeAlertsStatusButtonDisabled": {
 			"modernLight": "#157a72",
-			"modernDark": "#157a72",
-			"neobrutalismLight": "#157a72",
-			"neobrutalismDark": "#157a72"
+			"modernDark": "#157a72"
 		},
 		"strokeAlertsStatusSuccess": {
 			"modernLight": "#12d18e",
-			"modernDark": "#12d18e",
-			"neobrutalismLight": "#12d18e",
-			"neobrutalismDark": "#12d18e"
+			"modernDark": "#12d18e"
 		},
 		"strokeAlertsStatusInfo": {
 			"modernLight": "#1a998e",
-			"modernDark": "#1a998e",
-			"neobrutalismLight": "#1a998e",
-			"neobrutalismDark": "#1a998e"
+			"modernDark": "#1a998e"
 		},
 		"strokeAlertsStatusWarning": {
 			"modernLight": "#facc15",
-			"modernDark": "#facc15",
-			"neobrutalismLight": "#facc15",
-			"neobrutalismDark": "#facc15"
+			"modernDark": "#facc15"
 		},
 		"strokeAlertsStatusError": {
 			"modernLight": "#f75555",
-			"modernDark": "#f75555",
-			"neobrutalismLight": "#f75555",
-			"neobrutalismDark": "#f75555"
+			"modernDark": "#f75555"
 		},
 		"strokeBorderSingleStrokeBorderLight": {
 			"modernLight": "#eeeeee",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#e0e0e0",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"strokeBorderFullStrokeLight": {
 			"modernLight": "#eeeeee",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#35383f"
 		},
 		"strokeBorderSingleStrokeDividerLight": {
 			"modernLight": "#eeeeee",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#e0e0e0",
-			"neobrutalismDark": "#616161"
+			"modernDark": "#35383f"
 		},
 		"textButtonsBrand": {
 			"modernLight": "#1a998e",
-			"modernDark": "#1a998e",
-			"neobrutalismLight": "#1a998e",
-			"neobrutalismDark": "#1a998e"
+			"modernDark": "#1a998e"
 		},
 		"textButtonsWhite": {
 			"modernLight": "#ffffff",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"textButtonsGreyscale900": {
 			"modernLight": "#212121",
-			"modernDark": "#212121",
-			"neobrutalismLight": "#212121",
-			"neobrutalismDark": "#212121"
+			"modernDark": "#212121"
 		},
 		"surfaceButtonsBrand": {
 			"modernLight": "#1a998e",
-			"modernDark": "#1a998e",
-			"neobrutalismLight": "#1a998e",
-			"neobrutalismDark": "#1a998e"
+			"modernDark": "#1a998e"
 		},
 		"surfaceButtonsButtonLight": {
 			"modernLight": "#f0fbfa",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#f0fbfa",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"surfaceButtonsButtonDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#f0fbfa",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#f0fbfa"
+			"modernDark": "#f0fbfa"
 		},
 		"surfaceButtonsSocialMediaLight": {
 			"modernLight": "#ffffff",
-			"modernDark": "#1f222a",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#1f222a"
+			"modernDark": "#1f222a"
 		},
 		"surfaceButtonsSocialMediaDark": {
 			"modernLight": "#1f222a",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#1f222a",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceButtonsButtonDisabled": {
 			"modernLight": "#157a72",
-			"modernDark": "#157a72",
-			"neobrutalismLight": "#157a72",
-			"neobrutalismDark": "#157a72"
+			"modernDark": "#157a72"
 		},
 		"surfaceButtonsButton50": {
 			"modernLight": "#fafafa",
-			"modernDark": "#fafafa",
-			"neobrutalismLight": "#fafafa",
-			"neobrutalismDark": "#fafafa"
+			"modernDark": "#fafafa"
 		},
 		"textButtonsSocialMediaLight": {
 			"modernLight": "#212121",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#212121",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceButtonsGreyscaleIcon900": {
 			"modernLight": "#212121",
-			"modernDark": "#212121",
-			"neobrutalismLight": "#212121",
-			"neobrutalismDark": "#212121"
+			"modernDark": "#212121"
 		},
 		"surfaceButtonsWhiteIcon": {
 			"modernLight": "#ffffff",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"textButtonsBrandLight": {
 			"modernLight": "#1a998e",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#1a998e",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"textButtonsWhiteDark": {
 			"modernLight": "#ffffff",
-			"modernDark": "#1a998e",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#1a998e"
+			"modernDark": "#1a998e"
 		},
 		"textButtonsSocialMediaDark": {
 			"modernLight": "#ffffff",
-			"modernDark": "#212121",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#212121"
+			"modernDark": "#212121"
 		},
 		"surfaceButtonsBrandLight": {
 			"modernLight": "#1a998e",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#1a998e",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceButtonsWhiteDark": {
 			"modernLight": "#ffffff",
-			"modernDark": "#1a998e",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#1a998e"
+			"modernDark": "#1a998e"
 		},
 		"strokeBorderSingleStrokeBorderDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#eeeeee",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#e0e0e0"
+			"modernDark": "#eeeeee"
 		},
 		"strokeBorderSingleStrokeDividerDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#eeeeee",
-			"neobrutalismLight": "#616161",
-			"neobrutalismDark": "#e0e0e0"
+			"modernDark": "#eeeeee"
 		},
 		"strokeBorderFullStrokeDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#eeeeee",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#eeeeee"
 		},
 		"surfaceComponentsDropdownLight": {
 			"modernLight": "#ffffff",
-			"modernDark": "#262a35",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#262a35"
+			"modernDark": "#262a35"
 		},
 		"surfaceComponentsDropdownDark": {
 			"modernLight": "#262a35",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#262a35",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceComponentsModalLight": {
 			"modernLight": "#ffffff",
-			"modernDark": "#1f222a",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#1f222a"
+			"modernDark": "#1f222a"
 		},
 		"surfaceComponentsModalDark": {
 			"modernLight": "#1f222a",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#1f222a",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceComponentsButtomBarActionLight": {
 			"modernLight": "#ffffff",
-			"modernDark": "#181a20",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#181a20"
+			"modernDark": "#181a20"
 		},
 		"surfaceComponentsButtomBarActionDark": {
 			"modernLight": "#181a20",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#181a20",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceComponentsGeneralFrameLight": {
 			"modernLight": "#fafafa",
-			"modernDark": "#1f222a",
-			"neobrutalismLight": "#fafafa",
-			"neobrutalismDark": "#1f222a"
+			"modernDark": "#1f222a"
 		},
 		"surfaceComponentsGeneralFrameDark": {
 			"modernLight": "#1f222a",
-			"modernDark": "#fafafa",
-			"neobrutalismLight": "#1f222a",
-			"neobrutalismDark": "#fafafa"
+			"modernDark": "#fafafa"
 		},
 		"surfaceAdditionalsOverColorFrameLight": {
 			"modernLight": "#ffffff",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceComponentsDropdownIconLight": {
 			"modernLight": "#212121",
-			"modernDark": "#fafafa",
-			"neobrutalismLight": "#212121",
-			"neobrutalismDark": "#fafafa"
+			"modernDark": "#fafafa"
 		},
 		"surfaceComponentsDropdownIconDark": {
 			"modernLight": "#fafafa",
-			"modernDark": "#212121",
-			"neobrutalismLight": "#fafafa",
-			"neobrutalismDark": "#212121"
+			"modernDark": "#212121"
 		},
 		"surfaceLightDarkLight2": {
 			"modernLight": "#ffffff",
-			"modernDark": "#1e2025",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#1e2025"
+			"modernDark": "#1e2025"
 		},
 		"surfaceLightDarkLight3": {
 			"modernLight": "#fafafa",
-			"modernDark": "#1f222a",
-			"neobrutalismLight": "#fafafa",
-			"neobrutalismDark": "#1f222a"
+			"modernDark": "#1f222a"
 		},
 		"surfaceLightDarkLight6": {
 			"modernLight": "#f5f5f5",
-			"modernDark": "#262a35",
-			"neobrutalismLight": "#f5f5f5",
-			"neobrutalismDark": "#262a35"
+			"modernDark": "#262a35"
 		},
 		"surfaceLightDarkLight7": {
 			"modernLight": "#eeeeee",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#eeeeee",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"surfaceLightDarkLight1": {
 			"modernLight": "#ffffff",
-			"modernDark": "#181a20",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#181a20"
+			"modernDark": "#181a20"
 		},
 		"surfaceAdditionalsOverColorFrameDark": {
 			"modernLight": "#212121",
-			"modernDark": "#212121",
-			"neobrutalismLight": "#212121",
-			"neobrutalismDark": "#212121"
+			"modernDark": "#212121"
 		},
 		"textGeneralTextLight": {
 			"modernLight": "#212121",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"textGeneralTextDark": {
 			"modernLight": "#ffffff",
-			"modernDark": "#212121",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#212121"
 		},
 		"surfaceGeneralSurfaceLight": {
 			"modernLight": "#212121",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceGeneralSurfaceDark": {
 			"modernLight": "#ffffff",
-			"modernDark": "#212121",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#212121"
 		},
 		"surfaceLightDarkLight8": {
 			"modernLight": "#e0e0e0",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#e0e0e0",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"surfaceLightDarkDark8": {
 			"modernLight": "#35383f",
-			"modernDark": "#e0e0e0",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#e0e0e0"
+			"modernDark": "#e0e0e0"
 		},
 		"strokeAdditionalsToggle400": {
 			"modernLight": "#bdbdbd",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#bdbdbd",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceLightDarkLight5": {
 			"modernLight": "#f5f5f5",
-			"modernDark": "#1f222a",
-			"neobrutalismLight": "#f5f5f5",
-			"neobrutalismDark": "#1f222a"
+			"modernDark": "#1f222a"
 		},
 		"surfaceLightDarkDark5": {
 			"modernLight": "#1f222a",
-			"modernDark": "#f5f5f5",
-			"neobrutalismLight": "#1f222a",
-			"neobrutalismDark": "#f5f5f5"
+			"modernDark": "#f5f5f5"
 		},
 		"surfaceComponentsSearchSurfaceLight": {
 			"modernLight": "#bdbdbd",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#bdbdbd",
-			"neobrutalismDark": "#757575"
+			"modernDark": "#757575"
 		},
 		"surfaceComponentsSearchSurfaceDark": {
 			"modernLight": "#757575",
-			"modernDark": "#bdbdbd",
-			"neobrutalismLight": "#757575",
-			"neobrutalismDark": "#bdbdbd"
+			"modernDark": "#bdbdbd"
 		},
 		"textComponentsSearchTextLight": {
 			"modernLight": "#bdbdbd",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#bdbdbd",
-			"neobrutalismDark": "#757575"
+			"modernDark": "#757575"
 		},
 		"textComponentsSearchTextDark": {
 			"modernLight": "#757575",
-			"modernDark": "#bdbdbd",
-			"neobrutalismLight": "#757575",
-			"neobrutalismDark": "#bdbdbd"
+			"modernDark": "#bdbdbd"
 		},
 		"textComponentsTextFilled": {
 			"modernLight": "#ffffff",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"surfaceComponentsSurfaceFilled": {
 			"modernLight": "#ffffff",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"strokeLightDarkLight1": {
 			"modernLight": "#ffffff",
-			"modernDark": "#181a20",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#181a20"
+			"modernDark": "#181a20"
 		},
 		"strokeLightDarkLight2": {
 			"modernLight": "#ffffff",
-			"modernDark": "#1e2025",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#1e2025"
+			"modernDark": "#1e2025"
 		},
 		"strokeLightDarkLight3": {
 			"modernLight": "#fafafa",
-			"modernDark": "#1f222a",
-			"neobrutalismLight": "#fafafa",
-			"neobrutalismDark": "#1f222a"
+			"modernDark": "#1f222a"
 		},
 		"strokeLightDarkLight5": {
 			"modernLight": "#f5f5f5",
-			"modernDark": "#262a35",
-			"neobrutalismLight": "#f5f5f5",
-			"neobrutalismDark": "#262a35"
+			"modernDark": "#262a35"
 		},
 		"strokeLightDarkLight4": {
 			"modernLight": "#f5f5f5",
-			"modernDark": "#1f222a",
-			"neobrutalismLight": "#f5f5f5",
-			"neobrutalismDark": "#1f222a"
+			"modernDark": "#1f222a"
 		},
 		"strokeLightDarkLight7": {
 			"modernLight": "#eeeeee",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#eeeeee",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"strokeLightDarkLight8": {
 			"modernLight": "#e0e0e0",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#e0e0e0",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"strokeLightDarkDark1": {
 			"modernLight": "#181a20",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#181a20",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"strokeLightDarkDark2": {
 			"modernLight": "#1e2025",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#1e2025",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"strokeLightDarkDark3": {
 			"modernLight": "#1f222a",
-			"modernDark": "#fafafa",
-			"neobrutalismLight": "#1f222a",
-			"neobrutalismDark": "#fafafa"
+			"modernDark": "#fafafa"
 		},
 		"strokeLightDarkDark5": {
 			"modernLight": "#262a35",
-			"modernDark": "#f5f5f5",
-			"neobrutalismLight": "#262a35",
-			"neobrutalismDark": "#f5f5f5"
+			"modernDark": "#f5f5f5"
 		},
 		"strokeLightDarkDark4": {
 			"modernLight": "#1f222a",
-			"modernDark": "#f5f5f5",
-			"neobrutalismLight": "#1f222a",
-			"neobrutalismDark": "#f5f5f5"
+			"modernDark": "#f5f5f5"
 		},
 		"strokeLightDarkDark7": {
 			"modernLight": "#35383f",
-			"modernDark": "#eeeeee",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#eeeeee"
+			"modernDark": "#eeeeee"
 		},
 		"strokeLightDarkDark8": {
 			"modernLight": "#35383f",
-			"modernDark": "#e0e0e0",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#e0e0e0"
+			"modernDark": "#e0e0e0"
 		},
 		"surfaceBackgroundBackgroundGrey": {
 			"modernLight": "#f6f6f6",
-			"modernDark": "#f6f6f6",
-			"neobrutalismLight": "#f6f6f6",
-			"neobrutalismDark": "#f6f6f6"
+			"modernDark": "#f6f6f6"
 		},
 		"surfaceTagSolidDefaultGrey600": {
 			"modernLight": "#757575",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#757575",
-			"neobrutalismDark": "#757575"
+			"modernDark": "#757575"
 		},
 		"surfaceTagInvertedDefaultLight": {
 			"modernLight": "#f6f6f6",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#f6f6f6",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"surfaceTagInvertedInfoLight": {
 			"modernLight": "#f0fbfa",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#f0fbfa",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"surfaceTagInvertedSuccessLight": {
 			"modernLight": "#edfbf7",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#edfbf7",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"surfaceTagInvertedWarningLight": {
 			"modernLight": "#fffceb",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#fffceb",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"surfaceTagInvertedErrorLight": {
 			"modernLight": "#fff3f3",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#fff3f3",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"surfaceTagInvertedDefaultDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#f6f6f6",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#f6f6f6"
+			"modernDark": "#f6f6f6"
 		},
 		"strokeAdditionalsTagOutlineDefault600": {
 			"modernLight": "#757575",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#757575",
-			"neobrutalismDark": "#757575"
+			"modernDark": "#757575"
 		},
 		"textTagTagSolidDefault600": {
 			"modernLight": "#757575",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#757575",
-			"neobrutalismDark": "#757575"
+			"modernDark": "#757575"
 		},
 		"surfaceTagInvertedInfoDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#f0fbfa",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#f0fbfa"
+			"modernDark": "#f0fbfa"
 		},
 		"surfaceTagInvertedSuccessDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#edfbf7",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#edfbf7"
+			"modernDark": "#edfbf7"
 		},
 		"surfaceTagInvertedWarningDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#fffceb",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#fffceb"
+			"modernDark": "#fffceb"
 		},
 		"surfaceTagInvertedErrorDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#fff3f3",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#fff3f3"
+			"modernDark": "#fff3f3"
 		},
 		"textTagTagInvertedDefaultLight": {
 			"modernLight": "#757575",
-			"modernDark": "#e0e0e0",
-			"neobrutalismLight": "#757575",
-			"neobrutalismDark": "#e0e0e0"
+			"modernDark": "#e0e0e0"
 		},
 		"textTagTagInvertedDefaultDark": {
 			"modernLight": "#e0e0e0",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#e0e0e0",
-			"neobrutalismDark": "#757575"
+			"modernDark": "#757575"
 		},
 		"surfaceComponentsCategoryMenuLight": {
 			"modernLight": "#f0fbfa",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#f0fbfa",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"surfaceComponentsCategoryMenuDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#f0fbfa",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#f0fbfa"
+			"modernDark": "#f0fbfa"
 		},
 		"textComponentsMenuBarText500": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"surfaceComponentsMenuBarIcon500": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"surfaceComponentsMenuBarSurfaceLight": {
 			"modernLight": "#ffffff",
-			"modernDark": "#181a20d8",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#181a20d8"
+			"modernDark": "#181a20d8"
 		},
 		"surfaceComponentsMenuBarSurfaceDark": {
 			"modernLight": "#181a20d8",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#181a20d8",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#ffffff"
 		},
 		"strokeLightDarkLight6": {
 			"modernLight": "#f5f5f5",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#f5f5f5",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"strokeLightDarkDark6": {
 			"modernLight": "#35383f",
-			"modernDark": "#f5f5f5",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#f5f5f5"
+			"modernDark": "#f5f5f5"
 		},
 		"surfaceLightDarkLight4": {
 			"modernLight": "#f5f5f5",
-			"modernDark": "#1e2025",
-			"neobrutalismLight": "#f5f5f5",
-			"neobrutalismDark": "#1e2025"
+			"modernDark": "#1e2025"
 		},
 		"surfaceLightDarkDark4": {
 			"modernLight": "#1e2025",
-			"modernDark": "#f5f5f5",
-			"neobrutalismLight": "#1e2025",
-			"neobrutalismDark": "#f5f5f5"
+			"modernDark": "#f5f5f5"
 		},
 		"textComponentsTextFormDefault500": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"surfaceComponentsIconFormDefault500": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"textComponentsTextFormDisabled600": {
 			"modernLight": "#757575",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#757575",
-			"neobrutalismDark": "#757575"
+			"modernDark": "#757575"
 		},
 		"surfaceComponentsIconFormDisabled600": {
 			"modernLight": "#757575",
-			"modernDark": "#757575",
-			"neobrutalismLight": "#757575",
-			"neobrutalismDark": "#757575"
+			"modernDark": "#757575"
 		},
 		"strokeInputFormDefaultFilledLight": {
 			"modernLight": "#fafafa",
-			"modernDark": "#1f222a",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#1f222a"
 		},
 		"strokeInputFormReadOnlyLight": {
 			"modernLight": "#f5f5f5",
-			"modernDark": "#1e2025",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#1e2025"
 		},
 		"strokeInputFormDisabledLight": {
 			"modernLight": "#d8d8d8",
-			"modernDark": "#23252b",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#23252b"
 		},
 		"strokeInputFormDefaultFilledDark": {
 			"modernLight": "#1f222a",
-			"modernDark": "#fafafa",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#fafafa"
 		},
 		"strokeInputFormReadOnlyDark": {
 			"modernLight": "#1e2025",
-			"modernDark": "#f5f5f5",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#f5f5f5"
 		},
 		"strokeInputFormDisabledDark": {
 			"modernLight": "#23252b",
-			"modernDark": "#d8d8d8",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#d8d8d8"
 		},
 		"textInputForm2InputFormDefaultLight": {
 			"modernLight": "#bdbdbd",
-			"modernDark": "#616161",
-			"neobrutalismLight": "#bdbdbd",
-			"neobrutalismDark": "#616161"
+			"modernDark": "#616161"
 		},
 		"textInputForm2InputFormReadOnlyLight": {
 			"modernLight": "#616161",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#616161",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"textInputForm2InputFormDisabledLight": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#616161",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#616161"
+			"modernDark": "#616161"
 		},
 		"textInputForm2InputFormDefaultDark": {
 			"modernLight": "#616161",
-			"modernDark": "#bdbdbd",
-			"neobrutalismLight": "#616161",
-			"neobrutalismDark": "#bdbdbd"
+			"modernDark": "#bdbdbd"
 		},
 		"textInputForm2InputFormReadOnlyDark": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#616161",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#616161"
+			"modernDark": "#616161"
 		},
 		"textInputForm2InputFormDisabledDark": {
 			"modernLight": "#616161",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#616161",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"surfaceInputForm2DefaultLight": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#424242",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#424242"
+			"modernDark": "#424242"
 		},
 		"surfaceInputForm2ReadOnlyLight": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#35383f",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#35383f"
+			"modernDark": "#35383f"
 		},
 		"surfaceInputForm2DefaultDark": {
 			"modernLight": "#424242",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#424242",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"surfaceInputForm2ReadOnlyDark": {
 			"modernLight": "#35383f",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#35383f",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"surfaceInputForm2ReadOnlyIconLight": {
 			"modernLight": "#616161",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#616161",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"surfaceInputForm2ReadOnlyIconDark": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#616161",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#616161"
+			"modernDark": "#616161"
 		},
 		"surfaceInputForm2DisabledIconLight": {
 			"modernLight": "#9e9e9e",
-			"modernDark": "#616161",
-			"neobrutalismLight": "#9e9e9e",
-			"neobrutalismDark": "#616161"
+			"modernDark": "#616161"
 		},
 		"surfaceInputForm2DisabledIconDark": {
 			"modernLight": "#616161",
-			"modernDark": "#9e9e9e",
-			"neobrutalismLight": "#616161",
-			"neobrutalismDark": "#9e9e9e"
+			"modernDark": "#9e9e9e"
 		},
 		"strokeLightDarkLight0": {
 			"modernLight": "#ffffff",
-			"modernDark": "#181a20",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#181a20"
 		},
 		"strokeLightDarkDark0": {
 			"modernLight": "#181a20",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#ffffff"
 		},
 		"surfaceOthersRed": {
 			"modernLight": "#f54336",
-			"modernDark": "#f54336",
-			"neobrutalismLight": "#f54336",
-			"neobrutalismDark": "#f54336"
+			"modernDark": "#f54336"
 		},
 		"surfaceOthersPink": {
 			"modernLight": "#ea1e61",
-			"modernDark": "#ea1e61",
-			"neobrutalismLight": "#ea1e61",
-			"neobrutalismDark": "#ea1e61"
+			"modernDark": "#ea1e61"
 		},
 		"surfaceOthersPurple": {
 			"modernLight": "#9d28ac",
-			"modernDark": "#9d28ac",
-			"neobrutalismLight": "#9d28ac",
-			"neobrutalismDark": "#9d28ac"
+			"modernDark": "#9d28ac"
 		},
 		"surfaceOthersDeepPurple": {
 			"modernLight": "#673ab3",
-			"modernDark": "#673ab3",
-			"neobrutalismLight": "#673ab3",
-			"neobrutalismDark": "#673ab3"
+			"modernDark": "#673ab3"
 		},
 		"surfaceOthersIndigo": {
 			"modernLight": "#3f51b2",
-			"modernDark": "#3f51b2",
-			"neobrutalismLight": "#3f51b2",
-			"neobrutalismDark": "#3f51b2"
+			"modernDark": "#3f51b2"
 		},
 		"surfaceOthersBlue": {
 			"modernLight": "#1a96f0",
-			"modernDark": "#1a96f0",
-			"neobrutalismLight": "#1a96f0",
-			"neobrutalismDark": "#1a96f0"
+			"modernDark": "#1a96f0"
 		},
 		"surfaceOthersLightBlue": {
 			"modernLight": "#00a9f1",
-			"modernDark": "#00a9f1",
-			"neobrutalismLight": "#00a9f1",
-			"neobrutalismDark": "#00a9f1"
+			"modernDark": "#00a9f1"
 		},
 		"surfaceOthersCyan": {
 			"modernLight": "#00bcd3",
-			"modernDark": "#00bcd3",
-			"neobrutalismLight": "#00bcd3",
-			"neobrutalismDark": "#00bcd3"
+			"modernDark": "#00bcd3"
 		},
 		"surfaceOthersTeal": {
 			"modernLight": "#009689",
-			"modernDark": "#009689",
-			"neobrutalismLight": "#009689",
-			"neobrutalismDark": "#009689"
+			"modernDark": "#009689"
 		},
 		"surfaceOthersGreen": {
 			"modernLight": "#4aaf57",
-			"modernDark": "#4aaf57",
-			"neobrutalismLight": "#4aaf57",
-			"neobrutalismDark": "#4aaf57"
+			"modernDark": "#4aaf57"
 		},
 		"surfaceOthersLightGreen": {
 			"modernLight": "#8bc255",
-			"modernDark": "#8bc255",
-			"neobrutalismLight": "#8bc255",
-			"neobrutalismDark": "#8bc255"
+			"modernDark": "#8bc255"
 		},
 		"surfaceOthersLime": {
 			"modernLight": "#cddc4c",
-			"modernDark": "#cddc4c",
-			"neobrutalismLight": "#cddc4c",
-			"neobrutalismDark": "#cddc4c"
+			"modernDark": "#cddc4c"
 		},
 		"surfaceOthersYellow": {
 			"modernLight": "#ffeb4f",
-			"modernDark": "#ffeb4f",
-			"neobrutalismLight": "#ffeb4f",
-			"neobrutalismDark": "#ffeb4f"
+			"modernDark": "#ffeb4f"
 		},
 		"surfaceOthersAmber": {
 			"modernLight": "#ffc02d",
-			"modernDark": "#ffc02d",
-			"neobrutalismLight": "#ffc02d",
-			"neobrutalismDark": "#ffc02d"
+			"modernDark": "#ffc02d"
 		},
 		"surfaceOthersOrange": {
 			"modernLight": "#ff981f",
-			"modernDark": "#ff981f",
-			"neobrutalismLight": "#ff981f",
-			"neobrutalismDark": "#ff981f"
+			"modernDark": "#ff981f"
 		},
 		"surfaceOthersDeepOrange": {
 			"modernLight": "#ff5726",
-			"modernDark": "#ff5726",
-			"neobrutalismLight": "#ff5726",
-			"neobrutalismDark": "#ff5726"
+			"modernDark": "#ff5726"
 		},
 		"surfaceOthersBrown": {
 			"modernLight": "#7a5548",
-			"modernDark": "#7a5548",
-			"neobrutalismLight": "#7a5548",
-			"neobrutalismDark": "#7a5548"
+			"modernDark": "#7a5548"
 		},
 		"surfaceOthersBlueGrey": {
 			"modernLight": "#607d8a",
-			"modernDark": "#607d8a",
-			"neobrutalismLight": "#607d8a",
-			"neobrutalismDark": "#607d8a"
+			"modernDark": "#607d8a"
 		},
 		"strokeAdditionalsSearchFormLight": {
 			"modernLight": "#ffffff",
-			"modernDark": "#181a20",
-			"neobrutalismLight": "#000000",
-			"neobrutalismDark": "#ffffff"
+			"modernDark": "#181a20"
 		},
 		"strokeAdditionalsSearchFormDark": {
 			"modernLight": "#181a20",
-			"modernDark": "#ffffff",
-			"neobrutalismLight": "#ffffff",
-			"neobrutalismDark": "#000000"
+			"modernDark": "#ffffff"
 		}
 	}
 }

@@ -46,8 +46,8 @@ class _ComponentPageState extends State<ComponentPage> {
     return const CRTextField3Compose(
       hintText: 'Email',
       hintType: CRTextFieldHintType.staticLabel,
-      currentState: CRTextFieldState.success,
       message: 'Email is required',
+    
     );
   }
 }

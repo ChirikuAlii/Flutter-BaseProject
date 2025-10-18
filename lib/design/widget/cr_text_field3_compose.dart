@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_base_project/design/colors/colors.dart';
+import 'package:flutter_base_project/design/colors/colors2.dart';
+import 'package:flutter_base_project/design/themes/cr_themes.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3.dart';
 
 class CRTextField3Compose extends StatelessWidget {
@@ -17,23 +19,23 @@ class CRTextField3Compose extends StatelessWidget {
   final String? message;
 
   // Configurations per state
-  final CRTextFieldStateConfig noneConfig;
-  final CRTextFieldStateConfig focusConfig;
-  final CRTextFieldStateConfig errorConfig;
-  final CRTextFieldStateConfig successConfig;
-  final CRTextFieldStateConfig disableConfig;
+  final CRTextFieldStateConfig? noneConfig;
+  final CRTextFieldStateConfig? focusConfig;
+  final CRTextFieldStateConfig? errorConfig;
+  final CRTextFieldStateConfig? successConfig;
+  final CRTextFieldStateConfig? disableConfig;
 
   // Message card configuration
-  final CRTextTextFieldMessageCardConfig messageCardSuccessConfig;
-  final CRTextTextFieldMessageCardConfig messageCardErrorConfig;
+  final CRTextTextFieldMessageCardConfig? messageCardSuccessConfig;
+  final CRTextTextFieldMessageCardConfig? messageCardErrorConfig;
 
   // Default styling values
   final double defaultBorderRadius;
-  final Color defaultFillColor;
-  final Color defaultBorderColor;
-  final Color defaultTextColor;
-  final Color defaultHintColor;
-  final Color defaultLabelColor;
+  final Color? defaultFillColor;
+  final Color? defaultBorderColor;
+  final Color? defaultTextColor;
+  final Color? defaultHintColor;
+  final Color? defaultLabelColor;
   final double defaultBorderWidth;
 
   // Margins
@@ -75,29 +77,19 @@ class CRTextField3Compose extends StatelessWidget {
     this.inputType = CRTextFieldInputType.text,
     this.currentState = CRTextFieldState.none,
     this.message,
-    this.noneConfig = const CRTextFieldStateConfig(borderColor: CRColors.grey2),
-    this.focusConfig = const CRTextFieldStateConfig(borderColor: CRColors.primary),
-    this.errorConfig = const CRTextFieldStateConfig(borderColor: CRColors.error),
+    this.noneConfig,
+    this.focusConfig,
+    this.errorConfig,
     this.successConfig = const CRTextFieldStateConfig(),
-    this.disableConfig = const CRTextFieldStateConfig(borderColor: CRColors.grey2),
-    this.messageCardSuccessConfig = const CRTextTextFieldMessageCardConfig(
-      bgColor: CRColors.success1,
-      iconColor: CRColors.success3,
-      icon: Icons.check_circle_outline,
-      textColor: CRColors.success3,
-    ),
-    this.messageCardErrorConfig = const CRTextTextFieldMessageCardConfig(
-      bgColor: CRColors.red2,
-      iconColor: CRColors.error,
-      icon: Icons.error_outline,
-      textColor: CRColors.error,
-    ),
+    this.disableConfig,
+    this.messageCardSuccessConfig,
+    this.messageCardErrorConfig,
     this.defaultBorderRadius = 12.0,
-    this.defaultFillColor = Colors.white,
-    this.defaultBorderColor = Colors.grey,
-    this.defaultTextColor = Colors.black,
-    this.defaultHintColor = Colors.grey,
-    this.defaultLabelColor = Colors.black,
+    this.defaultFillColor,
+    this.defaultBorderColor,
+    this.defaultTextColor,
+    this.defaultHintColor,
+    this.defaultLabelColor,
     this.defaultBorderWidth = 1.5,
     this.margin = const EdgeInsets.symmetric(vertical: 8.0),
     this.keyboardType,
@@ -122,6 +114,52 @@ class CRTextField3Compose extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //widget
+    //theme
+    //default value put compose because connect with theme
+    final CRThemes theme =Theme.of(context).extension<CRThemes>()!;
+
+    final Color defaultFillColor = this.defaultFillColor ?? CRColors.white;
+    final Color defaultBorderColor = this.defaultBorderColor ?? Colors.grey;
+    final Color defaultTextColor = this.defaultTextColor ?? Colors.black;
+    final Color defaultHintColor = this.defaultHintColor ?? Colors.grey;
+    final Color defaultLabelColor = this.defaultLabelColor ?? Colors.black;
+
+    final CRTextTextFieldMessageCardConfig messageCardSuccessConfig =
+        this.messageCardSuccessConfig ??
+            const CRTextTextFieldMessageCardConfig(
+              bgColor: CRColors.success1,
+              iconColor: CRColors.success3,
+              icon: Icons.check_circle_outline,
+              textColor: CRColors.success3,
+            );
+
+    final CRTextTextFieldMessageCardConfig messageCardErrorConfig =
+        this.messageCardErrorConfig ??
+            const CRTextTextFieldMessageCardConfig(
+              bgColor: CRColors.red2,
+              iconColor: CRColors.error,
+              icon: Icons.error_outline,
+              textColor: CRColors.error,
+            );
+
+    final CRTextFieldStateConfig noneConfig = this.noneConfig ??
+         CRTextFieldStateConfig(
+          borderColor: theme.strokeInputFormDefaultFilledLight,
+          textColor: theme.textGeneralTextLight,
+          fillColor: theme.surfaceLightDarkLight3,
+          hintColor: theme.textComponentsTextFormDefault500,
+          labelColor: theme.textGeneralTextLight,
+          );
+    final CRTextFieldStateConfig focusConfig = this.focusConfig ??
+        const CRTextFieldStateConfig(borderColor: CRColors.primary);
+    final CRTextFieldStateConfig errorConfig = this.errorConfig ??
+        const CRTextFieldStateConfig(borderColor: CRColors.error);
+    final CRTextFieldStateConfig successConfig =
+        this.successConfig ?? const CRTextFieldStateConfig();
+    final CRTextFieldStateConfig disableConfig = this.disableConfig ??
+        const CRTextFieldStateConfig(borderColor: CRColors.grey2);
+
     return CRTextField3(
       controller: controller,
       labelText: labelText,

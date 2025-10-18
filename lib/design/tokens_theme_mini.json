@@ -1,0 +1,15 @@
+{
+  "colors": {
+    "primary900": {
+      "value": "#1a998e"
+    }
+  },
+  "themes": {
+    "textGeneralBrand": {
+      "modernLight": "#1a998e",
+      "modernDark": "#1a998e",
+      "neobrutalismLight": "#1a998e",
+      "neobrutalismDark": "#1a998e"
+    }
+  }
+}

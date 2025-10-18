@@ -39,15 +39,15 @@ class CrApp extends StatelessWidget {
                   locale: context.locale,
                   theme: ThemeData(
                     extensions: <ThemeExtension<dynamic>>[
-                      CRThemes.light() 
+                      CRThemes.light
                     ]
                   ),
                   darkTheme: ThemeData(
                     extensions: <ThemeExtension<dynamic>>[
-                      CRThemes.dark() 
+                      CRThemes.dark
                     ]
                   ),
-                  themeMode: ThemeMode.system,
+                  themeMode: ThemeMode.dark,
                 );
               },
             );
