@@ -188,7 +188,8 @@ class CRColors2 {
     light: Color(0xff23252b),
     dark: Color(0xffd8d8d8),
   );
-  static const CRColorVariant surfaceAlertsStatusButtonDisabled = CRColorVariant(
+  static const CRColorVariant surfaceAlertsStatusButtonDisabled =
+      CRColorVariant(
     light: Color(0xff157a72),
     dark: Color(0xff157a72),
   );
@@ -256,7 +257,8 @@ class CRColors2 {
     light: Color(0xfff0fbfa),
     dark: Color(0xfff0fbfa),
   );
-  static const CRColorVariant surfaceBackgroundBackgroundPurple = CRColorVariant(
+  static const CRColorVariant surfaceBackgroundBackgroundPurple =
+      CRColorVariant(
     light: Color(0xfff8f0fe),
     dark: Color(0xfff8f0fe),
   );
@@ -276,19 +278,23 @@ class CRColors2 {
     light: Color(0xfffbf6f3),
     dark: Color(0xfffbf6f3),
   );
-  static const CRColorVariant surfaceBackgroundBackgroundYellow = CRColorVariant(
+  static const CRColorVariant surfaceBackgroundBackgroundYellow =
+      CRColorVariant(
     light: Color(0xfffffceb),
     dark: Color(0xfffffceb),
   );
-  static const CRColorVariant surfaceBackgroundBackgroundOrange = CRColorVariant(
+  static const CRColorVariant surfaceBackgroundBackgroundOrange =
+      CRColorVariant(
     light: Color(0xfffff8ee),
     dark: Color(0xfffff8ee),
   );
-  static const CRColorVariant surfaceTransparentTransparentTeal = CRColorVariant(
-    light: Color(0x1a998e14),
-    dark: Color(0x1a998e14),
+  static const CRColorVariant surfaceTransparentTransparentTeal =
+      CRColorVariant(
+    light: Color(0x141a998e),
+    dark: Color(0x141a998e),
   );
-  static const CRColorVariant surfaceTransparentTransparentPurple = CRColorVariant(
+  static const CRColorVariant surfaceTransparentTransparentPurple =
+      CRColorVariant(
     light: Color(0x9610ff14),
     dark: Color(0x9610ff14),
   );
@@ -296,23 +302,28 @@ class CRColors2 {
     light: Color(0xff4a4a14),
     dark: Color(0xff4a4a14),
   );
-  static const CRColorVariant surfaceTransparentTransparentBlue = CRColorVariant(
+  static const CRColorVariant surfaceTransparentTransparentBlue =
+      CRColorVariant(
     light: Color(0x235dff14),
     dark: Color(0x235dff14),
   );
-  static const CRColorVariant surfaceTransparentTransparentGreen = CRColorVariant(
-    light: Color(0x17ce9214),
-    dark: Color(0x17ce9214),
+  static const CRColorVariant surfaceTransparentTransparentGreen =
+      CRColorVariant(
+    light: Color(0x1417ce92),
+    dark: Color(0x1417ce92),
   );
-  static const CRColorVariant surfaceTransparentTransparentBrown = CRColorVariant(
+  static const CRColorVariant surfaceTransparentTransparentBrown =
+      CRColorVariant(
     light: Color(0xa4634d14),
     dark: Color(0xa4634d14),
   );
-  static const CRColorVariant surfaceTransparentTransparentYellow = CRColorVariant(
+  static const CRColorVariant surfaceTransparentTransparentYellow =
+      CRColorVariant(
     light: Color(0xffd30014),
     dark: Color(0xffd30014),
   );
-  static const CRColorVariant surfaceTransparentTransparentOrange = CRColorVariant(
+  static const CRColorVariant surfaceTransparentTransparentOrange =
+      CRColorVariant(
     light: Color(0xf8930014),
     dark: Color(0xf8930014),
   );
@@ -344,7 +355,8 @@ class CRColors2 {
     light: Color(0xff000000),
     dark: Color(0xffffffff),
   );
-  static const CRColorVariant surfaceTransparentTransparentGrey = CRColorVariant(
+  static const CRColorVariant surfaceTransparentTransparentGrey =
+      CRColorVariant(
     light: Color(0x75757514),
     dark: Color(0x75757514),
   );
@@ -400,7 +412,8 @@ class CRColors2 {
     light: Color(0xfff75555),
     dark: Color(0xfff75555),
   );
-  static const CRColorVariant strokeBorderSingleStrokeBorderLight = CRColorVariant(
+  static const CRColorVariant strokeBorderSingleStrokeBorderLight =
+      CRColorVariant(
     light: Color(0xffeeeeee),
     dark: Color(0xff35383f),
   );
@@ -408,7 +421,8 @@ class CRColors2 {
     light: Color(0xffeeeeee),
     dark: Color(0xff35383f),
   );
-  static const CRColorVariant strokeBorderSingleStrokeDividerLight = CRColorVariant(
+  static const CRColorVariant strokeBorderSingleStrokeDividerLight =
+      CRColorVariant(
     light: Color(0xffeeeeee),
     dark: Color(0xff35383f),
   );
@@ -484,11 +498,13 @@ class CRColors2 {
     light: Color(0xffffffff),
     dark: Color(0xff1a998e),
   );
-  static const CRColorVariant strokeBorderSingleStrokeBorderDark = CRColorVariant(
+  static const CRColorVariant strokeBorderSingleStrokeBorderDark =
+      CRColorVariant(
     light: Color(0xff35383f),
     dark: Color(0xffeeeeee),
   );
-  static const CRColorVariant strokeBorderSingleStrokeDividerDark = CRColorVariant(
+  static const CRColorVariant strokeBorderSingleStrokeDividerDark =
+      CRColorVariant(
     light: Color(0xff35383f),
     dark: Color(0xffeeeeee),
   );
@@ -512,31 +528,38 @@ class CRColors2 {
     light: Color(0xff1f222a),
     dark: Color(0xffffffff),
   );
-  static const CRColorVariant surfaceComponentsButtomBarActionLight = CRColorVariant(
+  static const CRColorVariant surfaceComponentsButtomBarActionLight =
+      CRColorVariant(
     light: Color(0xffffffff),
     dark: Color(0xff181a20),
   );
-  static const CRColorVariant surfaceComponentsButtomBarActionDark = CRColorVariant(
+  static const CRColorVariant surfaceComponentsButtomBarActionDark =
+      CRColorVariant(
     light: Color(0xff181a20),
     dark: Color(0xffffffff),
   );
-  static const CRColorVariant surfaceComponentsGeneralFrameLight = CRColorVariant(
+  static const CRColorVariant surfaceComponentsGeneralFrameLight =
+      CRColorVariant(
     light: Color(0xfffafafa),
     dark: Color(0xff1f222a),
   );
-  static const CRColorVariant surfaceComponentsGeneralFrameDark = CRColorVariant(
+  static const CRColorVariant surfaceComponentsGeneralFrameDark =
+      CRColorVariant(
     light: Color(0xff1f222a),
     dark: Color(0xfffafafa),
   );
-  static const CRColorVariant surfaceAdditionalsOverColorFrameLight = CRColorVariant(
+  static const CRColorVariant surfaceAdditionalsOverColorFrameLight =
+      CRColorVariant(
     light: Color(0xffffffff),
     dark: Color(0xffffffff),
   );
-  static const CRColorVariant surfaceComponentsDropdownIconLight = CRColorVariant(
+  static const CRColorVariant surfaceComponentsDropdownIconLight =
+      CRColorVariant(
     light: Color(0xff212121),
     dark: Color(0xfffafafa),
   );
-  static const CRColorVariant surfaceComponentsDropdownIconDark = CRColorVariant(
+  static const CRColorVariant surfaceComponentsDropdownIconDark =
+      CRColorVariant(
     light: Color(0xfffafafa),
     dark: Color(0xff212121),
   );
@@ -560,7 +583,8 @@ class CRColors2 {
     light: Color(0xffffffff),
     dark: Color(0xff181a20),
   );
-  static const CRColorVariant surfaceAdditionalsOverColorFrameDark = CRColorVariant(
+  static const CRColorVariant surfaceAdditionalsOverColorFrameDark =
+      CRColorVariant(
     light: Color(0xff212121),
     dark: Color(0xff212121),
   );
@@ -600,11 +624,13 @@ class CRColors2 {
     light: Color(0xff1f222a),
     dark: Color(0xfff5f5f5),
   );
-  static const CRColorVariant surfaceComponentsSearchSurfaceLight = CRColorVariant(
+  static const CRColorVariant surfaceComponentsSearchSurfaceLight =
+      CRColorVariant(
     light: Color(0xffbdbdbd),
     dark: Color(0xff757575),
   );
-  static const CRColorVariant surfaceComponentsSearchSurfaceDark = CRColorVariant(
+  static const CRColorVariant surfaceComponentsSearchSurfaceDark =
+      CRColorVariant(
     light: Color(0xff757575),
     dark: Color(0xffbdbdbd),
   );
@@ -712,7 +738,8 @@ class CRColors2 {
     light: Color(0xff35383f),
     dark: Color(0xfff6f6f6),
   );
-  static const CRColorVariant strokeAdditionalsTagOutlineDefault600 = CRColorVariant(
+  static const CRColorVariant strokeAdditionalsTagOutlineDefault600 =
+      CRColorVariant(
     light: Color(0xff757575),
     dark: Color(0xff757575),
   );
@@ -744,11 +771,13 @@ class CRColors2 {
     light: Color(0xffe0e0e0),
     dark: Color(0xff757575),
   );
-  static const CRColorVariant surfaceComponentsCategoryMenuLight = CRColorVariant(
+  static const CRColorVariant surfaceComponentsCategoryMenuLight =
+      CRColorVariant(
     light: Color(0xfff0fbfa),
     dark: Color(0xff35383f),
   );
-  static const CRColorVariant surfaceComponentsCategoryMenuDark = CRColorVariant(
+  static const CRColorVariant surfaceComponentsCategoryMenuDark =
+      CRColorVariant(
     light: Color(0xff35383f),
     dark: Color(0xfff0fbfa),
   );
@@ -760,11 +789,13 @@ class CRColors2 {
     light: Color(0xff9e9e9e),
     dark: Color(0xff9e9e9e),
   );
-  static const CRColorVariant surfaceComponentsMenuBarSurfaceLight = CRColorVariant(
+  static const CRColorVariant surfaceComponentsMenuBarSurfaceLight =
+      CRColorVariant(
     light: Color(0xffffffff),
     dark: Color(0x181a20d8),
   );
-  static const CRColorVariant surfaceComponentsMenuBarSurfaceDark = CRColorVariant(
+  static const CRColorVariant surfaceComponentsMenuBarSurfaceDark =
+      CRColorVariant(
     light: Color(0x181a20d8),
     dark: Color(0xffffffff),
   );
@@ -788,19 +819,23 @@ class CRColors2 {
     light: Color(0xff9e9e9e),
     dark: Color(0xff9e9e9e),
   );
-  static const CRColorVariant surfaceComponentsIconFormDefault500 = CRColorVariant(
+  static const CRColorVariant surfaceComponentsIconFormDefault500 =
+      CRColorVariant(
     light: Color(0xff9e9e9e),
     dark: Color(0xff9e9e9e),
   );
-  static const CRColorVariant textComponentsTextFormDisabled600 = CRColorVariant(
+  static const CRColorVariant textComponentsTextFormDisabled600 =
+      CRColorVariant(
     light: Color(0xff757575),
     dark: Color(0xff757575),
   );
-  static const CRColorVariant surfaceComponentsIconFormDisabled600 = CRColorVariant(
+  static const CRColorVariant surfaceComponentsIconFormDisabled600 =
+      CRColorVariant(
     light: Color(0xff757575),
     dark: Color(0xff757575),
   );
-  static const CRColorVariant strokeInputFormDefaultFilledLight = CRColorVariant(
+  static const CRColorVariant strokeInputFormDefaultFilledLight =
+      CRColorVariant(
     light: Color(0xfffafafa),
     dark: Color(0xff1f222a),
   );
@@ -824,27 +859,33 @@ class CRColors2 {
     light: Color(0xff23252b),
     dark: Color(0xffd8d8d8),
   );
-  static const CRColorVariant textInputForm2InputFormDefaultLight = CRColorVariant(
+  static const CRColorVariant textInputForm2InputFormDefaultLight =
+      CRColorVariant(
     light: Color(0xffbdbdbd),
     dark: Color(0xff616161),
   );
-  static const CRColorVariant textInputForm2InputFormReadOnlyLight = CRColorVariant(
+  static const CRColorVariant textInputForm2InputFormReadOnlyLight =
+      CRColorVariant(
     light: Color(0xff616161),
     dark: Color(0xff9e9e9e),
   );
-  static const CRColorVariant textInputForm2InputFormDisabledLight = CRColorVariant(
+  static const CRColorVariant textInputForm2InputFormDisabledLight =
+      CRColorVariant(
     light: Color(0xff9e9e9e),
     dark: Color(0xff616161),
   );
-  static const CRColorVariant textInputForm2InputFormDefaultDark = CRColorVariant(
+  static const CRColorVariant textInputForm2InputFormDefaultDark =
+      CRColorVariant(
     light: Color(0xff616161),
     dark: Color(0xffbdbdbd),
   );
-  static const CRColorVariant textInputForm2InputFormReadOnlyDark = CRColorVariant(
+  static const CRColorVariant textInputForm2InputFormReadOnlyDark =
+      CRColorVariant(
     light: Color(0xff9e9e9e),
     dark: Color(0xff616161),
   );
-  static const CRColorVariant textInputForm2InputFormDisabledDark = CRColorVariant(
+  static const CRColorVariant textInputForm2InputFormDisabledDark =
+      CRColorVariant(
     light: Color(0xff616161),
     dark: Color(0xff9e9e9e),
   );
@@ -864,19 +905,23 @@ class CRColors2 {
     light: Color(0xff35383f),
     dark: Color(0xff9e9e9e),
   );
-  static const CRColorVariant surfaceInputForm2ReadOnlyIconLight = CRColorVariant(
+  static const CRColorVariant surfaceInputForm2ReadOnlyIconLight =
+      CRColorVariant(
     light: Color(0xff616161),
     dark: Color(0xff9e9e9e),
   );
-  static const CRColorVariant surfaceInputForm2ReadOnlyIconDark = CRColorVariant(
+  static const CRColorVariant surfaceInputForm2ReadOnlyIconDark =
+      CRColorVariant(
     light: Color(0xff9e9e9e),
     dark: Color(0xff616161),
   );
-  static const CRColorVariant surfaceInputForm2DisabledIconLight = CRColorVariant(
+  static const CRColorVariant surfaceInputForm2DisabledIconLight =
+      CRColorVariant(
     light: Color(0xff9e9e9e),
     dark: Color(0xff616161),
   );
-  static const CRColorVariant surfaceInputForm2DisabledIconDark = CRColorVariant(
+  static const CRColorVariant surfaceInputForm2DisabledIconDark =
+      CRColorVariant(
     light: Color(0xff616161),
     dark: Color(0xff9e9e9e),
   );

@@ -235,25 +235,26 @@ class _CRTextField3State extends State<CRTextField3> {
     // Jika disabled, gunakan disable config
     if (!widget.enabled) {
       return widget.disableConfig;
-    }
-
-    // Jika ada error, gunakan error config
-    if (widget.currentState == CRTextFieldState.error) {
-      return widget.errorConfig;
-    }
-
-    // Jika ada success, gunakan success config
-    if (widget.currentState == CRTextFieldState.success) {
-      return widget.successConfig;
-    }
+    } else
 
     // Jika focus, gunakan focus config
     if (_isFocused) {
       return widget.focusConfig;
+    } else
+
+    // Jika ada error, gunakan error config
+    if (widget.currentState == CRTextFieldState.error) {
+      return widget.errorConfig;
+    } else
+
+    // Jika ada success, gunakan success config
+    if (widget.currentState == CRTextFieldState.success) {
+      return widget.successConfig;
+    } else {
+      return widget.noneConfig;
     }
 
     // None config
-    return widget.noneConfig;
   }
 
   CRTextTextFieldMessageCardConfig _getCurrentMessageCardConfig() {
@@ -456,7 +457,7 @@ class _CRTextField3State extends State<CRTextField3> {
       hintStyle: TextStyle(
         color: _getHintColor(),
       ),
-      filled: true,
+      filled: widget.style == CRTextFieldStyle.fill ? true : false,
       fillColor: _getFillColor(),
       border: border,
       enabledBorder: enabledBorder,

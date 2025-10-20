@@ -1,5 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_base_project/design/colors/colors2.dart';
 import 'package:flutter_base_project/design/text_style/text_style.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3.dart';
@@ -17,7 +18,7 @@ class _ComponentPageState extends State<ComponentPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: CRColors2.surfaceLightDarkDark1.dark,
       body: SafeArea(
         child: Container(
           margin: const EdgeInsets.symmetric(horizontal: 24),
@@ -43,11 +44,12 @@ class _ComponentPageState extends State<ComponentPage> {
   }
 
   Widget _buildTextField1() {
-    return const CRTextField3Compose(
+    return CRTextField3Compose(
       hintText: 'Email',
       hintType: CRTextFieldHintType.staticLabel,
+      currentState: CRTextFieldState.error,
+      style: CRTextFieldStyle.underline,
       message: 'Email is required',
-    
     );
   }
 }

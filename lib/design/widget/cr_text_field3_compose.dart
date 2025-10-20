@@ -80,7 +80,7 @@ class CRTextField3Compose extends StatelessWidget {
     this.noneConfig,
     this.focusConfig,
     this.errorConfig,
-    this.successConfig = const CRTextFieldStateConfig(),
+    this.successConfig,
     this.disableConfig,
     this.messageCardSuccessConfig,
     this.messageCardErrorConfig,
@@ -114,10 +114,8 @@ class CRTextField3Compose extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //widget
-    //theme
     //default value put compose because connect with theme
-    final CRThemes theme =Theme.of(context).extension<CRThemes>()!;
+    final CRThemes theme = Theme.of(context).extension<CRThemes>()!;
 
     final Color defaultFillColor = this.defaultFillColor ?? CRColors.white;
     final Color defaultBorderColor = this.defaultBorderColor ?? Colors.grey;
@@ -127,11 +125,11 @@ class CRTextField3Compose extends StatelessWidget {
 
     final CRTextTextFieldMessageCardConfig messageCardSuccessConfig =
         this.messageCardSuccessConfig ??
-            const CRTextTextFieldMessageCardConfig(
-              bgColor: CRColors.success1,
-              iconColor: CRColors.success3,
+            CRTextTextFieldMessageCardConfig(
+              bgColor: theme.surfaceTransparentTransparentGreen,
+              iconColor: theme.textAlertsStatusSuccess,
               icon: Icons.check_circle_outline,
-              textColor: CRColors.success3,
+              textColor: theme.textAlertsStatusSuccess,
             );
 
     final CRTextTextFieldMessageCardConfig messageCardErrorConfig =
@@ -144,21 +142,45 @@ class CRTextField3Compose extends StatelessWidget {
             );
 
     final CRTextFieldStateConfig noneConfig = this.noneConfig ??
-         CRTextFieldStateConfig(
+        CRTextFieldStateConfig(
           borderColor: theme.strokeInputFormDefaultFilledLight,
           textColor: theme.textGeneralTextLight,
           fillColor: theme.surfaceLightDarkLight3,
           hintColor: theme.textComponentsTextFormDefault500,
           labelColor: theme.textGeneralTextLight,
-          );
+        );
     final CRTextFieldStateConfig focusConfig = this.focusConfig ??
-        const CRTextFieldStateConfig(borderColor: CRColors.primary);
+        CRTextFieldStateConfig(
+          borderColor: theme.strokeGeneralBrand,
+          fillColor: theme.surfaceTransparentTransparentTeal,
+          textColor: theme.textGeneralTextLight,
+          hintColor: theme.textComponentsTextFormDefault500,
+          labelColor: theme.textGeneralTextLight,
+        );
     final CRTextFieldStateConfig errorConfig = this.errorConfig ??
-        const CRTextFieldStateConfig(borderColor: CRColors.error);
-    final CRTextFieldStateConfig successConfig =
-        this.successConfig ?? const CRTextFieldStateConfig();
+        CRTextFieldStateConfig(
+          borderColor: theme.strokeAlertsStatusError,
+          fillColor: theme.surfaceLightDarkLight3,
+          textColor: theme.textGeneralTextLight,
+          hintColor: theme.textComponentsTextFormDefault500,
+          labelColor: theme.textGeneralTextLight,
+        );
+    final CRTextFieldStateConfig successConfig = this.successConfig ??
+        CRTextFieldStateConfig(
+          borderColor: theme.strokeAlertsStatusSuccess,
+          fillColor: theme.surfaceLightDarkLight3,
+          textColor: theme.textGeneralTextLight,
+          hintColor: theme.textComponentsTextFormDefault500,
+          labelColor: theme.textGeneralTextLight,
+        );
     final CRTextFieldStateConfig disableConfig = this.disableConfig ??
-        const CRTextFieldStateConfig(borderColor: CRColors.grey2);
+        CRTextFieldStateConfig(
+          borderColor: theme.strokeInputFormDisabledLight,
+          fillColor: theme.surfaceAlertsStatusLightDisabled,
+          textColor: theme.textComponentsTextFormDisabled600,
+          hintColor: theme.textComponentsTextFormDefault500,
+          labelColor: theme.textGeneralTextLight,
+        );
 
     return CRTextField3(
       controller: controller,
