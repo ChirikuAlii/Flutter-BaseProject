@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/utils/widget_responsive.dart';
 
 class CRToolbar extends StatefulWidget {
@@ -36,7 +36,7 @@ class _CRToolbarState extends State<CRToolbar> {
             padding: const EdgeInsets.symmetric(vertical: 24),
             child: Text(
               widget.title,
-              style: widget.style ?? CRTextStyle.headline5,
+              style: widget.style ?? CRTextStyleKey.headline5,
               textAlign: TextAlign.center,
             ),
           ),

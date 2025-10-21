@@ -1,8 +1,8 @@
 import "package:flutter/material.dart";
-import "package:flutter_base_project/design/fonts/fonts.dart";
-import "package:flutter_base_project/design/size/size_text.dart";
+import "package:flutter_base_project/design/values/typography/fonts_key.dart";
+import "package:flutter_base_project/design/values/size/size_text_key.dart";
 
-class CRTextStyle {
+class CRTextStyleKey {
   /// TextTheme uses at [CRTextTheme]
   static const TextStyle headline1 = TextStyle(
       fontSize: kSizeTitle1,

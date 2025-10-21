@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/utils/widget_responsive.dart';
 
 class CRChips extends StatelessWidget {
@@ -27,7 +27,10 @@ class CRChips extends StatelessWidget {
                       gradient: const LinearGradient(
                           begin: AlignmentDirectional.topCenter,
                           end: AlignmentDirectional.bottomCenter,
-                          colors: [CRColors.primary, CRColors.primary])),
+                          colors: [
+                            CRColorsDefault.primary,
+                            CRColorsDefault.primary
+                          ])),
                   child: InkWell(
                     customBorder: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10)),
@@ -40,8 +43,8 @@ class CRChips extends StatelessWidget {
                             child: Text(
                           text,
                           textAlign: TextAlign.center,
-                          style: CRTextStyle.body2
-                              .modify(color: CRColors.white, fontSize: 11),
+                          style: CRTextStyleKey.body2.modify(
+                              color: CRColorsDefault.white, fontSize: 11),
                         ))),
                   ),
                 ),
@@ -51,8 +54,8 @@ class CRChips extends StatelessWidget {
                 child: Ink(
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(10),
-                      color: CRColors.white,
-                      border: Border.all(color: CRColors.primary)),
+                      color: CRColorsDefault.white,
+                      border: Border.all(color: CRColorsDefault.primary)),
                   child: InkWell(
                     customBorder: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10)),
@@ -66,8 +69,8 @@ class CRChips extends StatelessWidget {
                           text,
                           maxLines: 1,
                           textAlign: TextAlign.center,
-                          style: CRTextStyle.body2
-                              .modify(color: CRColors.black, fontSize: 11),
+                          style: CRTextStyleKey.body2.modify(
+                              color: CRColorsDefault.black, fontSize: 11),
                         ))),
                   ),
                 ),

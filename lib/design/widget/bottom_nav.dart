@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/fonts/fonts.dart';
-import 'package:flutter_base_project/design/images/images.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/values/typography/fonts_key.dart';
+import 'package:flutter_base_project/design/values/images/images_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/utils/widget_responsive.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -21,15 +21,15 @@ class CRBottomNav extends StatelessWidget {
           onTap: (int index) {
             onTap.call(index);
           },
-          backgroundColor: CRColors.bottomNavBackground,
+          backgroundColor: CRColorsDefault.bottomNavBackground,
           selectedLabelStyle:
-              CRTextStyle.caption.modify(fontFamily: CRFontFamily.inter),
+              CRTextStyleKey.caption.modify(fontFamily: CRFontFamily.inter),
           unselectedLabelStyle:
-              CRTextStyle.caption.modify(fontFamily: CRFontFamily.inter),
+              CRTextStyleKey.caption.modify(fontFamily: CRFontFamily.inter),
           showSelectedLabels: true,
           showUnselectedLabels: true,
-          selectedItemColor: CRColors.primary,
-          unselectedItemColor: CRColors.grey,
+          selectedItemColor: CRColorsDefault.primary,
+          unselectedItemColor: CRColorsDefault.grey,
           items: _setupBottomNav(context)),
     );
   }
@@ -54,7 +54,7 @@ BottomNavigationBarItem _homeMenu(BuildContext context) {
     ),
     activeIcon: Padding(
       padding: EdgeInsets.only(bottom: Adaptive.of(context).height(2.0)),
-      child: SvgPicture.asset(CRIcons.home, color: CRColors.primary),
+      child: SvgPicture.asset(CRIcons.home, color: CRColorsDefault.primary),
     ),
     label: "Home",
   );
@@ -68,7 +68,7 @@ BottomNavigationBarItem _bookmarkMenu(BuildContext context) {
     ),
     activeIcon: Padding(
       padding: EdgeInsets.only(bottom: Adaptive.of(context).height(2.0)),
-      child: SvgPicture.asset(CRIcons.bookmark, color: CRColors.primary),
+      child: SvgPicture.asset(CRIcons.bookmark, color: CRColorsDefault.primary),
     ),
     label: "Disimpan",
   );
@@ -82,7 +82,7 @@ BottomNavigationBarItem _calendarMenu(BuildContext context) {
     ),
     activeIcon: Padding(
       padding: EdgeInsets.only(bottom: Adaptive.of(context).height(2.0)),
-      child: SvgPicture.asset(CRIcons.calendar, color: CRColors.primary),
+      child: SvgPicture.asset(CRIcons.calendar, color: CRColorsDefault.primary),
     ),
     label: "Kalender",
   );
@@ -96,7 +96,7 @@ BottomNavigationBarItem _historyMenu(BuildContext context) {
     ),
     activeIcon: Padding(
       padding: EdgeInsets.only(bottom: Adaptive.of(context).height(2.0)),
-      child: SvgPicture.asset(CRIcons.history, color: CRColors.primary),
+      child: SvgPicture.asset(CRIcons.history, color: CRColorsDefault.primary),
     ),
     label: "Riwayat",
   );
@@ -110,7 +110,7 @@ BottomNavigationBarItem _profileMenu(BuildContext context) {
     ),
     activeIcon: Padding(
       padding: EdgeInsets.only(bottom: Adaptive.of(context).height(2.0)),
-      child: SvgPicture.asset(CRIcons.profile, color: CRColors.primary),
+      child: SvgPicture.asset(CRIcons.profile, color: CRColorsDefault.primary),
     ),
     label: "Profil",
   );
@@ -124,7 +124,8 @@ BottomNavigationBarItem _favoriteMenu(BuildContext context) {
     ),
     activeIcon: Padding(
       padding: EdgeInsets.only(bottom: Adaptive.of(context).height(2.0)),
-      child: SvgPicture.asset("CRIcons.profile", color: CRColors.primary),
+      child:
+          SvgPicture.asset("CRIcons.profile", color: CRColorsDefault.primary),
     ),
     label: "Profile",
   );

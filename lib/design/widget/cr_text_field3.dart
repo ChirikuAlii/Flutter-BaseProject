@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import '../colors/colors.dart';
+import '../values/colors/colors_default_key.dart';
 
 /// Enum untuk tipe hint text field
 enum CRTextFieldHintType {
@@ -172,10 +172,10 @@ class CRTextField3 extends StatefulWidget {
     required this.messageCardErrorConfig,
     this.defaultBorderRadius = 12.0,
     this.defaultFillColor = Colors.white,
-    this.defaultBorderColor = CRColors.grey2,
-    this.defaultTextColor = CRColors.black1,
-    this.defaultHintColor = CRColors.grey1,
-    this.defaultLabelColor = CRColors.black1,
+    this.defaultBorderColor = CRColorsDefault.grey2,
+    this.defaultTextColor = CRColorsDefault.black1,
+    this.defaultHintColor = CRColorsDefault.grey1,
+    this.defaultLabelColor = CRColorsDefault.black1,
     this.defaultBorderWidth = 1.5,
     this.margin = const EdgeInsets.symmetric(vertical: 8.0),
     this.keyboardType,
@@ -545,14 +545,17 @@ class _CRTextField3State extends State<CRTextField3> {
 
     switch (widget.currentState) {
       case CRTextFieldState.error:
-        bgColor = _getCurrentMessageCardConfig().bgColor ?? CRColors.red2;
-        iconColor = _getCurrentMessageCardConfig().iconColor ?? CRColors.error;
+        bgColor =
+            _getCurrentMessageCardConfig().bgColor ?? CRColorsDefault.red2;
+        iconColor =
+            _getCurrentMessageCardConfig().iconColor ?? CRColorsDefault.error;
         icon = Icons.error_outline;
         break;
       case CRTextFieldState.success:
-        bgColor = _getCurrentMessageCardConfig().bgColor ?? CRColors.success1;
-        iconColor =
-            _getCurrentMessageCardConfig().iconColor ?? CRColors.success3;
+        bgColor =
+            _getCurrentMessageCardConfig().bgColor ?? CRColorsDefault.success1;
+        iconColor = _getCurrentMessageCardConfig().iconColor ??
+            CRColorsDefault.success3;
         icon = Icons.check_circle_outline;
         break;
       default:

@@ -1,7 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/themes/cr_themes.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/design_system/themes/color_theme.dart';
 import 'package:flutter_base_project/di/di.dart';
 import 'package:flutter_base_project/route/cr_router_impl.dart';
 import 'package:provider/provider.dart';
@@ -37,16 +37,18 @@ class CrApp extends StatelessWidget {
                   localizationsDelegates: context.localizationDelegates,
                   supportedLocales: context.supportedLocales,
                   locale: context.locale,
-                  theme: ThemeData(
-                      extensions: <ThemeExtension<dynamic>>[CRThemes.light]),
-                  darkTheme: ThemeData(
-                      extensions: <ThemeExtension<dynamic>>[CRThemes.dark]),
+                  theme: ThemeData(extensions: <ThemeExtension<dynamic>>[
+                    CRColorThemes.light
+                  ]),
+                  darkTheme: ThemeData(extensions: <ThemeExtension<dynamic>>[
+                    CRColorThemes.dark
+                  ]),
                   themeMode: ThemeMode.light,
                 );
               },
             );
           } else {
-            return Container(color: CRColors.black);
+            return Container(color: CRColorsDefault.black);
           }
         });
   }

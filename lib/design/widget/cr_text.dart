@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 
 class CRText extends StatefulWidget {
   CRText(
@@ -22,7 +22,7 @@ class CRText extends StatefulWidget {
 
 class _CRTextState extends State<CRText> {
   final TextStyle? _defaultStyle =
-      CRTextStyle.body2.modify(color: CRColors.primary);
+      CRTextStyleKey.body2.modify(color: CRColorsDefault.primary);
 
   @override
   void initState() {

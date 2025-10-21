@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/design/widget/cr_button.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
 import 'package:flutter_base_project/utils/widget_responsive.dart';
@@ -29,7 +29,7 @@ class _CRDialogState extends State<CRDialog> {
         decoration: BoxDecoration(
           shape: BoxShape.rectangle,
           borderRadius: BorderRadius.circular(18),
-          color: CRColors.white,
+          color: CRColorsDefault.white,
         ),
         width: Adaptive.of(context).totalWidth,
         child: Container(
@@ -39,13 +39,15 @@ class _CRDialogState extends State<CRDialog> {
             children: [
               CRText(
                   text: widget.title ?? "",
-                  style: CRTextStyle.headline2.modify(color: CRColors.primary)),
+                  style: CRTextStyleKey.headline2
+                      .modify(color: CRColorsDefault.primary)),
               const SizedBox(
                 height: 24,
               ),
               CRText(
                 text: widget.description ?? "",
-                style: CRTextStyle.body2.modify(color: CRColors.black),
+                style:
+                    CRTextStyleKey.body2.modify(color: CRColorsDefault.black),
               ),
               const SizedBox(
                 height: 24,

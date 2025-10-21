@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3_compose.dart';
 import '../cr_text_field3.dart';
-import '../../colors/colors.dart';
+import '../../values/colors/colors_default_key.dart';
 
 /// Contoh penggunaan CRTextField3 dengan berbagai konfigurasi
 class CRTextField3Example extends StatefulWidget {
@@ -33,7 +33,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('CRTextField3 Examples'),
-        backgroundColor: CRColors.primary,
+        backgroundColor: CRColorsDefault.primary,
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16.0),
@@ -49,7 +49,8 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               controller: _usernameController,
               labelText: 'Username',
               hintText: 'Masukkan username',
-              prefixIcon: const Icon(Icons.person, color: CRColors.grey1),
+              prefixIcon:
+                  const Icon(Icons.person, color: CRColorsDefault.grey1),
             ),
 
             const SizedBox(height: 24),
@@ -63,7 +64,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               labelText: 'Email',
               hintText: 'Masukkan email anda',
               hintType: CRTextFieldHintType.staticLabel,
-              prefixIcon: const Icon(Icons.email, color: CRColors.grey1),
+              prefixIcon: const Icon(Icons.email, color: CRColorsDefault.grey1),
               keyboardType: TextInputType.emailAddress,
             ),
 
@@ -79,7 +80,8 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
                 labelText: 'Password',
                 hintText: 'Masukkan password',
                 inputType: CRTextFieldInputType.password,
-                prefixIcon: const Icon(Icons.lock, color: CRColors.grey1),
+                prefixIcon:
+                    const Icon(Icons.lock, color: CRColorsDefault.grey1),
                 currentState: _passwordState),
 
             const SizedBox(height: 24),
@@ -93,9 +95,10 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               labelText: 'Username',
               hintText: 'Username',
               currentState: CRTextFieldState.error,
-              prefixIcon: const Icon(Icons.person, color: CRColors.error),
+              prefixIcon:
+                  const Icon(Icons.person, color: CRColorsDefault.error),
               errorConfig: const CRTextFieldStateConfig(
-                borderColor: CRColors.error,
+                borderColor: CRColorsDefault.error,
                 borderWidth: 2.0,
               ),
             ),
@@ -111,11 +114,12 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               labelText: 'Email',
               hintText: 'email@example.com',
               currentState: CRTextFieldState.success,
-              prefixIcon: const Icon(Icons.email, color: CRColors.success3),
+              prefixIcon:
+                  const Icon(Icons.email, color: CRColorsDefault.success3),
               successConfig: const CRTextFieldStateConfig(
-                borderColor: CRColors.success3,
+                borderColor: CRColorsDefault.success3,
                 borderWidth: 2.0,
-                fillColor: CRColors.success1,
+                fillColor: CRColorsDefault.success1,
               ),
             ),
 
@@ -130,11 +134,11 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               labelText: 'Disabled Field',
               hintText: 'Tidak bisa diedit',
               enabled: false,
-              prefixIcon: const Icon(Icons.block, color: CRColors.grey2),
+              prefixIcon: const Icon(Icons.block, color: CRColorsDefault.grey2),
               disableConfig: const CRTextFieldStateConfig(
-                fillColor: CRColors.grey8,
-                borderColor: CRColors.grey2,
-                textColor: CRColors.grey1,
+                fillColor: CRColorsDefault.grey8,
+                borderColor: CRColorsDefault.grey2,
+                textColor: CRColorsDefault.grey1,
               ),
             ),
 
@@ -183,7 +187,7 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
                 });
               },
               prefixIcon:
-                  const Icon(Icons.location_city, color: CRColors.grey1),
+                  const Icon(Icons.location_city, color: CRColorsDefault.grey1),
             ),
 
             const SizedBox(height: 24),
@@ -197,7 +201,8 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               labelText: 'Search',
               hintText: 'Cari sesuatu...',
               style: CRTextFieldStyle.underline,
-              prefixIcon: const Icon(Icons.search, color: CRColors.grey1),
+              prefixIcon:
+                  const Icon(Icons.search, color: CRColorsDefault.grey1),
               defaultFillColor: Colors.transparent,
             ),
 
@@ -212,12 +217,13 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
               labelText: 'Custom Field',
               hintText: 'Field dengan custom styling',
               defaultBorderRadius: 24.0,
-              prefixIcon: const Icon(Icons.star, color: CRColors.primary),
+              prefixIcon:
+                  const Icon(Icons.star, color: CRColorsDefault.primary),
               focusConfig: const CRTextFieldStateConfig(
-                borderColor: CRColors.primary,
+                borderColor: CRColorsDefault.primary,
                 borderWidth: 2.5,
                 borderRadius: 24.0,
-                fillColor: CRColors.blue6,
+                fillColor: CRColorsDefault.blue6,
               ),
             ),
 
@@ -260,16 +266,16 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
           labelText: 'Default',
           hintText: 'State: Default',
           currentState: CRTextFieldState.none,
-          prefixIcon: const Icon(Icons.info, color: CRColors.grey1),
+          prefixIcon: const Icon(Icons.info, color: CRColorsDefault.grey1),
         ),
 
         // Focus (simulasi)
         CRTextField3Compose(
           labelText: 'Focus',
           hintText: 'State: Focus',
-          prefixIcon: const Icon(Icons.info, color: CRColors.primary),
+          prefixIcon: const Icon(Icons.info, color: CRColorsDefault.primary),
           focusConfig: const CRTextFieldStateConfig(
-            borderColor: CRColors.primary,
+            borderColor: CRColorsDefault.primary,
             borderWidth: 2.0,
           ),
         ),
@@ -279,9 +285,9 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
           labelText: 'Error',
           hintText: 'State: Error',
           currentState: CRTextFieldState.error,
-          prefixIcon: const Icon(Icons.error, color: CRColors.error),
+          prefixIcon: const Icon(Icons.error, color: CRColorsDefault.error),
           errorConfig: const CRTextFieldStateConfig(
-            borderColor: CRColors.error,
+            borderColor: CRColorsDefault.error,
             borderWidth: 2.0,
           ),
         ),
@@ -291,11 +297,12 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
           labelText: 'Success',
           hintText: 'State: Success',
           currentState: CRTextFieldState.success,
-          prefixIcon: const Icon(Icons.check_circle, color: CRColors.success3),
+          prefixIcon:
+              const Icon(Icons.check_circle, color: CRColorsDefault.success3),
           successConfig: const CRTextFieldStateConfig(
-            borderColor: CRColors.success3,
+            borderColor: CRColorsDefault.success3,
             borderWidth: 2.0,
-            fillColor: CRColors.success1,
+            fillColor: CRColorsDefault.success1,
           ),
         ),
 
@@ -304,10 +311,10 @@ class _CRTextField3ExampleState extends State<CRTextField3Example> {
           labelText: 'Disabled',
           hintText: 'State: Disabled',
           enabled: false,
-          prefixIcon: const Icon(Icons.block, color: CRColors.grey2),
+          prefixIcon: const Icon(Icons.block, color: CRColorsDefault.grey2),
           disableConfig: const CRTextFieldStateConfig(
-            fillColor: CRColors.grey8,
-            borderColor: CRColors.grey2,
+            fillColor: CRColorsDefault.grey8,
+            borderColor: CRColorsDefault.grey2,
           ),
         ),
       ],

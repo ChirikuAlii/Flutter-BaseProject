@@ -1,8 +1,8 @@
 import 'dart:ffi';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field.dart';
 
@@ -71,8 +71,8 @@ class _CRRegisterFormsState extends State<CRRegisterForms> {
           validatorType: ValidatorType.none,
           focusNode: widget._focusNodeName,
           styleField: StyleField.underline,
-          colorText: CRColors.black,
-          colorHintAndLabel: CRColors.grey2,
+          colorText: CRColorsDefault.black,
+          colorHintAndLabel: CRColorsDefault.grey2,
           hintText: "Nama Lengkap",
           textSize: 16,
           onChanged: (String value) {
@@ -107,8 +107,8 @@ class _CRRegisterFormsState extends State<CRRegisterForms> {
           hintText: "No. Telepon",
           focusNode: widget._focusNodePhone,
           styleField: StyleField.underline,
-          colorText: CRColors.black,
-          colorHintAndLabel: CRColors.grey2,
+          colorText: CRColorsDefault.black,
+          colorHintAndLabel: CRColorsDefault.grey2,
           onChanged: (String value) {
             _phoneValue = value;
             setState(() {
@@ -140,8 +140,8 @@ class _CRRegisterFormsState extends State<CRRegisterForms> {
           validatorType: ValidatorType.email,
           focusNode: widget._focusNodeEmail,
           styleField: StyleField.underline,
-          colorText: CRColors.black,
-          colorHintAndLabel: CRColors.grey2,
+          colorText: CRColorsDefault.black,
+          colorHintAndLabel: CRColorsDefault.grey2,
           onChanged: (String value) {
             _emailValue = value;
             setState(() {
@@ -173,8 +173,8 @@ class _CRRegisterFormsState extends State<CRRegisterForms> {
           validatorType: ValidatorType.password,
           focusNode: widget._focusNodePassword,
           styleField: StyleField.underline,
-          colorText: CRColors.black,
-          colorHintAndLabel: CRColors.grey2,
+          colorText: CRColorsDefault.black,
+          colorHintAndLabel: CRColorsDefault.grey2,
           onChanged: (String value) {
             _passwordValue = value;
             setState(() {
@@ -206,8 +206,8 @@ class _CRRegisterFormsState extends State<CRRegisterForms> {
         CRTextField(
           validatorType: ValidatorType.confirmPassword,
           focusNode: widget._focusNodeConfirmPassword,
-          colorText: CRColors.black,
-          colorHintAndLabel: CRColors.grey2,
+          colorText: CRColorsDefault.black,
+          colorHintAndLabel: CRColorsDefault.grey2,
           styleField: StyleField.underline,
           onChanged: (String value) {
             _confirmPasswordValue = value;

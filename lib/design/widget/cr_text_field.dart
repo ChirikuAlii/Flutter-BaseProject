@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/images/images.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/values/images/images_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 enum StatusField { success, error, none }
@@ -70,18 +70,18 @@ class CRTextField extends StatefulWidget {
   StyleField? styleField = StyleField.border;
   ValidatorType? validatorType = ValidatorType.none;
   EndIconBehavior? endIconBehavior = EndIconBehavior.showStatus;
-  Color? colorHintAndLabel = CRColors.white;
-  Color? colorText = CRColors.white;
-  Color? colorEndIcon = CRColors.white;
+  Color? colorHintAndLabel = CRColorsDefault.white;
+  Color? colorText = CRColorsDefault.white;
+  Color? colorEndIcon = CRColorsDefault.white;
   ColorCRStyleField? colorCRStyleField = ColorCRStyleField(
-    activeColorBorder: CRColors.blue2,
-    activeColorBackground: CRColors.blue3,
-    activeTextColor: CRColors.black,
-    inactiveColorBorder: CRColors.grey9,
-    inactiveColorBackground: CRColors.greyVerySoft,
-    inactiveTextColor: CRColors.grey9,
+    activeColorBorder: CRColorsDefault.blue2,
+    activeColorBackground: CRColorsDefault.blue3,
+    activeTextColor: CRColorsDefault.black,
+    inactiveColorBorder: CRColorsDefault.grey9,
+    inactiveColorBackground: CRColorsDefault.greyVerySoft,
+    inactiveTextColor: CRColorsDefault.grey9,
   );
-  Color? colorFilled = CRColors.purple2;
+  Color? colorFilled = CRColorsDefault.purple2;
   double? textSize = 14;
   double? hintAndLabelSize = 14;
   Function? onChanged = () {};
@@ -166,7 +166,7 @@ class _CRTextFieldState extends State<CRTextField> {
             margin: const EdgeInsets.only(bottom: 10),
             child: SvgPicture.asset(
               CRIcons.bookmark,
-              color: widget.colorEndIcon ?? CRColors.white,
+              color: widget.colorEndIcon ?? CRColorsDefault.white,
             ));
       } else if (statusField == StatusField.error) {
         return Container();
@@ -212,21 +212,23 @@ class _CRTextFieldState extends State<CRTextField> {
   Color _setBorderColor(StatusField statusField) {
     if (widget.statusField == StatusField.none) {
       return _setBorderStateField(
-          widget.stateField ?? StateField.none, CRColors.grey9);
+          widget.stateField ?? StateField.none, CRColorsDefault.grey9);
     } else if (widget.statusField == StatusField.error) {
-      return CRColors.red1;
+      return CRColorsDefault.red1;
     } else if (widget.statusField == StatusField.success) {
-      return CRColors.blue2;
+      return CRColorsDefault.blue2;
     } else {
-      return CRColors.grey9;
+      return CRColorsDefault.grey9;
     }
   }
 
   Color _setBorderStateField(StateField stateField, Color defaultColor) {
     if (stateField == StateField.active) {
-      return widget.colorCRStyleField?.activeColorBorder ?? CRColors.grey9;
+      return widget.colorCRStyleField?.activeColorBorder ??
+          CRColorsDefault.grey9;
     } else if (stateField == StateField.inactive) {
-      return widget.colorCRStyleField?.inactiveColorBorder ?? CRColors.grey9;
+      return widget.colorCRStyleField?.inactiveColorBorder ??
+          CRColorsDefault.grey9;
     } else {
       return defaultColor;
     }
@@ -236,10 +238,10 @@ class _CRTextFieldState extends State<CRTextField> {
   Color? _setFillColorStateField(StateField stateField, Color? defaultColor) {
     if (stateField == StateField.active) {
       return widget.colorCRStyleField?.activeColorBackground ??
-          CRColors.greyVerySoft;
+          CRColorsDefault.greyVerySoft;
     } else if (stateField == StateField.inactive) {
       return widget.colorCRStyleField?.inactiveColorBackground ??
-          CRColors.greyVerySoft;
+          CRColorsDefault.greyVerySoft;
     } else {
       return defaultColor;
     }
@@ -248,25 +250,25 @@ class _CRTextFieldState extends State<CRTextField> {
   //TODO: set border color based on state field
   Color _setBackgroundColorStatusField(StatusField statusField) {
     if (widget.statusField == StatusField.none) {
-      return CRColors.greyVerySoft;
+      return CRColorsDefault.greyVerySoft;
     } else if (widget.statusField == StatusField.error) {
-      return CRColors.red2;
+      return CRColorsDefault.red2;
     } else if (widget.statusField == StatusField.success) {
-      return CRColors.blue3;
+      return CRColorsDefault.blue3;
     } else {
-      return CRColors.greyVerySoft;
+      return CRColorsDefault.greyVerySoft;
     }
   }
 
   Color _setFillColor(StatusField statusField) {
     if (widget.statusField == StatusField.none) {
-      return CRColors.greyVerySoft;
+      return CRColorsDefault.greyVerySoft;
     } else if (widget.statusField == StatusField.error) {
-      return CRColors.red2;
+      return CRColorsDefault.red2;
     } else if (widget.statusField == StatusField.success) {
-      return CRColors.blue3;
+      return CRColorsDefault.blue3;
     } else {
-      return CRColors.greyVerySoft;
+      return CRColorsDefault.greyVerySoft;
     }
   }
 
@@ -401,23 +403,25 @@ class _CRTextFieldState extends State<CRTextField> {
                           labelText: _setLabelStyle(
                               widget.validatorType ?? ValidatorType.none,
                               widget.styleField ?? StyleField.border),
-                          labelStyle: CRTextStyle.body2.modify(
-                              color: widget.colorHintAndLabel ?? CRColors.white,
+                          labelStyle: CRTextStyleKey.body2.modify(
+                              color: widget.colorHintAndLabel ??
+                                  CRColorsDefault.white,
                               fontSize: widget.hintAndLabelSize ?? 14,
                               fontWeight:
                                   widget.styleField == StyleField.underline
                                       ? FontWeight.w500
                                       : null),
-                          hintStyle: CRTextStyle.body2.modify(
-                              color: widget.colorHintAndLabel ?? CRColors.white,
+                          hintStyle: CRTextStyleKey.body2.modify(
+                              color: widget.colorHintAndLabel ??
+                                  CRColorsDefault.white,
                               fontSize: widget.hintAndLabelSize ?? 14),
                           contentPadding: EdgeInsets.only(
                               bottom: widget.styleField == StyleField.underline
                                   ? 8
                                   : 0),
                         ),
-                        style: CRTextStyle.body2.modify(
-                            color: widget.colorText ?? CRColors.white,
+                        style: CRTextStyleKey.body2.modify(
+                            color: widget.colorText ?? CRColorsDefault.white,
                             fontSize: widget.textSize ?? 14),
                         cursorColor: _setBorderColor(
                             widget.statusField ?? StatusField.none),
@@ -456,7 +460,7 @@ class _CRTextFieldState extends State<CRTextField> {
                       ? const EdgeInsets.only(left: 0)
                       : const EdgeInsets.only(left: 8),
                   child: Text(widget.message ?? "",
-                      style: CRTextStyle.body2.modify(
+                      style: CRTextStyleKey.body2.modify(
                           color: _setBorderColor(
                               widget.statusField ?? StatusField.none)))))
         ],

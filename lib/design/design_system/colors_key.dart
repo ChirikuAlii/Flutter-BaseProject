@@ -1,7 +1,7 @@
 import 'dart:ui';
-import 'package:flutter_base_project/design/colors/color_variant.dart';
+import 'package:flutter_base_project/design/values/colors/color_variant.dart';
 
-class CRColors2 {
+class CRColorsKey {
   static const primary900 = Color(0xff1A998E);
   static const primary800 = Color(0xff31A399);
   static const primary700 = Color(0xff48ADA5);

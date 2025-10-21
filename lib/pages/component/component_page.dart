@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/colors/colors2.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/design_system/colors_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3_compose.dart';
@@ -18,7 +18,7 @@ class _ComponentPageState extends State<ComponentPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: CRColors2.surfaceLightDarkDark1.dark,
+      backgroundColor: CRColorsKey.surfaceLightDarkDark1.dark,
       body: SafeArea(
         child: Container(
           margin: const EdgeInsets.symmetric(horizontal: 24),
@@ -40,7 +40,7 @@ class _ComponentPageState extends State<ComponentPage> {
   }
 
   Widget _buildText() {
-    return CRText(text: 'Component Page', style: CRTextStyle.headline3);
+    return CRText(text: 'Component Page', style: CRTextStyleKey.headline3);
   }
 
   Widget _buildTextField1() {

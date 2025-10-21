@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/colors/colors2.dart';
-import 'package:flutter_base_project/design/themes/cr_themes.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/design_system/colors_key.dart';
+import 'package:flutter_base_project/design/design_system/themes/color_theme.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3.dart';
 
 class CRTextField3Compose extends StatelessWidget {
@@ -115,9 +115,10 @@ class CRTextField3Compose extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     //default value put compose because connect with theme
-    final CRThemes theme = Theme.of(context).extension<CRThemes>()!;
+    final CRColorThemes theme = Theme.of(context).extension<CRColorThemes>()!;
 
-    final Color defaultFillColor = this.defaultFillColor ?? CRColors.white;
+    final Color defaultFillColor =
+        this.defaultFillColor ?? CRColorsDefault.white;
     final Color defaultBorderColor = this.defaultBorderColor ?? Colors.grey;
     final Color defaultTextColor = this.defaultTextColor ?? Colors.black;
     final Color defaultHintColor = this.defaultHintColor ?? Colors.grey;
@@ -135,10 +136,10 @@ class CRTextField3Compose extends StatelessWidget {
     final CRTextTextFieldMessageCardConfig messageCardErrorConfig =
         this.messageCardErrorConfig ??
             const CRTextTextFieldMessageCardConfig(
-              bgColor: CRColors.red2,
-              iconColor: CRColors.error,
+              bgColor: CRColorsDefault.red2,
+              iconColor: CRColorsDefault.error,
               icon: Icons.error_outline,
-              textColor: CRColors.error,
+              textColor: CRColorsDefault.error,
             );
 
     final CRTextFieldStateConfig noneConfig = this.noneConfig ??

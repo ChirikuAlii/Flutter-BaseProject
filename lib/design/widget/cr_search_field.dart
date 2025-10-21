@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/images/images.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/values/images/images_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/utils/widget_responsive.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -51,7 +51,7 @@ class _CRSearchFieldState extends State<CRSearchField> {
             child: TextField(
               focusNode: widget.focusNode,
               controller: _textEditingController,
-              style: CRTextStyle.body2.modify(
+              style: CRTextStyleKey.body2.modify(
                 color: widget.colorText,
               ),
               onSubmitted: (String value) {

@@ -1,9 +1,9 @@
 //
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/images/images.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/values/images/images_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/utils/widget_responsive.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -33,10 +33,10 @@ class CRButton extends StatefulWidget {
   double? width = 0;
   double? height = 0;
   double? radius = 14;
-  Color? color = CRColors.primary;
-  Color? textColor = CRColors.white;
-  Color? loadingColor = CRColors.white;
-  Color? borderColor = CRColors.primary;
+  Color? color = CRColorsDefault.primary;
+  Color? textColor = CRColorsDefault.white;
+  Color? loadingColor = CRColorsDefault.white;
+  Color? borderColor = CRColorsDefault.primary;
   ButtonType? buttonType = ButtonType.filled;
   String? startIcon = "";
 
@@ -86,14 +86,14 @@ class _CRButtonState extends State<CRButton> {
                       side: WidgetStateProperty.all(BorderSide(
                           color: widget.borderColor ??
                               widget.borderColor ??
-                              CRColors.primary)),
+                              CRColorsDefault.primary)),
                       shape: WidgetStateProperty.all(RoundedRectangleBorder(
                           borderRadius:
                               BorderRadius.circular(widget.radius ?? 14))),
                       backgroundColor:
                           WidgetStateProperty.resolveWith((states) {
                         if (states.contains(WidgetState.disabled)) {
-                          return CRColors.greyDisableButton;
+                          return CRColorsDefault.greyDisableButton;
                         } else {
                           return widget.color;
                         }
@@ -111,7 +111,7 @@ class _CRButtonState extends State<CRButton> {
                                         ? Adaptive.of(context).widthDesign(8)
                                         : 0),
                                 child: Text(widget.text ?? "",
-                                    style: CRTextStyle.button
+                                    style: CRTextStyleKey.button
                                         .modify(color: widget.textColor))),
                           ],
                         ),
@@ -130,14 +130,14 @@ class _CRButtonState extends State<CRButton> {
                       side: WidgetStateProperty.all(BorderSide(
                           color: widget.borderColor ??
                               widget.borderColor ??
-                              CRColors.primary)),
+                              CRColorsDefault.primary)),
                       shape: WidgetStateProperty.all(RoundedRectangleBorder(
                           borderRadius:
                               BorderRadius.circular(widget.radius ?? 14))),
                       backgroundColor:
                           WidgetStateProperty.resolveWith((states) {
                         if (states.contains(WidgetState.disabled)) {
-                          return CRColors.greyDisableButton;
+                          return CRColorsDefault.greyDisableButton;
                         } else {
                           return widget.color;
                         }
@@ -159,7 +159,7 @@ class _CRButtonState extends State<CRButton> {
                                         ? Adaptive.of(context).widthDesign(8)
                                         : 0),
                                 child: Text(widget.text ?? "",
-                                    style: CRTextStyle.button
+                                    style: CRTextStyleKey.button
                                         .modify(color: widget.textColor))),
                           ],
                         ),

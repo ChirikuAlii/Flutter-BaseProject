@@ -2,9 +2,9 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/images/images.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/values/images/images_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/di/di.dart';
 import 'package:flutter_base_project/route/cr_router_impl.dart';
 import 'package:flutter_base_project/utils/widget_responsive.dart';
@@ -33,13 +33,13 @@ class _SplashPageState extends State<SplashPage> {
   Widget build(BuildContext context) {
     return AnnotatedRegion<SystemUiOverlayStyle>(
       value: SystemUiOverlayStyle.dark.copyWith(
-        statusBarColor: CRColors.white,
+        statusBarColor: CRColorsDefault.white,
       ),
       child: Scaffold(
           body: Stack(
         children: [
           Container(
-            color: CRColors.white,
+            color: CRColorsDefault.white,
             width: Adaptive.of(context).totalWidth,
             height: Adaptive.of(context).totalHeight,
           ),
@@ -59,8 +59,8 @@ class _SplashPageState extends State<SplashPage> {
                   ),
                   Text(
                     "",
-                    style: CRTextStyle.headline1.modify(
-                      color: CRColors.black,
+                    style: CRTextStyleKey.headline1.modify(
+                      color: CRColorsDefault.black,
                     ),
                     textAlign: TextAlign.center,
                   ),

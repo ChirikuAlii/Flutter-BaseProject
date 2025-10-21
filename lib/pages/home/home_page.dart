@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
 import 'package:flutter_base_project/di/di.dart';
 import 'package:flutter_base_project/pages/home/home_viewmodel.dart';
@@ -38,11 +38,9 @@ class _HomePageState extends State<HomePage> {
     //_router.currentNavigation!.setLocale(Locale('en'));
 
     return Scaffold(
-        backgroundColor: CRColors.white,
+        backgroundColor: CRColorsDefault.white,
         body: AnnotatedRegion<SystemUiOverlayStyle>(
-          value: SystemUiOverlayStyle.light,
-          child: SafeArea(
-              child: CRText(text: "Home Page"))
-        ));
+            value: SystemUiOverlayStyle.light,
+            child: SafeArea(child: CRText(text: "Home Page"))));
   }
 }

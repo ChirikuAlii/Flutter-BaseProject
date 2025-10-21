@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
 
 class CRShimmer extends StatefulWidget {
   const CRShimmer({
@@ -19,9 +19,9 @@ class CR_ShimmerState extends State<CRShimmer>
   late AnimationController _controller;
   final _shimmerGradient = const LinearGradient(
     colors: [
-      CRColors.green2,
-      CRColors.grey2,
-      CRColors.grey2,
+      CRColorsDefault.green2,
+      CRColorsDefault.grey2,
+      CRColorsDefault.grey2,
     ],
     stops: [
       0.1,

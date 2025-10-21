@@ -2,7 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
 import 'package:flutter_base_project/di/di.dart';
 import 'package:flutter_base_project/route/cr_router_impl.dart';
 import 'package:rxdart/rxdart.dart';
@@ -20,11 +20,8 @@ class _CalendarPageState extends State<CalendarPage> {
   final ScrollController _scrollController = ScrollController();
   final CompositeSubscription _subscriptions = CompositeSubscription();
 
-
-
   @override
   void initState() {
-
     super.initState();
   }
 
@@ -35,20 +32,18 @@ class _CalendarPageState extends State<CalendarPage> {
     super.dispose();
   }
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
       body: AnnotatedRegion<SystemUiOverlayStyle>(
         value: SystemUiOverlayStyle.light
-            .copyWith(statusBarColor: CRColors.primary),
+            .copyWith(statusBarColor: CRColorsDefault.primary),
         child: SafeArea(
-      child: Center(
-      child: Text('Page X'),
-    ),
-    ),
+          child: Center(
+            child: Text('Page X'),
+          ),
+        ),
       ),
     );
   }

@@ -1,6 +1,6 @@
 import "package:flutter/material.dart";
 
-class CRColors {
+class CRColorsDefault {
   static const Color primary = Color(0xff1A998E);
   static const Color primaryBlue = Color(0xff157A72);
 

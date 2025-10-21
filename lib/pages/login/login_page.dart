@@ -1,9 +1,9 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_base_project/design/colors/colors.dart';
-import 'package:flutter_base_project/design/images/images.dart';
-import 'package:flutter_base_project/design/text_style/text_style.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
+import 'package:flutter_base_project/design/values/images/images_key.dart';
+import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/design/widget/cr_button.dart';
 import 'package:flutter_base_project/design/widget/cr_dialog.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
@@ -103,20 +103,20 @@ class _LoginPageState extends State<LoginPage> implements LoginView {
               ),
               CRText(
                 text: "Selamat Datang Kembali",
-                style: CRTextStyle.body2.modify(
+                style: CRTextStyleKey.body2.modify(
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
-                    color: CRColors.black),
+                    color: CRColorsDefault.black),
               ),
               SizedBox(
                 height: 4,
               ),
               CRText(
                 text: "Masuk dengan akun kamu yang sudah terfdaftar",
-                style: CRTextStyle.body2.modify(
+                style: CRTextStyleKey.body2.modify(
                     fontSize: 14,
                     fontWeight: FontWeight.w600,
-                    color: CRColors.grey14),
+                    color: CRColorsDefault.grey14),
               ),
               SizedBox(
                 height: Adaptive.of(context).heightDesign(40),
@@ -126,8 +126,8 @@ class _LoginPageState extends State<LoginPage> implements LoginView {
                 children: [
                   CRText(
                     text: "Email",
-                    style: CRTextStyle.body2.modify(
-                        color: CRColors.black,
+                    style: CRTextStyleKey.body2.modify(
+                        color: CRColorsDefault.black,
                         fontWeight: FontWeight.w600,
                         fontSize: 12),
                   ),
@@ -144,7 +144,7 @@ class _LoginPageState extends State<LoginPage> implements LoginView {
                       currentState: _viewModel.emailState,
                       message: _viewModel.emailMessage,
                       focusConfig: CRTextFieldStateConfig(
-                        fillColor: CRColors.primary.withOpacity(0.1),
+                        fillColor: CRColorsDefault.primary.withOpacity(0.1),
                       ),
                       onChanged: (value) {
                         _viewModel.doValidationEmail(value);
@@ -187,8 +187,8 @@ class _LoginPageState extends State<LoginPage> implements LoginView {
                 children: [
                   CRText(
                     text: "Kata Sandi",
-                    style: CRTextStyle.body2.modify(
-                        color: CRColors.black,
+                    style: CRTextStyleKey.body2.modify(
+                        color: CRColorsDefault.black,
                         fontWeight: FontWeight.w600,
                         fontSize: 12),
                   ),
@@ -229,8 +229,8 @@ class _LoginPageState extends State<LoginPage> implements LoginView {
                   ),
                   CRText(
                     text: "Lupa Password?",
-                    style: CRTextStyle.body2.modify(
-                        color: CRColors.primary,
+                    style: CRTextStyleKey.body2.modify(
+                        color: CRColorsDefault.primary,
                         fontWeight: FontWeight.w600,
                         fontSize: 12),
                     onTap: () {
@@ -247,7 +247,7 @@ class _LoginPageState extends State<LoginPage> implements LoginView {
                 return CRButton(
                   text: "Masuk",
                   buttonType: ButtonType.filled,
-                  color: CRColors.primary,
+                  color: CRColorsDefault.primary,
                   isLoading: _viewModel.isLoading,
                   height: 45,
                   onPressed: () {
@@ -263,8 +263,8 @@ class _LoginPageState extends State<LoginPage> implements LoginView {
                   startIcon: CRIcons.logoGoogle,
                   text: "Masuk menggunakan Google",
                   buttonType: ButtonType.outline,
-                  borderColor: CRColors.grey2,
-                  textColor: CRColors.black,
+                  borderColor: CRColorsDefault.grey2,
+                  textColor: CRColorsDefault.black,
                   height: 45),
               SizedBox(
                 height: Adaptive.of(context).heightDesign(8),
@@ -274,15 +274,15 @@ class _LoginPageState extends State<LoginPage> implements LoginView {
                 children: [
                   CRText(
                     text: "Belum punya akun Luarkampus?  ",
-                    style: CRTextStyle.body2.modify(
-                        color: CRColors.grey14,
+                    style: CRTextStyleKey.body2.modify(
+                        color: CRColorsDefault.grey14,
                         fontWeight: FontWeight.w600,
                         fontSize: 12),
                   ),
                   CRText(
                     text: "Daftar Sekarang",
-                    style: CRTextStyle.body2.modify(
-                        color: CRColors.primary,
+                    style: CRTextStyleKey.body2.modify(
+                        color: CRColorsDefault.primary,
                         fontWeight: FontWeight.w600,
                         fontSize: 12),
                     onTap: () {
