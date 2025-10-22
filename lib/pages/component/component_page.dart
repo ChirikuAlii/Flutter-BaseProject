@@ -2,6 +2,7 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/design/design_system/colors_key.dart';
 import 'package:flutter_base_project/design/design_system/text_style_key.dart';
+import 'package:flutter_base_project/design/widget/button/cr_button2.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3_compose.dart';
@@ -30,6 +31,22 @@ class _ComponentPageState extends State<ComponentPage> {
                 ElevatedButton(
                   onPressed: () {},
                   child: const Text('Button'),
+                ),
+                CRButton2(
+                  text: 'Custom Outlined',
+                  style: CRButtonStyle.filled,
+                  // activeConfig: const CRButtonStateConfig(
+                  //   fillColor: Color(0xFFEC4899),
+                  //   textStyle: TextStyle(
+                  //     color: Color(0xFFEC4899),
+                  //     fontSize: 16,
+                  //     fontWeight: FontWeight.w600,
+                  //   ),
+                  //   iconColor: Color(0xFFEC4899),
+                  // ),
+                  iconLeft: const CRButtonIcon.icon(Icons.favorite),
+                  hoverEffect: CRButtonHoverEffect.brightness,
+                  onPressed: () {},
                 ),
               ],
             ),
