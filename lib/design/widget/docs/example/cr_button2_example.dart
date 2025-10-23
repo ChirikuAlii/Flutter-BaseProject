@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'cr_button2.dart';
+import '../../button/cr_button2.dart';
 
 /// Example page untuk mendemonstrasikan berbagai konfigurasi CRButton2
 class CRButton2Example extends StatelessWidget {

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_base_project/design/widget/cr_text_field.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 /// Enum untuk menentukan style button
@@ -230,6 +231,7 @@ class _CRButton2State extends State<CRButton2>
   bool _isPressed = false;
   late AnimationController _animationController;
   late Animation<double> _scaleAnimation;
+  bool _isDisposed = false;
 
   @override
   void initState() {
@@ -246,43 +248,49 @@ class _CRButton2State extends State<CRButton2>
 
   @override
   void dispose() {
+    _isDisposed = true;
     _animationController.dispose();
     super.dispose();
   }
 
   void _handleHoverChange(bool isHovered) {
-    setState(() {
-      _isHovered = isHovered;
-    });
+    if (_isDisposed || !mounted) return;
 
-    // Only trigger animation controller for scale effect
-    if (widget.onPressed != null && widget.hoverEffect == CRButtonHoverEffect.scale) {
-      if (isHovered) {
-        _animationController.forward();
-      } else {
-        _animationController.reverse();
+    if (_isHovered != isHovered) {
+      setState(() {
+        _isHovered = isHovered;
+      });
+
+      // Only trigger animation controller for scale effect
+      if (widget.onPressed != null &&
+          widget.hoverEffect == CRButtonHoverEffect.scale) {
+        if (isHovered) {
+          _animationController.forward();
+        } else {
+          _animationController.reverse();
+        }
       }
     }
   }
 
   void _handleTapDown(TapDownDetails details) {
-    if (widget.onPressed != null) {
+    if (_isDisposed || !mounted || widget.onPressed == null) return;
+
+    if (!_isPressed) {
       setState(() {
         _isPressed = true;
       });
     }
   }
 
-  void _handleTapUp(TapUpDetails details) {
-    setState(() {
-      _isPressed = false;
-    });
-  }
-
   void _handleTapCancel() {
-    setState(() {
-      _isPressed = false;
-    });
+    if (_isDisposed || !mounted) return;
+
+    if (_isPressed) {
+      setState(() {
+        _isPressed = false;
+      });
+    }
   }
 
   @override
@@ -304,23 +312,25 @@ class _CRButton2State extends State<CRButton2>
 
     // Build button content based on hover effect type
     Widget buttonContent;
-    
+
     if (!isDisabled && widget.hoverEffect == CRButtonHoverEffect.brightness) {
       // Brightness effect - Material style with InkWell (like ElevatedButton)
       buttonContent = Material(
         color: backgroundColor,
         borderRadius: BorderRadius.circular(widget.radiusCorner),
         child: InkWell(
-          onTap: () {}, // Empty onTap for ink effect, actual tap handled by Semantics
+          onTap:
+              () {}, // Empty onTap for ink effect, actual tap handled by Semantics
           onTapDown: _handleTapDown,
           onTapCancel: _handleTapCancel,
           onHover: (hovering) {
             // This provides additional hover feedback
           },
           borderRadius: BorderRadius.circular(widget.radiusCorner),
-          splashColor: Colors.white.withOpacity(0.2),
           highlightColor: Colors.white.withOpacity(0.1),
-          hoverColor: Colors.white.withOpacity(0.08),
+          hoverColor: widget.style == CRButtonStyle.outlined
+              ? Colors.white.withOpacity(0.08)
+              : backgroundColor.withOpacity(0.08),
           child: Container(
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(widget.radiusCorner),
@@ -335,10 +345,11 @@ class _CRButton2State extends State<CRButton2>
           ),
         ),
       );
-    } else if (!isDisabled && widget.hoverEffect == CRButtonHoverEffect.elevation) {
+    } else if (!isDisabled &&
+        widget.hoverEffect == CRButtonHoverEffect.elevation) {
       // Elevation effect - static size, shadow changes with press feedback
       List<BoxShadow> shadows;
-      
+
       if (_isPressed) {
         // Pressed state - minimal shadow (button pushed down)
         shadows = [
@@ -367,7 +378,7 @@ class _CRButton2State extends State<CRButton2>
           ),
         ];
       }
-      
+
       buttonContent = AnimatedContainer(
         duration: widget.animationDuration,
         curve: Curves.easeInOut,
@@ -387,7 +398,8 @@ class _CRButton2State extends State<CRButton2>
               Positioned.fill(
                 child: Container(
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(widget.radiusCorner - widget.borderWidth),
+                    borderRadius: BorderRadius.circular(
+                        widget.radiusCorner - widget.borderWidth),
                     color: Colors.black.withOpacity(0.1),
                   ),
                 ),
@@ -396,7 +408,8 @@ class _CRButton2State extends State<CRButton2>
           ],
         ),
       );
-    } else if (isDisabled && widget.hoverEffect == CRButtonHoverEffect.brightness) {
+    } else if (isDisabled &&
+        widget.hoverEffect == CRButtonHoverEffect.brightness) {
       // Disabled state for brightness effect
       buttonContent = Container(
         decoration: BoxDecoration(
@@ -426,7 +439,9 @@ class _CRButton2State extends State<CRButton2>
     }
 
     // Apply press effect (only for scale effect)
-    if (_isPressed && !isDisabled && widget.hoverEffect == CRButtonHoverEffect.scale) {
+    if (_isPressed &&
+        !isDisabled &&
+        widget.hoverEffect == CRButtonHoverEffect.scale) {
       effectWrapper = Transform.scale(
         scale: 0.97,
         child: effectWrapper,
@@ -437,24 +452,27 @@ class _CRButton2State extends State<CRButton2>
       button: true,
       enabled: !isDisabled,
       label: widget.text,
-      onTap: isDisabled ? null : widget.onPressed,
-      child: MouseRegion(
-        key: ValueKey('mouse_region_${widget.text}_${widget.hashCode}'),
-        onEnter: (_) => _handleHoverChange(true),
-        onExit: (_) => _handleHoverChange(false),
-        cursor: isDisabled
+      child: InkWell(
+        onTap: widget.onPressed,
+        onTapDown: _handleTapDown,
+        onTapCancel: _handleTapCancel,
+        onHover: isDisabled
+            ? null
+            : (hovering) {
+                if (!_isDisposed) {
+                  _handleHoverChange(hovering);
+                }
+              },
+        hoverColor: Colors.transparent,
+        splashColor: Colors.transparent,
+        highlightColor: Colors.transparent,
+        mouseCursor: isDisabled
             ? SystemMouseCursors.forbidden
             : SystemMouseCursors.click,
-        child: GestureDetector(
-          onTapDown: _handleTapDown,
-          onTapUp: _handleTapUp,
-          onTapCancel: _handleTapCancel,
-          onTap: widget.onPressed,
-          child: SizedBox(
-            width: widget.width,
-            height: widget.height,
-            child: effectWrapper,
-          ),
+        child: SizedBox(
+          width: widget.width,
+          height: widget.height,
+          child: effectWrapper,
         ),
       ),
     );
@@ -605,7 +623,7 @@ class _CRButton2State extends State<CRButton2>
     required bool iconRight,
   }) {
     List<Widget> children = [];
-    
+
     // leftLeft: icon kiri text, di ujung kiri
     if (widget.iconPosition == CRButtonIconPosition.leftLeft) {
       if (iconLeft) {
@@ -681,7 +699,7 @@ class _CRButton2State extends State<CRButton2>
         ));
       }
     }
-    
+
     return Row(
       mainAxisSize: MainAxisSize.max,
       mainAxisAlignment: MainAxisAlignment.center,

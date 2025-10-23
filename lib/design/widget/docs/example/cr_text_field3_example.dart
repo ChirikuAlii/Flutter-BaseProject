@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3_compose.dart';
-import '../cr_text_field3.dart';
-import '../../values/colors/colors_default_key.dart';
+import '../../cr_text_field3.dart';
+import '../../../values/colors/colors_default_key.dart';
 
 /// Contoh penggunaan CRTextField3 dengan berbagai konfigurasi
 class CRTextField3Example extends StatefulWidget {

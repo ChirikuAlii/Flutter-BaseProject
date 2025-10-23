@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_base_project/design/design_system/colors_key.dart';
 import 'package:flutter_base_project/design/design_system/text_style_key.dart';
 import 'package:flutter_base_project/design/widget/button/cr_button2.dart';
+import 'package:flutter_base_project/design/widget/button/cr_button2_fill_compose.dart';
+import 'package:flutter_base_project/design/widget/button/cr_button2_outline_compose.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3_compose.dart';
@@ -44,6 +46,20 @@ class _ComponentPageState extends State<ComponentPage> {
                   //   ),
                   //   iconColor: Color(0xFFEC4899),
                   // ),
+                  iconLeft: const CRButtonIcon.icon(Icons.favorite),
+                  hoverEffect: CRButtonHoverEffect.brightness,
+                  onPressed: () {},
+                ),
+                const SizedBox(height: 16),
+                CRButton2FillCompose(
+                  text: 'Custom Filled',
+                  iconLeft: const CRButtonIcon.icon(Icons.favorite),
+                  hoverEffect: CRButtonHoverEffect.brightness,
+                  onPressed: () {},
+                ),
+                const SizedBox(height: 16),
+                CRButton2OutlineCompose(
+                  text: 'Custom Outlined',
                   iconLeft: const CRButtonIcon.icon(Icons.favorite),
                   hoverEffect: CRButtonHoverEffect.brightness,
                   onPressed: () {},
