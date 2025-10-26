@@ -2,9 +2,11 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/design/design_system/colors_key.dart';
 import 'package:flutter_base_project/design/design_system/text_style_key.dart';
+import 'package:flutter_base_project/design/values/colors/colors_default_key.dart';
 import 'package:flutter_base_project/design/widget/button/cr_button2.dart';
 import 'package:flutter_base_project/design/widget/button/cr_button2_fill_compose.dart';
 import 'package:flutter_base_project/design/widget/button/cr_button2_outline_compose.dart';
+import 'package:flutter_base_project/design/widget/button/cr_button_fab_compose.dart';
 import 'package:flutter_base_project/design/widget/cr_text.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3.dart';
 import 'package:flutter_base_project/design/widget/cr_text_field3_compose.dart';
@@ -64,6 +66,43 @@ class _ComponentPageState extends State<ComponentPage> {
                   hoverEffect: CRButtonHoverEffect.brightness,
                   onPressed: () {},
                 ),
+                const SizedBox(height: 16),
+                CRButton2FillCompose(
+                  text: 'Custom Filled',
+                  //socialMediaType: CRButtonSocialMediaType.x,
+                  iconLeft: CRButtonIcon.image('assets/images/logo_luarkampus.png'),
+                  iconSize: 56 * 0.4,
+                  iconPosition: CRButtonIconPosition.leftLeft,
+                  onPressed: () {},
+                ),
+                const SizedBox(height: 16),
+                // FAB Section
+                CRText(
+                  text: 'Floating Action Buttons',
+                  style: CRTextStyleKey.headline4,
+                ),
+                const SizedBox(height: 16),
+                
+                // FAB Fill - Default
+                   CRButtonFabCompose(
+                      onPressed: () {},
+                      icon: Icons.add,
+                      style: CRButtonFabStyle.fill,
+                    ),
+                const SizedBox(height: 16),
+               CRButtonFabCompose(
+                      onPressed: () {},
+                      icon: Icons.add,
+                      style: CRButtonFabStyle.outline,
+                    ),
+                
+              
+                const SizedBox(height: 16),
+                
+               
+                const SizedBox(height: 16),
+                
+               
               ],
             ),
           ),

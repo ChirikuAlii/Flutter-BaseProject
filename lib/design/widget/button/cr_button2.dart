@@ -622,88 +622,57 @@ class _CRButton2State extends State<CRButton2>
     required bool iconLeft,
     required bool iconRight,
   }) {
-    List<Widget> children = [];
-
-    // leftLeft: icon kiri text, di ujung kiri
-    if (widget.iconPosition == CRButtonIconPosition.leftLeft) {
-      if (iconLeft) {
-        children.add(widget.iconLeft!.build(
-          defaultSize: widget.iconSize,
-          defaultColor: config.iconColor,
-        ));
-        children.add(SizedBox(width: widget.iconSpacing));
-      }
-      children.add(const Spacer());
-      children.add(Text(
-        widget.text,
-        style: config.textStyle,
-        overflow: TextOverflow.ellipsis,
-      ));
-      children.add(const Spacer());
-      if (iconRight) {
-        children.add(SizedBox(width: widget.iconSpacing));
-        children.add(widget.iconRight!.build(
-          defaultSize: widget.iconSize,
-          defaultColor: config.iconColor,
-        ));
-      }
-    }
-    // leftRight: icon kanan text, di ujung kiri
-    else if (widget.iconPosition == CRButtonIconPosition.leftRight) {
-      children.add(const Spacer());
-      children.add(Text(
-        widget.text,
-        style: config.textStyle,
-        overflow: TextOverflow.ellipsis,
-      ));
-      if (iconRight) {
-        children.add(SizedBox(width: widget.iconSpacing));
-        children.add(widget.iconRight!.build(
-          defaultSize: widget.iconSize,
-          defaultColor: config.iconColor,
-        ));
-      }
-      children.add(const Spacer());
-    }
-    // rightLeft: icon kiri text, di ujung kanan
-    else if (widget.iconPosition == CRButtonIconPosition.rightLeft) {
-      children.add(const Spacer());
-      if (iconLeft) {
-        children.add(widget.iconLeft!.build(
-          defaultSize: widget.iconSize,
-          defaultColor: config.iconColor,
-        ));
-        children.add(SizedBox(width: widget.iconSpacing));
-      }
-      children.add(Text(
-        widget.text,
-        style: config.textStyle,
-        overflow: TextOverflow.ellipsis,
-      ));
-      children.add(const Spacer());
-    }
-    // rightRight: icon kanan text, di ujung kanan
-    else if (widget.iconPosition == CRButtonIconPosition.rightRight) {
-      children.add(const Spacer());
-      children.add(Text(
-        widget.text,
-        style: config.textStyle,
-        overflow: TextOverflow.ellipsis,
-      ));
-      children.add(const Spacer());
-      if (iconRight) {
-        children.add(SizedBox(width: widget.iconSpacing));
-        children.add(widget.iconRight!.build(
-          defaultSize: widget.iconSize,
-          defaultColor: config.iconColor,
-        ));
-      }
-    }
-
-    return Row(
-      mainAxisSize: MainAxisSize.max,
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: children,
+    // Use Stack to keep text centered while positioning icons at edges
+    return Stack(
+      alignment: Alignment.center,
+      children: [
+        // Centered text
+        Center(
+          child: Text(
+            widget.text,
+            style: config.textStyle,
+            overflow: TextOverflow.ellipsis,
+            textAlign: TextAlign.center,
+          ),
+        ),
+        
+        // Positioned icons based on position type
+        if (widget.iconPosition == CRButtonIconPosition.leftLeft && iconLeft)
+          Positioned(
+            left: 0,
+            child: widget.iconLeft!.build(
+              defaultSize: widget.iconSize,
+              defaultColor: config.iconColor,
+            ),
+          ),
+        
+        if (widget.iconPosition == CRButtonIconPosition.leftRight && iconRight)
+          Positioned(
+            left: 0,
+            child: widget.iconRight!.build(
+              defaultSize: widget.iconSize,
+              defaultColor: config.iconColor,
+            ),
+          ),
+        
+        if (widget.iconPosition == CRButtonIconPosition.rightLeft && iconLeft)
+          Positioned(
+            right: 0,
+            child: widget.iconLeft!.build(
+              defaultSize: widget.iconSize,
+              defaultColor: config.iconColor,
+            ),
+          ),
+        
+        if (widget.iconPosition == CRButtonIconPosition.rightRight && iconRight)
+          Positioned(
+            right: 0,
+            child: widget.iconRight!.build(
+              defaultSize: widget.iconSize,
+              defaultColor: config.iconColor,
+            ),
+          ),
+      ],
     );
   }
 }
